@@ -1,0 +1,350 @@
+2	4	Andy S	Paul E
+2	4	Chris W	Charlie
+2	4	Dom	Paul W
+2	4	Craig	John B
+2	4	Alex	Liam
+2	4	Phil	Simon
+2	4	Adam	Taz
+2	4	Steve	John K
+2	4	Tom K	Andy U
+2	4	Tom C	Nick
+2	5	Andy S	Chris W
+2	5	Paul W	Paul E
+2	5	Charlie	Craig
+2	5	Liam	Dom
+2	5	John B	Phil
+2	5	Taz	Alex
+2	5	Simon	Steve
+2	5	Andy U	Adam
+2	5	John K	Tom C
+2	5	Nick	Tom K
+2	6	Andy S	Paul W
+2	6	Craig	Chris W
+2	6	Paul E	Liam
+2	6	Phil	Charlie
+2	6	Dom	Taz
+2	6	Steve	John B
+2	6	Alex	Andy U
+2	6	Tom C	Simon
+2	6	Adam	Nick
+2	6	Tom K	John K
+2	7	Andy S	Craig
+2	7	Liam	Paul W
+2	7	Chris W	Phil
+2	7	Taz	Paul E
+2	7	Charlie	Steve
+2	7	Andy U	Dom
+2	7	John B	Tom C
+2	7	Nick	Alex
+2	7	Simon	Tom K
+2	7	John K	Adam
+3	8	Andy S	Liam
+3	8	Phil	Craig
+3	8	Paul W	Taz
+3	8	Steve	Chris W
+3	8	Paul E	Andy U
+3	8	Tom C	Charlie
+3	8	Dom	Nick
+3	8	Tom K	John B
+3	8	Alex	John K
+3	8	Adam	Simon
+3	9	Phil	Andy S
+3	9	Taz	Liam
+3	9	Craig	Steve
+3	9	Andy U	Paul W
+3	9	Chris W	Tom C
+3	9	Nick	Paul E
+3	9	Charlie	Tom K
+3	9	John K	Dom
+3	9	John B	Adam
+3	9	Simon	Alex
+3	10	Andy S	Taz
+3	10	Steve	Phil
+3	10	Liam	Andy U
+3	10	Tom C	Craig
+3	10	Paul W	Nick
+3	10	Tom K	Chris W
+3	10	Paul E	John K
+3	10	Adam	Charlie
+3	10	Dom	Simon
+3	10	Alex	John B
+3	11	Steve	Andy S
+3	11	Andy U	Taz
+3	11	Phil	Tom C
+3	11	Nick	Liam
+3	11	Craig	Tom K
+3	11	John K	Paul W
+3	11	Chris W	Adam
+3	11	Simon	Paul E
+3	11	Charlie	Alex
+3	11	John B	Dom
+4	12	Andy S	Andy U
+4	12	Tom C	Steve
+4	12	Taz	Nick
+4	12	Tom K	Phil
+4	12	Liam	John K
+4	12	Adam	Craig
+4	12	Paul W	Simon
+4	12	Alex	Chris W
+4	12	Paul E	John B
+4	12	Dom	Charlie
+4	13	Tom C	Andy S
+4	13	Nick	Andy U
+4	13	Steve	Tom K
+4	13	John K	Taz
+4	13	Phil	Adam
+4	13	Simon	Liam
+4	13	Craig	Alex
+4	13	John B	Paul W
+4	13	Chris W	Dom
+4	13	Charlie	Paul E
+4	14	Andy S	Nick
+4	14	Tom K	Tom C
+4	14	Andy U	John K
+4	14	Adam	Steve
+4	14	Taz	Simon
+4	14	Alex	Phil
+4	14	Liam	John B
+4	14	Dom	Craig
+4	14	Paul W	Charlie
+4	14	Paul E	Chris W
+4	15	Tom K	Andy S
+4	15	John K	Nick
+4	15	Tom C	Adam
+4	15	Simon	Andy U
+4	15	Steve	Alex
+4	15	John B	Taz
+4	15	Phil	Dom
+4	15	Charlie	Liam
+4	15	Craig	Paul E
+4	15	Chris W	Paul W
+5	16	Andy S	John K
+5	16	Adam	Tom K
+5	16	Nick	Simon
+5	16	Alex	Tom C
+5	16	Andy U	John B
+5	16	Dom	Steve
+5	16	Taz	Charlie
+5	16	Paul E	Phil
+5	16	Liam	Chris W
+5	16	Paul W	Craig
+5	17	Adam	Andy S
+5	17	Simon	John K
+5	17	Tom K	Alex
+5	17	John B	Nick
+5	17	Tom C	Dom
+5	17	Charlie	Andy U
+5	17	Steve	Paul E
+5	17	Chris W	Taz
+5	17	Phil	Paul W
+5	17	Craig	Liam
+5	18	Andy S	Simon
+5	18	Alex	Adam
+5	18	John K	John B
+5	18	Dom	Tom K
+5	18	Nick	Charlie
+5	18	Paul E	Tom C
+5	18	Andy U	Chris W
+5	18	Paul W	Steve
+5	18	Taz	Craig
+5	18	Liam	Phil
+5	19	Andy S	Alex
+5	19	Simon	John B
+5	19	Dom	Adam
+5	19	John K	Charlie
+5	19	Paul E	Tom K
+5	19	Nick	Chris W
+5	19	Paul W	Tom C
+5	19	Andy U	Craig
+5	19	Liam	Steve
+5	19	Taz	Phil
+6	20	Andy S	John B
+6	20	Alex	Dom
+6	20	Charlie	Simon
+6	20	Adam	Paul E
+6	20	Chris W	John K
+6	20	Tom K	Paul W
+6	20	Craig	Nick
+6	20	Tom C	Liam
+6	20	Phil	Andy U
+6	20	Steve	Taz
+6	21	Dom	Andy S
+6	21	John B	Charlie
+6	21	Paul E	Alex
+6	21	Simon	Chris W
+6	21	Paul W	Adam
+6	21	John K	Craig
+6	21	Liam	Tom K
+6	21	Nick	Phil
+6	21	Taz	Tom C
+6	21	Andy U	Steve
+6	22	Andy S	Charlie
+6	22	Dom	Paul E
+6	22	Chris W	John B
+6	22	Alex	Paul W
+6	22	Craig	Simon
+6	22	Adam	Liam
+6	22	Phil	John K
+6	22	Tom K	Taz
+6	22	Steve	Nick
+6	22	Tom C	Andy U
+6	23	Paul E	Andy S
+6	23	Charlie	Chris W
+6	23	Paul W	Dom
+6	23	John B	Craig
+6	23	Liam	Alex
+6	23	Simon	Phil
+6	23	Taz	Adam
+6	23	John K	Steve
+6	23	Andy U	Tom K
+6	23	Nick	Tom C
+7	24	Chris W	Andy S
+7	24	Paul E	Paul W
+7	24	Craig	Charlie
+7	24	Dom	Liam
+7	24	Phil	John B
+7	24	Alex	Taz
+7	24	Steve	Simon
+7	24	Adam	Andy U
+7	24	Tom C	John K
+7	24	Tom K	Nick
+7	25	Paul W	Andy S
+7	25	Chris W	Craig
+7	25	Liam	Paul E
+7	25	Charlie	Phil
+7	25	Taz	Dom
+7	25	John B	Steve
+7	25	Andy U	Alex
+7	25	Simon	Tom C
+7	25	Nick	Adam
+7	25	John K	Tom K
+7	26	Craig	Andy S
+7	26	Paul W	Liam
+7	26	Phil	Chris W
+7	26	Paul E	Taz
+7	26	Steve	Charlie
+7	26	Dom	Andy U
+7	26	Tom C	John B
+7	26	Alex	Nick
+7	26	Tom K	Simon
+7	26	Adam	John K
+8	27	Liam	Andy S
+8	27	Craig	Phil
+8	27	Taz	Paul W
+8	27	Chris W	Steve
+8	27	Andy U	Paul E
+8	27	Charlie	Tom C
+8	27	Nick	Dom
+8	27	John B	Tom K
+8	27	John K	Alex
+8	27	Simon	Adam
+8	28	Andy S	Phil
+8	28	Liam	Taz
+8	28	Steve	Craig
+8	28	Paul W	Andy U
+8	28	Tom C	Chris W
+8	28	Paul E	Nick
+8	28	Tom K	Charlie
+8	28	Dom	John K
+8	28	Adam	John B
+8	28	Alex	Simon
+8	29	Taz	Andy S
+8	29	Phil	Steve
+8	29	Andy U	Liam
+8	29	Craig	Tom C
+8	29	Nick	Paul W
+8	29	Chris W	Tom K
+8	29	John K	Paul E
+8	29	Charlie	Adam
+8	29	Simon	Dom
+8	29	John B	Alex
+8	30	Andy S	Steve
+8	30	Taz	Andy U
+8	30	Tom C	Phil
+8	30	Liam	Nick
+8	30	Tom K	Craig
+8	30	Paul W	John K
+8	30	Adam	Chris W
+8	30	Paul E	Simon
+8	30	Alex	Charlie
+8	30	Dom	John B
+9	31	Andy U	Andy S
+9	31	Steve	Tom C
+9	31	Nick	Taz
+9	31	Phil	Tom K
+9	31	John K	Liam
+9	31	Craig	Adam
+9	31	Simon	Paul W
+9	31	Chris W	Alex
+9	31	John B	Paul E
+9	31	Charlie	Dom
+9	32	Andy S	Tom C
+9	32	Andy U	Nick
+9	32	Tom K	Steve
+9	32	Taz	John K
+9	32	Adam	Phil
+9	32	Liam	Simon
+9	32	Alex	Craig
+9	32	Paul W	John B
+9	32	Dom	Chris W
+9	32	Paul E	Charlie
+9	33	Nick	Andy S
+9	33	Tom C	Tom K
+9	33	John K	Andy U
+9	33	Steve	Adam
+9	33	Simon	Taz
+9	33	Phil	Alex
+9	33	John B	Liam
+9	33	Craig	Dom
+9	33	Charlie	Paul W
+9	33	Chris W	Paul E
+9	34	Andy S	Tom K
+9	34	Nick	John K
+9	34	Adam	Tom C
+9	34	Andy U	Simon
+9	34	Alex	Steve
+9	34	Taz	John B
+9	34	Dom	Phil
+9	34	Liam	Charlie
+9	34	Paul E	Craig
+9	34	Paul W	Chris W
+10	35	John K	Andy S
+10	35	Tom K	Adam
+10	35	Simon	Nick
+10	35	Tom C	Alex
+10	35	John B	Andy U
+10	35	Steve	Dom
+10	35	Charlie	Taz
+10	35	Phil	Paul E
+10	35	Chris W	Liam
+10	35	Craig	Paul W
+10	36	Andy S	Adam
+10	36	John K	Simon
+10	36	Alex	Tom K
+10	36	Nick	John B
+10	36	Dom	Tom C
+10	36	Andy U	Charlie
+10	36	Paul E	Steve
+10	36	Taz	Chris W
+10	36	Paul W	Phil
+10	36	Liam	Craig
+10	37	Simon	Andy S
+10	37	Adam	Alex
+10	37	John B	John K
+10	37	Tom K	Dom
+10	37	Charlie	Nick
+10	37	Tom C	Paul E
+10	37	Chris W	Andy U
+10	37	Steve	Paul W
+10	37	Craig	Taz
+10	37	Phil	Liam
+10	38	Alex	Andy S
+10	38	John B	Simon
+10	38	Adam	Dom
+10	38	Charlie	John K
+10	38	Tom K	Paul E
+10	38	Chris W	Nick
+10	38	Tom C	Paul W
+10	38	Craig	Andy U
+10	38	Steve	Liam
+10	38	Phil	Taz
