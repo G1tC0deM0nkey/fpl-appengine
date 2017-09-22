@@ -44,9 +44,9 @@ public class SimpleParserTest {
         SimpleParser parser = new SimpleParser(document);
 
         String gk = parser.open("<h2>Goalkeepers</h2>").close("<h2>Defenders</h2>");
-        String df = parser.open("<h2>Defenders</h2>").close("<h2>Midfielders</h2>");
-        String mf = parser.open("<h2>Midfielders</h2>").close("<h2>Forwards</h2>");
-        String fwd = parser.open("<h2>Forwards</h2>").close(null);
+        String df = parser.close("<h2>Midfielders</h2>");
+        String mf = parser.close("<h2>Forwards</h2>");
+        String fwd = parser.close(null);
 
         Assert.assertNotNull(gk);
         Assert.assertNotNull(df);
