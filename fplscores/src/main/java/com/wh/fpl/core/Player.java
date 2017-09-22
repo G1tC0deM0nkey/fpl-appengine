@@ -119,7 +119,7 @@ public class Player {
     public void update(Player p) {
 
         //Update the played status if the score is non null
-        if(this.score != p.getScore()) {
+        if(!this.score.equals(p.getScore())) {
             played = true;
         }
 

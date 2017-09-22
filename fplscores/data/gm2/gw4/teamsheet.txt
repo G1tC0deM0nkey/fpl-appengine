@@ -1,0 +1,1560 @@
+Adam
+4
+479
+Joe Hart
+West Ham
+GKP
+6
+Adam
+4
+12
+Shkodran Mustafi
+Arsenal
+DEF
+6
+Adam
+4
+279
+Jesse Lingard
+Man Utd
+MID
+1
+Adam
+4
+99
+Kurt Zouma
+Stoke
+DEF
+1
+Adam
+4
+310
+Cédric Soares
+Southampton
+DEF
+1
+Adam
+4
+87
+Robbie Brady
+Burnley
+MID
+2
+Adam
+4
+18
+Aaron Ramsey
+Arsenal
+MID
+6
+Adam
+4
+367
+Tom Carroll
+Swansea
+MID
+2
+Adam
+4
+472
+Álvaro Morata
+Chelsea
+FWD
+C
+12
+Adam
+4
+160
+Sandro Ramírez
+Everton
+FWD
+1
+Adam
+4
+374
+Tammy Abraham
+Swansea
+FWD
+2
+Alex
+4
+240
+Ederson Santana de Moraes
+Man City
+GKP
+2
+Alex
+4
+117
+James Tomkins
+Crystal Palace
+DEF
+-9999
+Alex
+4
+166
+Tommy Smith
+Huddersfield
+DEF
+1
+Alex
+4
+123
+Jeffrey Schlupp
+Crystal Palace
+DEF
+2
+Alex
+4
+271
+Eric Bailly
+Man Utd
+DEF
+1
+Alex
+4
+200
+Marc Albrighton
+Leicester
+MID
+1
+Alex
+4
+155
+Idrissa Gueye
+Everton
+MID
+1
+Alex
+4
+127
+James McArthur
+Crystal Palace
+MID
+2
+Alex
+4
+282
+Paul Pogba
+Man Utd
+MID
+C
+10
+Alex
+4
+487
+Javier Hernández Balcázar
+West Ham
+FWD
+2
+Alex
+4
+72
+Tomer Hemed
+Brighton
+FWD
+11
+Andy S
+4
+421
+Ben Foster
+West Brom
+GKP
+2
+Andy S
+4
+358
+Martin Olsson
+Swansea
+DEF
+2
+Andy S
+4
+77
+Ben Mee
+Burnley
+DEF
+6
+Andy S
+4
+164
+Christopher Schindler
+Huddersfield
+DEF
+1
+Andy S
+4
+520
+Davinson Sánchez
+Spurs
+DEF
+6
+Andy S
+4
+16
+Mesut Özil
+Arsenal
+MID
+3
+Andy S
+4
+104
+Eden Hazard
+Chelsea
+MID
+C
+2
+Andy S
+4
+182
+Tom Ince
+Huddersfield
+MID
+2
+Andy S
+4
+85
+Steven Defour
+Burnley
+MID
+3
+Andy S
+4
+161
+Wayne Rooney
+Everton
+FWD
+1
+Andy S
+4
+92
+Andre Gray
+Watford
+FWD
+2
+Andy U
+4
+135
+Jordan Pickford
+Everton
+GKP
+2
+Andy U
+4
+218
+Joseph Gomez
+Liverpool
+DEF
+-9999
+Andy U
+4
+138
+Leighton Baines
+Everton
+DEF
+1
+Andy U
+4
+8
+Kieran Gibbs
+West Brom
+DEF
+1
+Andy U
+4
+32
+Simon Francis
+Bournemouth
+DEF
+0
+Andy U
+4
+255
+Leroy Sané
+Man City
+MID
+C
+26
+Andy U
+4
+45
+Jordon Ibe
+Bournemouth
+MID
+1
+Andy U
+4
+248
+David Silva
+Man City
+MID
+3
+Andy U
+4
+390
+Heung-Min Son
+Spurs
+MID
+1
+Andy U
+4
+457
+Andy Carroll
+West Ham
+FWD
+2
+Andy U
+4
+417
+Troy Deeney
+Watford
+FWD
+1
+Charlie
+4
+115
+Wayne Hennessey
+Crystal Palace
+GKP
+2
+Charlie
+4
+330
+Ryan Shawcross
+Stoke
+DEF
+-9999
+Charlie
+4
+381
+Ben Davies
+Spurs
+DEF
+14
+Charlie
+4
+357
+Alfie Mawson
+Swansea
+DEF
+2
+Charlie
+4
+140
+Phil Jagielka
+Everton
+DEF
+-9999
+Charlie
+4
+252
+Kevin De Bruyne
+Man City
+MID
+9
+Charlie
+4
+23
+Granit Xhaka
+Arsenal
+MID
+3
+Charlie
+4
+225
+Jordan Henderson
+Liverpool
+MID
+2
+Charlie
+4
+327
+Manolo Gabbiadini
+Southampton
+FWD
+C
+4
+Charlie
+4
+26
+Danny Welbeck
+Arsenal
+FWD
+16
+Charlie
+4
+373
+Jordan Ayew
+Swansea
+FWD
+2
+Chris W
+4
+328
+Jack Butland
+Stoke
+GKP
+3
+Chris W
+4
+102
+Victor Moses
+Chelsea
+DEF
+2
+Chris W
+4
+13
+Sead Kolasinac
+Arsenal
+DEF
+11
+Chris W
+4
+307
+Ryan Bertrand
+Southampton
+DEF
+1
+Chris W
+4
+380
+Jan Vertonghen
+Spurs
+DEF
+6
+Chris W
+4
+483
+Danilo Luiz da Silva
+Man City
+DEF
+6
+Chris W
+4
+512
+Jesé Rodríguez Ruiz
+Stoke
+MID
+2
+Chris W
+4
+324
+Nathan Redmond
+Southampton
+MID
+2
+Chris W
+4
+348
+Mame Biram Diouf
+Stoke
+FWD
+5
+Chris W
+4
+454
+Michail Antonio
+West Ham
+MID
+C
+6
+Chris W
+4
+209
+Jamie Vardy
+Leicester
+FWD
+7
+Craig
+4
+350
+Lukasz Fabianski
+Swansea
+GKP
+4
+Craig
+4
+97
+César Azpilicueta
+Chelsea
+DEF
+7
+Craig
+4
+404
+Daryl Janmaat
+Watford
+DEF
+7
+Craig
+4
+422
+Allan-Roméo Nyom
+West Brom
+DEF
+1
+Craig
+4
+468
+Ahmed El-Sayed Hegazi
+West Brom
+DEF
+0
+Craig
+4
+105
+Cesc Fàbregas
+Chelsea
+MID
+2
+Craig
+4
+106
+Willian Borges Da Silva
+Chelsea
+MID
+1
+Craig
+4
+281
+Henrikh Mkhitaryan
+Man Utd
+MID
+2
+Craig
+4
+316
+Steven Davis
+Southampton
+MID
+2
+Craig
+4
+342
+Xherdan Shaqiri
+Stoke
+MID
+7
+Craig
+4
+394
+Harry Kane
+Spurs
+FWD
+C
+26
+Dom
+4
+29
+Asmir Begovic
+Bournemouth
+GKP
+3
+Dom
+4
+55
+Lewis Dunk
+Brighton
+DEF
+2
+Dom
+4
+165
+Chris Löwe
+Huddersfield
+DEF
+6
+Dom
+4
+264
+Phil Jones
+Man Utd
+DEF
+1
+Dom
+4
+289
+Ciaran Clark
+Newcastle
+DEF
+6
+Dom
+4
+230
+Sadio Mané
+Liverpool
+MID
+C
+-4
+Dom
+4
+295
+Matt Ritchie
+Newcastle
+MID
+5
+Dom
+4
+387
+Christian Eriksen
+Spurs
+MID
+8
+Dom
+4
+449
+André Ayew
+West Ham
+MID
+11
+Dom
+4
+51
+Joshua King
+Bournemouth
+FWD
+2
+Dom
+4
+173
+Rajiv van La Parra
+Huddersfield
+MID
+2
+Liam
+4
+397
+Heurelho Gomes
+Watford
+GKP
+7
+Liam
+4
+101
+David Luiz Moreira Marinho
+Chelsea
+DEF
+2
+Liam
+4
+377
+Toby Alderweireld
+Spurs
+DEF
+C
+10
+Liam
+4
+424
+Craig Dawson
+West Brom
+DEF
+1
+Liam
+4
+535
+Renato Sanches
+Swansea
+MID
+3
+Liam
+4
+318
+Dusan Tadic
+Southampton
+MID
+1
+Liam
+4
+280
+Anthony Martial
+Man Utd
+MID
+1
+Liam
+4
+181
+Elias Kachunga
+Huddersfield
+MID
+2
+Liam
+4
+134
+Christian Benteke
+Crystal Palace
+FWD
+1
+Liam
+4
+301
+Dwight Gayle
+Newcastle
+FWD
+0
+Liam
+4
+435
+Salomón Rondón
+West Brom
+FWD
+1
+John B
+4
+163
+Jonas Lössl
+Huddersfield
+GKP
+1
+John B
+4
+7
+Héctor Bellerín
+Arsenal
+DEF
+C
+12
+John B
+4
+100
+Marcos Alonso
+Chelsea
+DEF
+2
+John B
+4
+119
+Joel Ward
+Crystal Palace
+DEF
+2
+John B
+4
+245
+Nicolás Otamendi
+Man City
+DEF
+5
+John B
+4
+326
+Charlie Austin
+Southampton
+FWD
+1
+John B
+4
+109
+Pedro Rodríguez Ledesma
+Chelsea
+MID
+2
+John B
+4
+232
+Georginio Wijnaldum
+Liverpool
+MID
+1
+John B
+4
+258
+Kelechi Iheanacho
+Leicester
+FWD
+1
+John B
+4
+497
+Eric Maxim Choupo-Moting
+Stoke
+MID
+15
+John B
+4
+542
+Wilfried Bony
+Swansea
+FWD
+1
+John K
+4
+375
+Hugo Lloris
+Spurs
+GKP
+6
+John K
+4
+525
+Wesley Hoedt
+Southampton
+DEF
+1
+John K
+4
+401
+José Holebas
+Watford
+DEF
+6
+John K
+4
+442
+Winston Reid
+West Ham
+DEF
+6
+John K
+4
+62
+Anthony Knockaert
+Brighton
+MID
+2
+John K
+4
+274
+Juan Mata
+Man Utd
+MID
+1
+John K
+4
+501
+Richarlison de Andrade
+Watford
+MID
+3
+John K
+4
+524
+Oliver Burke
+West Brom
+MID
+4
+John K
+4
+437
+Jay Rodriguez
+West Brom
+FWD
+C
+4
+John K
+4
+188
+Steve Mounie
+Huddersfield
+FWD
+2
+John K
+4
+158
+Davy Klaassen
+Everton
+MID
+1
+Nick
+4
+1
+David Ospina
+Arsenal
+GKP
+-9999
+Nick
+4
+198
+Harry Maguire
+Leicester
+DEF
+1
+Nick
+4
+443
+Aaron Cresswell
+West Ham
+DEF
+6
+Nick
+4
+423
+Jonny Evans
+West Brom
+DEF
+1
+Nick
+4
+56
+Shane Duffy
+Brighton
+DEF
+2
+Nick
+4
+432
+Matt Phillips
+West Brom
+MID
+2
+Nick
+4
+38
+Nathan Aké
+Bournemouth
+DEF
+1
+Nick
+4
+36
+Tyrone Mings
+Bournemouth
+DEF
+0
+Nick
+4
+490
+Davy Pröpper
+Brighton
+MID
+2
+Nick
+4
+349
+Saido Berahino
+Stoke
+FWD
+1
+Nick
+4
+259
+Gabriel Fernando de Jesus
+Man City
+FWD
+C
+24
+Paul E
+4
+74
+Tom Heaton
+Burnley
+GKP
+1
+Paul E
+4
+222
+James Milner
+Liverpool
+DEF
+0
+Paul E
+4
+311
+Virgil van Dijk
+Southampton
+DEF
+-9999
+Paul E
+4
+192
+Christian Fuchs
+Leicester
+DEF
+1
+Paul E
+4
+270
+Daley Blind
+Man Utd
+DEF
+-9999
+Paul E
+4
+15
+Theo Walcott
+Arsenal
+MID
+-9999
+Paul E
+4
+359
+Gylfi Sigurdsson
+Everton
+MID
+C
+4
+Paul E
+4
+111
+N'Golo Kanté
+Chelsea
+MID
+10
+Paul E
+4
+206
+Wilfred Ndidi
+Leicester
+MID
+1
+Paul E
+4
+52
+Jermain Defoe
+Bournemouth
+FWD
+2
+Paul E
+4
+70
+Pascal Groß
+Brighton
+MID
+18
+Paul W
+4
+2
+Petr Cech
+Arsenal
+GKP
+6
+Paul W
+4
+216
+Alberto Moreno
+Liverpool
+DEF
+0
+Paul W
+4
+219
+Joel Matip
+Liverpool
+DEF
+0
+Paul W
+4
+223
+Trent Alexander-Arnold
+Liverpool
+DEF
+-1
+Paul W
+4
+226
+Philippe Coutinho
+Liverpool
+MID
+-9999
+Paul W
+4
+234
+Mohamed Salah
+Liverpool
+MID
+C
+2
+Paul W
+4
+360
+Wayne Routledge
+Swansea
+MID
+-9999
+Paul W
+4
+153
+Aaron Lennon
+Everton
+MID
+-9999
+Paul W
+4
+235
+Roberto Firmino
+Liverpool
+FWD
+2
+Paul W
+4
+347
+Peter Crouch
+Stoke
+FWD
+-9999
+Paul W
+4
+237
+Danny Ings
+Liverpool
+FWD
+-9999
+Phil
+4
+213
+Simon Mignolet
+Liverpool
+GKP
+2
+Phil
+4
+58
+Bruno Saltor Grau
+Brighton
+DEF
+7
+Phil
+4
+103
+Antonio Rüdiger
+Chelsea
+DEF
+6
+Phil
+4
+482
+Jairo Riedewald
+Crystal Palace
+DEF
+1
+Phil
+4
+244
+Vincent Kompany
+Man City
+DEF
+-9999
+Phil
+4
+517
+José Heriberto Izquierdo Mena
+Brighton
+MID
+-9999
+Phil
+4
+86
+Jeff Hendrick
+Burnley
+MID
+-9999
+Phil
+4
+365
+Leroy Fer
+Swansea
+MID
+1
+Phil
+4
+488
+Jose Luis Mato Sanmartín
+Newcastle
+FWD
+2
+Phil
+4
+28
+Alexandre Lacazette
+Arsenal
+FWD
+6
+Phil
+4
+302
+Ayoze Pérez
+Newcastle
+FWD
+2
+Simon
+4
+286
+Robert Elliot
+Newcastle
+GKP
+8
+Simon
+4
+35
+Adam Smith
+Bournemouth
+DEF
+1
+Simon
+4
+146
+Michael Keane
+Everton
+DEF
+1
+Simon
+4
+379
+Kyle Walker
+Man City
+DEF
+9
+Simon
+4
+475
+Andrew Robertson
+Liverpool
+DEF
+-9999
+Simon
+4
+532
+Serge Aurier
+Spurs
+DEF
+-9999
+Simon
+4
+39
+Harry Arter
+Bournemouth
+MID
+2
+Simon
+4
+107
+Nemanja Matic
+Man Utd
+MID
+C
+4
+Simon
+4
+247
+Raheem Sterling
+Man City
+MID
+-9999
+Simon
+4
+91
+Sam Vokes
+Burnley
+FWD
+2
+Simon
+4
+187
+Laurent Depoitre
+Huddersfield
+FWD
+1
+Steve
+4
+54
+Mathew Ryan
+Brighton
+GKP
+2
+Steve
+4
+38
+Nathan Aké
+Bournemouth
+DEF
+1
+Steve
+4
+4
+Laurent Koscielny
+Arsenal
+DEF
+6
+Steve
+4
+34
+Charlie Daniels
+Bournemouth
+DEF
+1
+Steve
+4
+14
+Alexis Sánchez
+Arsenal
+MID
+C
+2
+Steve
+4
+317
+James Ward-Prowse
+Southampton
+MID
+1
+Steve
+4
+203
+Demarai Gray
+Leicester
+MID
+1
+Steve
+4
+125
+Jason Puncheon
+Crystal Palace
+MID
+2
+Steve
+4
+93
+Ashley Barnes
+Burnley
+FWD
+1
+Steve
+4
+257
+Sergio Agüero
+Man City
+FWD
+9
+Steve
+4
+71
+Glenn Murray
+Brighton
+FWD
+0
+Taz
+4
+260
+David de Gea
+Man Utd
+GKP
+2
+Taz
+4
+10
+Nacho Monreal
+Arsenal
+DEF
+7
+Taz
+4
+484
+Benjamin Mendy
+Man City
+DEF
+10
+Taz
+4
+447
+Pablo Zabaleta
+West Ham
+DEF
+5
+Taz
+4
+325
+Shane Long
+Southampton
+FWD
+1
+Taz
+4
+256
+Bernardo Mota Veiga de Carvalho e Silva
+Man City
+MID
+-9999
+Taz
+4
+278
+Ander Herrera
+Man Utd
+MID
+2
+Taz
+4
+428
+James Morrison
+West Brom
+MID
+6
+Taz
+4
+148
+Kevin Mirallas
+Everton
+MID
+-9999
+Taz
+4
+284
+Marcus Rashford
+Man Utd
+FWD
+7
+Taz
+4
+285
+Romelu Lukaku
+Man Utd
+FWD
+C
+12
+Tom C
+4
+94
+Thibaut Courtois
+Chelsea
+GKP
+2
+Tom C
+4
+440
+Jose Fonte
+West Ham
+DEF
+10
+Tom C
+4
+171
+Mathias Jorgensen
+Huddersfield
+DEF
+0
+Tom C
+4
+267
+Antonio Valencia
+Man Utd
+DEF
+C
+2
+Tom C
+4
+332
+Erik Pieters
+Stoke
+DEF
+1
+Tom C
+4
+337
+Joe Allen
+Stoke
+MID
+2
+Tom C
+4
+172
+Aaron Mooy
+Huddersfield
+MID
+2
+Tom C
+4
+131
+Andros Townsend
+Crystal Palace
+MID
+2
+Tom C
+4
+227
+Emre Can
+Liverpool
+MID
+1
+Tom C
+4
+250
+Fernando Luiz Rosa
+Man City
+MID
+2
+Tom C
+4
+159
+Dominic Calvert-Lewin
+Everton
+FWD
+1
+Tom K
+4
+306
+Fraser Forster
+Southampton
+GKP
+1
+Tom K
+4
+118
+Scott Dann
+Crystal Palace
+DEF
+2
+Tom K
+4
+143
+Ashley Williams
+Everton
+DEF
+0
+Tom K
+4
+242
+John Stones
+Man City
+DEF
+6
+Tom K
+4
+382
+Kieran Trippier
+Spurs
+DEF
+10
+Tom K
+4
+543
+Davide Zappacosta
+Chelsea
+DEF
+1
+Tom K
+4
+199
+Riyad Mahrez
+Leicester
+MID
+C
+4
+Tom K
+4
+300
+Christian Atsu
+Newcastle
+MID
+1
+Tom K
+4
+19
+Alex Oxlade-Chamberlain
+Liverpool
+MID
+1
+Tom K
+4
+25
+Olivier Giroud
+Arsenal
+FWD
+1
+Tom K
+4
+518
+Chris Wood
+Burnley
+FWD
+9
+

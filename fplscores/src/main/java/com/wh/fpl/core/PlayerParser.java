@@ -54,7 +54,7 @@ public class PlayerParser {
         String mf = parser.close("<h2>Forwards</h2>");
         String fwd = parser.close(null);
 
-        processPlayers("GK", new SimpleParser(gk), players);
+        processPlayers("GKP", new SimpleParser(gk), players);
         processPlayers("DEF", new SimpleParser(df), players);
         processPlayers("MID", new SimpleParser(mf), players);
         processPlayers("FWD", new SimpleParser(fwd), players);

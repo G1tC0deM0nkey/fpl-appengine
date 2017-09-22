@@ -1,5 +1,6 @@
 package com.wh.fpl.core;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -16,6 +17,11 @@ public class Teamsheet {
     private PlayerKey captain;
 
     private PlayerKey vice;
+
+    public Teamsheet() {
+        this.starters = new ArrayList<PlayerKey>();
+        this.subs = new ArrayList<PlayerKey>();
+    }
 
     public int getGamemonth() {
         return gamemonth;

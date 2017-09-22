@@ -1,8 +1,7 @@
 package com.wh.fpl.core;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created by jkaye on 20/09/17.
@@ -149,4 +148,90 @@ public class FSContext {
 
     }
 
+    public List <PlayerKey> loadSquad(String name) throws Exception {
+
+        File f = new File(root +
+                ("/squads/" + name + ".tsv"));
+
+        if(!f.exists()) {
+            return null;
+        }
+
+        FileReader fr = new FileReader(f);
+        BufferedReader br = new BufferedReader(fr);
+
+        List <PlayerKey> players = new ArrayList<PlayerKey>();
+        String line = br.readLine();
+
+        while(line != null) {
+            String [] tokens = line.split("\t");
+
+            PlayerKey k = new PlayerKey(tokens[2], tokens[0], tokens[1]);
+            players.add(k);
+
+            line = br.readLine();
+        }
+
+        return players;
+    }
+
+    public void storeSquad(String name, Set <PlayerKey> squad,
+                           Map <String, Map <String, Set<String>>> teamPositionNameMap) throws Exception {
+
+        File f = new File(root +
+                ("/squads/" + name + ".tsv"));
+
+        if(!f.getParentFile().exists()) {
+            f.getParentFile().mkdirs();
+        }
+
+        List <PlayerKey> players = new ArrayList<PlayerKey>(squad);
+        Collections.sort(players, new PlayerPositionComparator());
+
+        FileWriter fw = new FileWriter(f);
+        PrintWriter pw = new PrintWriter(fw);
+
+        for(PlayerKey p : players) {
+            String playerName = p.getName();
+
+            Map <String, Set <String>> playersByPosition = teamPositionNameMap.get(p.getTeam());
+            Set <String> candidates = playersByPosition == null ? null : teamPositionNameMap.get(p.getTeam()).get(p.getPosition());
+
+            if(candidates != null && !candidates.contains(playerName))
+            {
+                for(String c : candidates) {
+                    if(playerName.contains(c)) {
+                        playerName = c;
+                        break;
+                    }
+                }
+            }
+
+            pw.println(String.format("%s\t%s\t%s", p.getTeam(), p.getPosition(), playerName));
+        }
+
+        pw.flush();
+        pw.close();
+
+    }
+
+    public Map<String, Teamsheet> loadTeamsheets(Gameweek gw) throws IOException {
+
+        List<Fixture> fixtures = new ArrayList<Fixture>();
+
+        File f = gw == null
+                ? new File(root + "/teamsheet.txt")
+                : new File(root + "/gm" + gw.getGameMonth() + "/gw" + gw.getGameWeek() + "/teamsheet.txt");
+
+        if(!f.exists() && gw != null) {
+            return loadTeamsheets(null);
+        } else if(!f.exists()) {
+            return null;
+        }
+
+        TeamsheetParser parser = new TeamsheetParser(f.getPath());
+        Map <String, Teamsheet> teamsheets = parser.parse();
+        return teamsheets;
+
+    }
 }

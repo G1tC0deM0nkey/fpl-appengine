@@ -5,10 +5,7 @@ import com.wh.fpl.FPLApplicationConfig;
 import com.wh.fpl.control.CheckGameweek;
 import com.wh.fpl.control.GameweekConstants;
 import com.wh.fpl.control.OpenGameweek;
-import com.wh.fpl.core.FSContext;
-import com.wh.fpl.core.Fixture;
-import com.wh.fpl.core.Gameweek;
-import com.wh.fpl.core.GameweekContext;
+import com.wh.fpl.core.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,6 +16,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by jkaye on 21/09/17.
@@ -108,6 +106,72 @@ public class PlayersController {
 
     }
 
+    @RequestMapping(value="/squad", method=RequestMethod.GET)
+    public @ResponseBody String squads(@RequestParam String name) throws Exception {
+
+        FSContext fs = new FSContext(config.getDataRoot());
+
+        List <PlayerKey> squad = fs.loadSquad(name);
+
+        StringBuilder sb = new StringBuilder();
+
+        for(PlayerKey p : squad) {
+            sb.append(p.getTeam() + " - " + p.getPosition() + " - " + p.getName() + "<br/>\n");
+        }
+
+        return sb.toString();
+
+    }
+
+    @RequestMapping(value="/score", method=RequestMethod.GET)
+    public @ResponseBody String score(@RequestParam String name, @RequestParam(defaultValue="0") int month, @RequestParam(defaultValue ="0") int week) throws Exception {
+
+        FSContext fs = new FSContext(config.getDataRoot());
+
+        Gameweek gameweek = gameweekContext.getActiveGameweek();
+        boolean active = true;
+
+        if(month != 0 && week != 0) {
+            gameweek = new Gameweek(month, week);
+            active = (gameweekContext.getActiveGameweek() != null && gameweek.getGameMonth() == gameweekContext.getGameMonth() && gameweek.getGameWeek() == gameweekContext.getGameWeek());
+        }
+        else if(gameweek == null) {
+            return "No active gameweek!";
+        }
+
+        //Loaded Gameweek
+        Gameweek gw = fs.loadGameweek(gameweek.getGameMonth(), gameweek.getGameWeek());
+
+        //If it's the active gameweek, update and store the result
+        if(active) {
+            CheckGameweek check = new CheckGameweek(gw.getGameMonth(), gw.getGameWeek());
+            gameweek = check.update(gw);
+            fs.storeGameweek(gameweek);
+        }
+
+        List <PlayerKey> squad = fs.loadSquad(name);
+
+        StringBuilder sb = new StringBuilder();
+
+        for(PlayerKey p : squad) {
+            sb.append(p.getTeam() + " - " + p.getPosition() + " - " + p.getName());
+
+            Player pl1 = gameweek.getStartingScores().get(p);
+            Player pl2 = gameweek.getLatestScores().get(p);
+
+            if(pl1 != null) {
+                sb.append(" - ").append((Integer.parseInt(pl2.getScore()) - Integer.parseInt(pl1.getScore())));
+                if(pl2.isPlaying()) {
+                    sb.append(" - playing");
+                }
+            }
+
+            sb.append("<br/>\n");
+        }
+
+        return sb.toString();
+
+    }
 
     @RequestMapping(value="/active-gameweek", method=RequestMethod.GET)
     public @ResponseBody String activeGameweek() throws Exception {

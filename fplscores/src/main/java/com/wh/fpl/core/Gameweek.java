@@ -83,7 +83,7 @@ public class Gameweek {
                 int result = o1.getTeam().compareTo(o2.getTeam());
 
                 if(result == 0) {
-                    result = comparePositions(o1.getPosition(), o2.getPosition());
+                    result = PlayerTeamPositionComparator.comparePositions(o1.getPosition(), o2.getPosition());
                 }
 
                 if(result == 0) {
@@ -126,22 +126,7 @@ public class Gameweek {
         playerKeys.addAll(latestScores.keySet());
 
         List<PlayerKey> playerKeyList = new ArrayList<PlayerKey>(playerKeys);
-        Collections.sort(playerKeyList, new Comparator<PlayerKey>() {
-            public int compare(PlayerKey o1, PlayerKey o2) {
-
-                int result = o1.getTeam().compareTo(o2.getTeam());
-
-                if(result == 0) {
-                    result = comparePositions(o1.getPosition(), o2.getPosition());
-                }
-
-                if(result == 0) {
-                    result = o1.getName().compareTo(o2.getName());
-                }
-
-                return result;
-            }
-        });
+        Collections.sort(playerKeyList, new PlayerTeamPositionComparator());
 
         for(PlayerKey p : playerKeyList) {
 
@@ -169,32 +154,4 @@ public class Gameweek {
 
     }
 
-    private static int comparePositions(String pos1, String pos2) {
-
-        if(pos1.equals(pos2)) {
-            return 0;
-        }
-        else {
-            int p1;
-            int p2;
-
-            switch(pos1.charAt(0)) {
-                case 'G': p1=1; break;
-                case 'D': p1=2; break;
-                case 'M': p1=3; break;
-                case 'F': p1=4; break;
-                default: p1=0; break;
-            }
-
-            switch(pos2.charAt(0)) {
-                case 'G': p2=1; break;
-                case 'D': p2=2; break;
-                case 'M': p2=3; break;
-                case 'F': p2=4; break;
-                default: p2=0; break;
-            }
-            return p1 - p2;
-        }
-
-    }
 }
