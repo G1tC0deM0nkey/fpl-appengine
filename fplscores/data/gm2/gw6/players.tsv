@@ -1,125 +1,126 @@
-Arsenal	GKP	Cech	£5.5	22	false	22	0
+Arsenal	GKP	Cech	£5.5	22	true	28	6
 Arsenal	GKP	Ospina	£4.9	0	false	0	0
-Arsenal	DEF	Bellerín	£5.9	14	false	14	0
+Arsenal	DEF	Bellerín	£5.9	14	true	22	8
 Arsenal	DEF	Chambers	£4.8	0	false	0	0
 Arsenal	DEF	Holding	£4.7	0	false	0	0
-Arsenal	DEF	Kolasinac	£6.0	23	false	23	0
-Arsenal	DEF	Koscielny	£6.0	13	false	13	0
+Arsenal	DEF	Kolasinac	£6.0	23	true	29	6
+Arsenal	DEF	Koscielny	£6.0	13	true	19	6
 Arsenal	DEF	Mertesacker	£4.9	0	false	0	0
-Arsenal	DEF	Monreal	£5.4	19	false	19	0
-Arsenal	DEF	Mustafi	£5.4	14	false	14	0
+Arsenal	DEF	Monreal	£5.4	19	true	26	7
+Arsenal	DEF	Mustafi	£5.4	14	true	20	6
 Arsenal	MID	Cazorla	£7.0	0	false	0	0
 Arsenal	MID	Coquelin	£4.5	2	false	2	0
-Arsenal	MID	Elneny	£4.5	5	false	5	0
+Arsenal	MID	Elneny	£4.5	5	true	8	3
 Arsenal	MID	Iwobi	£5.1	4	false	4	0
-Arsenal	MID	Maitland-Niles	£4.5	0	false	0	0
+Arsenal	MID	Maitland-Niles	£4.5	0	true	1	1
 Arsenal	MID	Nelson	£4.9	0	false	0	0
-Arsenal	MID	Ramsey	£7.0	18	false	18	0
-Arsenal	MID	Sánchez	£11.9	4	false	4	0
+Arsenal	MID	Ramsey	£7.0	18	true	24	6
+Arsenal	MID	Sánchez	£11.9	4	true	9	5
 Arsenal	MID	Walcott	£7.2	2	false	2	0
 Arsenal	MID	Wilshere	£5.4	0	false	0	0
-Arsenal	MID	Xhaka	£5.6	19	false	19	0
-Arsenal	MID	Özil	£9.4	8	false	8	0
-Arsenal	FWD	Giroud	£8.3	9	false	9	0
-Arsenal	FWD	Lacazette	£10.3	17	false	17	0
+Arsenal	MID	Xhaka	£5.6	19	true	22	3
+Arsenal	MID	Özil	£9.4	8	true	9	1
+Arsenal	FWD	Giroud	£8.3	9	true	10	1
+Arsenal	FWD	Lacazette	£10.3	17	true	30	13
 Arsenal	FWD	Welbeck	£7.5	27	false	27	0
-Bournemouth	GKP	Begovic	£4.5	13	false	13	0
+Bournemouth	GKP	Begovic	£4.5	13	true	14	1
 Bournemouth	GKP	Boruc	£4.4	0	false	0	0
 Bournemouth	GKP	Federici	£4.0	0	false	0	0
-Bournemouth	DEF	Adam Smith	£4.9	5	false	5	0
-Bournemouth	DEF	Aké	£5.0	7	false	7	0
+Bournemouth	GKP	Ramsdale	�?	0	false	0	0
+Bournemouth	DEF	Adam Smith	£4.9	5	true	6	1
+Bournemouth	DEF	Aké	£5.0	7	true	8	1
 Bournemouth	DEF	Brad Smith	£4.0	0	false	0	0
-Bournemouth	DEF	Daniels	£4.9	13	false	13	0
-Bournemouth	DEF	Francis	£4.4	4	false	4	0
+Bournemouth	DEF	Daniels	£4.9	13	true	19	6
+Bournemouth	DEF	Francis	£4.4	4	true	5	1
 Bournemouth	DEF	Mings	£4.4	0	false	0	0
-Bournemouth	DEF	Steve Cook	£4.9	3	false	3	0
+Bournemouth	DEF	Steve Cook	£4.9	3	true	4	1
 Bournemouth	MID	Arter	£4.9	8	false	8	0
 Bournemouth	MID	Fraser	£5.4	7	false	7	0
-Bournemouth	MID	Gosling	£4.9	5	false	5	0
-Bournemouth	MID	Ibe	£4.9	10	false	10	0
+Bournemouth	MID	Gosling	£4.9	5	true	7	2
+Bournemouth	MID	Ibe	£4.9	10	true	12	2
 Bournemouth	MID	Lewis Cook	£4.4	0	false	0	0
 Bournemouth	MID	Pugh	£4.9	4	false	4	0
-Bournemouth	MID	Stanislas	£5.9	0	false	0	0
-Bournemouth	MID	Surman	£4.5	16	false	16	0
-Bournemouth	FWD	Afobe	£5.8	5	false	5	0
+Bournemouth	MID	Stanislas	£5.9	0	true	1	1
+Bournemouth	MID	Surman	£4.5	16	true	18	2
+Bournemouth	FWD	Afobe	£5.8	5	true	6	1
 Bournemouth	FWD	Callum Wilson	£5.9	0	false	0	0
-Bournemouth	FWD	Defoe	£7.8	13	false	13	0
-Bournemouth	FWD	King	£7.3	10	false	10	0
-Bournemouth	FWD	Mousset	£4.9	3	false	3	0
+Bournemouth	FWD	Defoe	£7.8	13	true	15	2
+Bournemouth	FWD	King	£7.3	10	true	17	7
+Bournemouth	FWD	Mousset	£4.9	3	true	4	1
 Brighton	GKP	Krul	£4.0	0	false	0	0
 Brighton	GKP	Mäenpää	£4.0	0	false	0	0
-Brighton	GKP	Ryan	£4.5	12	false	12	0
+Brighton	GKP	Ryan	£4.5	12	true	21	9
 Brighton	DEF	Bong	£4.4	0	false	0	0
-Brighton	DEF	Bruno	£4.5	9	false	9	0
-Brighton	DEF	Duffy	£4.5	14	false	14	0
-Brighton	DEF	Dunk	£4.5	9	false	9	0
+Brighton	DEF	Bruno	£4.5	9	true	16	7
+Brighton	DEF	Duffy	£4.5	14	true	19	5
+Brighton	DEF	Dunk	£4.5	9	true	15	6
 Brighton	DEF	Goldson	£4.0	0	false	0	0
 Brighton	DEF	Hünemeier	£3.9	0	false	0	0
 Brighton	DEF	Rosenior	£4.0	3	false	3	0
 Brighton	DEF	Schelotto	£4.5	0	false	0	0
-Brighton	DEF	Suttner	£4.5	12	false	12	0
+Brighton	DEF	Suttner	£4.5	12	true	18	6
 Brighton	MID	Brown	£5.3	1	false	1	0
-Brighton	MID	Groß	£5.6	32	false	32	0
+Brighton	MID	Groß	£5.6	32	true	35	3
 Brighton	MID	Izquierdo	£6.0	2	false	2	0
 Brighton	MID	Kayal	£4.4	0	false	0	0
-Brighton	MID	Knockaert	£5.8	9	false	9	0
-Brighton	MID	March	£5.0	18	false	18	0
-Brighton	MID	Murphy	£4.9	5	false	5	0
-Brighton	MID	Pröpper	£5.5	11	false	11	0
+Brighton	MID	Knockaert	£5.8	9	true	11	2
+Brighton	MID	March	£5.0	18	true	21	3
+Brighton	MID	Murphy	£4.9	5	true	6	1
+Brighton	MID	Pröpper	£5.5	11	true	14	3
 Brighton	MID	Sidwell	£4.4	0	false	0	0
 Brighton	MID	Skalak	£4.8	0	false	0	0
-Brighton	MID	Stephens	£4.5	11	false	11	0
+Brighton	MID	Stephens	£4.5	11	true	17	6
 Brighton	FWD	Baldock	£4.9	0	false	0	0
-Brighton	FWD	Hemed	£4.9	17	false	17	0
+Brighton	FWD	Hemed	£4.9	17	true	26	9
 Brighton	FWD	Murray	£5.8	4	false	4	0
 Burnley	GKP	Heaton	£4.9	8	false	8	0
 Burnley	GKP	Legzdins	£4.0	0	false	0	0
-Burnley	GKP	Pope	£4.5	6	false	6	0
+Burnley	GKP	Pope	£4.5	6	true	12	6
 Burnley	DEF	Bardsley	£4.4	0	false	0	0
 Burnley	DEF	Long	£4.0	0	false	0	0
-Burnley	DEF	Lowton	£4.5	16	false	16	0
-Burnley	DEF	Mee	£4.5	12	false	12	0
-Burnley	DEF	Tarkowski	£4.5	13	false	13	0
+Burnley	DEF	Lowton	£4.5	16	true	22	6
+Burnley	DEF	Mee	£4.5	12	true	18	6
+Burnley	DEF	Tarkowski	£4.5	13	true	18	5
 Burnley	DEF	Taylor	£4.3	0	false	0	0
-Burnley	DEF	Ward	£4.5	21	false	21	0
-Burnley	MID	Arfield	£4.9	12	false	12	0
-Burnley	MID	Brady	£5.5	19	false	19	0
-Burnley	MID	Cork	£4.5	13	false	13	0
-Burnley	MID	Defour	£5.5	14	false	14	0
-Burnley	MID	Gudmundsson	£5.0	9	false	9	0
-Burnley	MID	Hendrick	£5.4	4	false	4	0
+Burnley	DEF	Ward	£4.5	21	true	29	8
+Burnley	MID	Arfield	£4.9	12	true	14	2
+Burnley	MID	Brady	£5.5	19	true	22	3
+Burnley	MID	Cork	£4.5	13	true	15	2
+Burnley	MID	Defour	£5.5	14	true	17	3
+Burnley	MID	Gudmundsson	£5.0	9	true	10	1
+Burnley	MID	Hendrick	£5.4	4	true	7	3
 Burnley	MID	Marney	£4.5	0	false	0	0
 Burnley	MID	Walters	£5.3	2	false	2	0
 Burnley	MID	Westwood	£4.5	3	false	3	0
-Burnley	FWD	Barnes	£5.3	3	false	3	0
+Burnley	FWD	Barnes	£5.3	3	true	4	1
 Burnley	FWD	Vokes	£6.1	19	false	19	0
 Burnley	FWD	Wells	£4.9	0	false	0	0
-Burnley	FWD	Wood	£6.5	17	false	17	0
+Burnley	FWD	Wood	£6.5	17	true	19	2
 Chelsea	GKP	Caballero	£4.9	0	false	0	0
-Chelsea	GKP	Courtois	£5.5	21	false	21	0
+Chelsea	GKP	Courtois	£5.5	21	true	27	6
 Chelsea	GKP	Eduardo	£4.9	0	false	0	0
 Chelsea	DEF	Alonso	£7.1	30	false	30	0
-Chelsea	DEF	Azpilicueta	£6.5	25	false	25	0
-Chelsea	DEF	Cahill	£6.3	4	false	4	0
-Chelsea	DEF	Christensen	£5.5	5	false	5	0
+Chelsea	DEF	Azpilicueta	£6.5	25	true	39	14
+Chelsea	DEF	Cahill	£6.3	4	true	5	1
+Chelsea	DEF	Christensen	£5.5	5	true	11	6
 Chelsea	DEF	David Luiz	£6.0	21	false	21	0
-Chelsea	DEF	Moses	£6.5	15	false	15	0
-Chelsea	DEF	Rüdiger	£5.9	13	false	13	0
+Chelsea	DEF	Moses	£6.5	15	true	21	6
+Chelsea	DEF	Rüdiger	£5.9	13	true	20	7
 Chelsea	DEF	Zappacosta	£6.0	1	false	1	0
-Chelsea	MID	Bakayoko	£5.0	6	false	6	0
+Chelsea	MID	Bakayoko	£5.0	6	true	12	6
 Chelsea	MID	Drinkwater	£4.9	0	false	0	0
-Chelsea	MID	Fàbregas	£6.9	15	false	15	0
-Chelsea	MID	Hazard	£10.5	2	false	2	0
-Chelsea	MID	Kanté	£5.0	20	false	20	0
+Chelsea	MID	Fàbregas	£6.9	15	true	16	1
+Chelsea	MID	Hazard	£10.5	2	true	3	1
+Chelsea	MID	Kanté	£5.0	20	true	22	2
 Chelsea	MID	Kenedy	£4.8	0	false	0	0
 Chelsea	MID	Musonda	£4.8	1	false	1	0
-Chelsea	MID	Pedro	£7.9	10	false	10	0
+Chelsea	MID	Pedro	£7.9	10	true	18	8
 Chelsea	MID	Scott	£4.5	0	false	0	0
-Chelsea	MID	Willian	£7.0	16	false	16	0
+Chelsea	MID	Willian	£7.0	16	true	19	3
 Chelsea	FWD	Batshuayi	£8.1	1	false	1	0
 Chelsea	FWD	Costa	£9.6	0	false	0	0
-Chelsea	FWD	Morata	£10.2	31	false	31	0
-Crystal Palace	GKP	Hennessey	£4.5	17	false	17	0
+Chelsea	FWD	Morata	£10.2	31	true	48	17
+Crystal Palace	GKP	Hennessey	£4.5	17	true	18	1
 Crystal Palace	GKP	Speroni	£4.0	0	false	0	0
 Crystal Palace	DEF	Dann	£4.9	7	false	7	0
 Crystal Palace	DEF	Delaney	£4.3	0	false	0	0
@@ -127,371 +128,374 @@ Crystal Palace	DEF	Fosu-Mensah	£4.5	8	false	8	0
 Crystal Palace	DEF	Kelly	£4.3	0	false	0	0
 Crystal Palace	DEF	Riedewald	£4.9	2	false	2	0
 Crystal Palace	DEF	Sakho	£4.9	0	false	0	0
-Crystal Palace	DEF	Schlupp	£4.8	5	false	5	0
+Crystal Palace	DEF	Schlupp	£4.8	5	true	4	-1
 Crystal Palace	DEF	Souaré	£4.5	0	false	0	0
 Crystal Palace	DEF	Tomkins	£4.4	4	false	4	0
 Crystal Palace	DEF	Ward	£4.9	4	false	4	0
 Crystal Palace	DEF	van Aanholt	£5.3	3	false	3	0
-Crystal Palace	MID	Cabaye	£5.5	4	false	4	0
+Crystal Palace	MID	Cabaye	£5.5	4	true	5	1
 Crystal Palace	MID	Kaikai	£4.5	1	false	1	0
 Crystal Palace	MID	Lee Chung-yong	£4.4	3	false	3	0
-Crystal Palace	MID	Loftus-Cheek	£4.5	6	false	6	0
+Crystal Palace	MID	Loftus-Cheek	£4.5	6	true	8	2
 Crystal Palace	MID	Lokilo	£4.4	0	false	0	0
 Crystal Palace	MID	Lumeka	£4.5	1	false	1	0
 Crystal Palace	MID	McArthur	£4.5	6	false	6	0
-Crystal Palace	MID	Milivojevic	£4.7	5	false	5	0
-Crystal Palace	MID	Puncheon	£4.9	6	false	6	0
-Crystal Palace	MID	Sako	£4.9	1	false	1	0
-Crystal Palace	MID	Townsend	£5.8	9	false	9	0
+Crystal Palace	MID	Milivojevic	£4.7	5	true	7	2
+Crystal Palace	MID	Puncheon	£4.9	6	true	7	1
+Crystal Palace	MID	Sako	£4.9	1	true	2	1
+Crystal Palace	MID	Townsend	£5.8	9	true	11	2
 Crystal Palace	MID	Zaha	£6.8	2	false	2	0
 Crystal Palace	FWD	Anderson	£4.5	0	false	0	0
-Crystal Palace	FWD	Benteke	£7.7	7	false	7	0
+Crystal Palace	FWD	Benteke	£7.7	7	true	9	2
 Crystal Palace	FWD	Ladapo	£4.5	0	false	0	0
 Crystal Palace	FWD	Wickham	£5.4	0	false	0	0
-Everton	GKP	Pickford	£5.0	15	false	15	0
+Everton	GKP	Pickford	£5.0	15	true	18	3
 Everton	GKP	Robles	£4.4	0	false	0	0
 Everton	GKP	Stekelenburg	£4.4	0	false	0	0
-Everton	DEF	Baines	£5.9	10	false	10	0
+Everton	DEF	Baines	£5.9	10	true	12	2
 Everton	DEF	Coleman	£6.5	0	false	0	0
 Everton	DEF	Funes Mori	£4.9	0	false	0	0
-Everton	DEF	Holgate	£4.4	3	false	3	0
+Everton	DEF	Holgate	£4.4	3	true	5	2
 Everton	DEF	Jagielka	£5.0	10	false	10	0
 Everton	DEF	Keane	£5.5	12	false	12	0
-Everton	DEF	Kenny	£4.4	0	false	0	0
-Everton	DEF	Martina	£4.3	1	false	1	0
-Everton	DEF	Williams	£5.4	9	false	9	0
+Everton	DEF	Kenny	£4.4	0	true	1	1
+Everton	DEF	Martina	£4.3	1	true	3	2
+Everton	DEF	Williams	£5.4	9	true	11	2
 Everton	MID	Barkley	£7.4	0	false	0	0
 Everton	MID	Besic	£4.4	2	false	2	0
 Everton	MID	Bolasie	£6.5	0	false	0	0
-Everton	MID	Davies	£5.3	7	false	7	0
-Everton	MID	Gueye	£5.0	9	false	9	0
-Everton	MID	Klaassen	£7.2	3	false	3	0
+Everton	MID	Davies	£5.3	7	true	13	6
+Everton	MID	Gueye	£5.0	9	true	11	2
+Everton	MID	Klaassen	£7.2	3	true	4	1
 Everton	MID	Lennon	£5.4	1	false	1	0
 Everton	MID	Lookman	£5.3	0	false	0	0
 Everton	MID	McCarthy	£4.9	0	false	0	0
 Everton	MID	Mirallas	£6.3	2	false	2	0
-Everton	MID	Schneiderlin	£5.0	6	false	6	0
-Everton	MID	Sigurdsson	£8.3	7	false	7	0
+Everton	MID	Schneiderlin	£5.0	6	true	7	1
+Everton	MID	Sigurdsson	£8.3	7	true	9	2
 Everton	MID	Vlasic	£5.5	1	false	1	0
-Everton	FWD	Calvert-Lewin	£5.0	13	false	13	0
-Everton	FWD	Rooney	£7.5	21	false	21	0
+Everton	FWD	Calvert-Lewin	£5.0	13	true	15	2
+Everton	FWD	Niasse	�?	0	true	11	11
+Everton	FWD	Rooney	£7.5	21	true	22	1
 Everton	FWD	Sandro	£7.3	6	false	6	0
 Huddersfield	GKP	Coleman	£4.0	0	false	0	0
-Huddersfield	GKP	Lössl	£4.6	26	false	26	0
+Huddersfield	GKP	Green	�?	0	false	0	0
+Huddersfield	GKP	Lössl	£4.6	26	true	33	7
 Huddersfield	DEF	Cranie	£4.0	0	false	0	0
-Huddersfield	DEF	Hadergjonaj	£4.5	0	false	0	0
+Huddersfield	DEF	Hadergjonaj	£4.5	0	true	1	1
 Huddersfield	DEF	Hefele	£4.3	1	false	1	0
-Huddersfield	DEF	Löwe	£4.5	26	false	26	0
+Huddersfield	DEF	Löwe	£4.5	26	true	32	6
 Huddersfield	DEF	Malone	£4.3	0	false	0	0
-Huddersfield	DEF	Schindler	£4.6	23	false	23	0
-Huddersfield	DEF	Smith	£5.0	17	false	17	0
+Huddersfield	DEF	Schindler	£4.6	23	true	32	9
+Huddersfield	DEF	Smith	£5.0	17	true	23	6
 Huddersfield	DEF	Stankovic	£4.0	0	false	0	0
-Huddersfield	DEF	Zanka	£4.6	24	false	24	0
-Huddersfield	MID	Billing	£4.5	9	false	9	0
-Huddersfield	MID	Hogg	£4.4	1	false	1	0
-Huddersfield	MID	Ince	£5.9	13	false	13	0
-Huddersfield	MID	Kachunga	£6.0	16	false	16	0
+Huddersfield	DEF	Zanka	£4.6	24	true	32	8
+Huddersfield	MID	Billing	£4.5	9	true	10	1
+Huddersfield	MID	Hogg	£4.4	1	true	4	3
+Huddersfield	MID	Ince	£5.9	13	true	16	3
+Huddersfield	MID	Kachunga	£6.0	16	true	19	3
 Huddersfield	MID	Lolley	£4.4	0	false	0	0
-Huddersfield	MID	Mooy	£5.7	23	false	23	0
+Huddersfield	MID	Mooy	£5.7	23	true	26	3
 Huddersfield	MID	Palmer	£5.4	3	false	3	0
-Huddersfield	MID	Sabiri	£5.0	6	false	6	0
+Huddersfield	MID	Sabiri	£5.0	6	true	8	2
 Huddersfield	MID	Whitehead	£4.4	0	false	0	0
 Huddersfield	MID	Williams	£4.9	4	false	4	0
 Huddersfield	MID	van La Parra	£4.9	8	false	8	0
-Huddersfield	FWD	Depoitre	£5.2	10	false	10	0
+Huddersfield	FWD	Depoitre	£5.2	10	true	12	2
 Huddersfield	FWD	Mounie	£6.0	17	false	17	0
 Huddersfield	FWD	Quaner	£4.5	7	false	7	0
 Leicester	GKP	Hamer	£4.5	0	false	0	0
 Leicester	GKP	Jakupovic	£4.4	0	false	0	0
-Leicester	GKP	Schmeichel	£5.0	21	false	21	0
+Leicester	GKP	Schmeichel	£5.0	21	true	23	2
 Leicester	DEF	Benalouane	£4.4	0	false	0	0
-Leicester	DEF	Chilwell	£4.4	2	false	2	0
+Leicester	DEF	Chilwell	£4.4	2	true	3	1
 Leicester	DEF	Dragovic	£5.0	0	false	0	0
 Leicester	DEF	Fuchs	£4.9	8	false	8	0
 Leicester	DEF	Huth	£4.9	0	false	0	0
-Leicester	DEF	Maguire	£5.1	22	false	22	0
-Leicester	DEF	Morgan	£4.5	8	false	8	0
-Leicester	DEF	Simpson	£4.5	10	false	10	0
-Leicester	MID	Albrighton	£5.5	12	false	12	0
+Leicester	DEF	Maguire	£5.1	22	true	27	5
+Leicester	DEF	Morgan	£4.5	8	true	9	1
+Leicester	DEF	Simpson	£4.5	10	true	11	1
+Leicester	MID	Albrighton	£5.5	12	true	13	1
 Leicester	MID	Amartey	£4.4	1	false	1	0
-Leicester	MID	Gray	£5.3	5	false	5	0
+Leicester	MID	Gray	£5.3	5	true	9	4
 Leicester	MID	Iborra	£5.8	0	false	0	0
 Leicester	MID	James	£4.5	8	false	8	0
-Leicester	MID	King	£4.4	8	false	8	0
-Leicester	MID	Mahrez	£8.5	22	false	22	0
+Leicester	MID	King	£4.4	8	true	10	2
+Leicester	MID	Mahrez	£8.5	22	true	24	2
 Leicester	MID	Musa	£6.3	0	false	0	0
-Leicester	MID	Ndidi	£5.0	10	false	10	0
-Leicester	FWD	Iheanacho	£6.8	4	false	4	0
-Leicester	FWD	Okazaki	£5.5	14	false	14	0
-Leicester	FWD	Slimani	£6.8	4	false	4	0
+Leicester	MID	Ndidi	£5.0	10	true	11	1
+Leicester	FWD	Iheanacho	£6.8	4	true	5	1
+Leicester	FWD	Okazaki	£5.5	14	true	20	6
+Leicester	FWD	Slimani	£6.8	4	true	5	1
 Leicester	FWD	Ulloa	£4.9	0	false	0	0
-Leicester	FWD	Vardy	£8.5	33	false	33	0
+Leicester	FWD	Vardy	£8.5	33	true	36	3
 Liverpool	GKP	Karius	£4.9	6	false	6	0
-Liverpool	GKP	Mignolet	£5.0	10	false	10	0
+Liverpool	GKP	Mignolet	£5.0	10	true	16	6
 Liverpool	GKP	Ward	£4.5	0	false	0	0
 Liverpool	DEF	Alexander-Arnold	£4.5	1	false	1	0
 Liverpool	DEF	Clyne	£5.4	0	false	0	0
 Liverpool	DEF	Flanagan	£4.5	0	false	0	0
-Liverpool	DEF	Gomez	£4.5	17	false	17	0
+Liverpool	DEF	Gomez	£4.5	17	true	18	1
 Liverpool	DEF	Klavan	£4.4	9	false	9	0
 Liverpool	DEF	Lovren	£5.4	7	false	7	0
 Liverpool	DEF	Matip	£5.5	15	false	15	0
-Liverpool	DEF	Milner	£6.3	10	false	10	0
-Liverpool	DEF	Moreno	£4.5	8	false	8	0
+Liverpool	DEF	Milner	£6.3	10	true	11	1
+Liverpool	DEF	Moreno	£4.5	8	true	12	4
 Liverpool	DEF	Robertson	£4.9	11	false	11	0
-Liverpool	MID	Can	£5.0	13	false	13	0
-Liverpool	MID	Chamberlain	£5.9	8	false	8	0
-Liverpool	MID	Coutinho	£8.8	2	false	2	0
+Liverpool	MID	Can	£5.0	13	true	15	2
+Liverpool	MID	Chamberlain	£5.9	8	true	9	1
+Liverpool	MID	Coutinho	£8.8	2	true	15	13
 Liverpool	MID	Grujic	£4.4	1	false	1	0
-Liverpool	MID	Henderson	£5.5	9	false	9	0
+Liverpool	MID	Henderson	£5.5	9	true	18	9
 Liverpool	MID	Lallana	£7.4	0	false	0	0
 Liverpool	MID	Mané	£9.5	20	false	20	0
-Liverpool	MID	Salah	£9.2	34	false	34	0
-Liverpool	MID	Wijnaldum	£6.9	9	false	9	0
+Liverpool	MID	Salah	£9.2	34	true	41	7
+Liverpool	MID	Wijnaldum	£6.9	9	true	11	2
 Liverpool	MID	Woodburn	£4.4	0	false	0	0
-Liverpool	FWD	Firmino	£8.7	30	false	30	0
+Liverpool	FWD	Firmino	£8.7	30	true	32	2
 Liverpool	FWD	Ings	£5.4	0	false	0	0
 Liverpool	FWD	Solanke	£4.8	3	false	3	0
-Liverpool	FWD	Sturridge	£8.0	9	false	9	0
+Liverpool	FWD	Sturridge	£8.0	9	true	13	4
 Man City	GKP	Bravo	£4.8	1	false	1	0
-Man City	GKP	Ederson	£5.5	18	false	18	0
-Man City	DEF	Danilo	£5.5	18	false	18	0
+Man City	GKP	Ederson	£5.5	18	true	24	6
+Man City	DEF	Danilo	£5.5	18	true	23	5
 Man City	DEF	Kompany	£5.9	8	false	8	0
 Man City	DEF	Mangala	£5.0	1	false	1	0
 Man City	DEF	Mendy	£6.5	17	false	17	0
-Man City	DEF	Otamendi	£5.6	28	false	28	0
-Man City	DEF	Stones	£5.5	21	false	21	0
-Man City	DEF	Walker	£6.5	23	false	23	0
-Man City	MID	Bernardo Silva	£7.7	5	false	5	0
-Man City	MID	David Silva	£8.3	30	false	30	0
-Man City	MID	De Bruyne	£10.0	23	false	23	0
-Man City	MID	Delph	£4.5	0	false	0	0
+Man City	DEF	Otamendi	£5.6	28	true	34	6
+Man City	DEF	Stones	£5.5	21	true	27	6
+Man City	DEF	Walker	£6.5	23	true	29	6
+Man City	MID	Bernardo Silva	£7.7	5	true	6	1
+Man City	MID	David Silva	£8.3	30	true	41	11
+Man City	MID	De Bruyne	£10.0	23	true	26	3
+Man City	MID	Delph	£4.5	0	true	6	6
 Man City	MID	Diaz	£4.9	0	false	0	0
-Man City	MID	Fernandinho	£5.0	15	false	15	0
+Man City	MID	Fernandinho	£5.0	15	true	18	3
 Man City	MID	Foden	£4.9	0	false	0	0
 Man City	MID	Gündogan	£5.4	1	false	1	0
-Man City	MID	Sané	£8.2	18	false	18	0
-Man City	MID	Sterling	£7.8	19	false	19	0
+Man City	MID	Sané	£8.2	18	true	34	16
+Man City	MID	Sterling	£7.8	19	true	32	13
 Man City	MID	Yaya Touré	£6.2	0	false	0	0
-Man City	FWD	Agüero	£11.6	41	false	41	0
+Man City	FWD	Agüero	£11.6	41	true	52	11
 Man City	FWD	Jesus	£10.5	29	false	29	0
 Man Utd	GKP	Joel Pereira	£3.9	0	false	0	0
 Man Utd	GKP	Romero	£4.9	0	false	0	0
-Man Utd	GKP	de Gea	£5.5	28	false	28	0
-Man Utd	DEF	Bailly	£6.2	32	false	32	0
-Man Utd	DEF	Blind	£5.5	18	false	18	0
+Man Utd	GKP	de Gea	£5.5	28	true	36	8
+Man Utd	DEF	Bailly	£6.2	32	true	38	6
+Man Utd	DEF	Blind	£5.5	18	true	19	1
 Man Utd	DEF	Darmian	£5.2	1	false	1	0
-Man Utd	DEF	Jones	£5.1	26	false	26	0
+Man Utd	DEF	Jones	£5.1	26	true	35	9
 Man Utd	DEF	Lindelöf	£5.0	0	false	0	0
 Man Utd	DEF	Rojo	£5.4	0	false	0	0
 Man Utd	DEF	Shaw	£4.9	0	false	0	0
-Man Utd	DEF	Smalling	£5.3	0	false	0	0
+Man Utd	DEF	Smalling	£5.3	0	true	1	1
 Man Utd	DEF	Tuanzebe	£3.9	0	false	0	0
-Man Utd	DEF	Valencia	£6.5	36	false	36	0
+Man Utd	DEF	Valencia	£6.5	36	true	41	5
 Man Utd	MID	Carrick	£4.3	0	false	0	0
-Man Utd	MID	Fellaini	£4.9	11	false	11	0
+Man Utd	MID	Fellaini	£4.9	11	true	14	3
 Man Utd	MID	Herrera	£5.3	4	false	4	0
 Man Utd	MID	Lingard	£5.9	10	false	10	0
 Man Utd	MID	Martial	£8.0	26	false	26	0
-Man Utd	MID	Mata	£7.0	13	false	13	0
-Man Utd	MID	Matic	£5.0	17	false	17	0
+Man Utd	MID	Mata	£7.0	13	true	16	3
+Man Utd	MID	Matic	£5.0	17	true	20	3
 Man Utd	MID	McTominay	£4.4	0	false	0	0
-Man Utd	MID	Mkhitaryan	£8.5	37	false	37	0
+Man Utd	MID	Mkhitaryan	£8.5	37	true	40	3
 Man Utd	MID	Pogba	£8.1	31	false	31	0
-Man Utd	MID	Young	£4.9	3	false	3	0
+Man Utd	MID	Young	£4.9	3	true	5	2
 Man Utd	FWD	Ibrahimovic	£10.0	0	false	0	0
-Man Utd	FWD	Lukaku	£11.7	37	false	37	0
-Man Utd	FWD	Rashford	£7.5	22	false	22	0
+Man Utd	FWD	Lukaku	£11.7	37	true	44	7
+Man Utd	FWD	Rashford	£7.5	22	true	24	2
 Newcastle	GKP	Darlow	£4.4	0	false	0	0
-Newcastle	GKP	Elliot	£4.1	22	false	22	0
+Newcastle	GKP	Elliot	£4.1	22	true	24	2
 Newcastle	GKP	Woodman	£4.0	0	false	0	0
-Newcastle	DEF	Clark	£4.5	25	false	25	0
+Newcastle	DEF	Clark	£4.5	25	true	27	2
 Newcastle	DEF	Dummett	£4.3	1	false	1	0
-Newcastle	DEF	Gámez	£4.0	8	false	8	0
+Newcastle	DEF	Gámez	£4.0	8	true	9	1
 Newcastle	DEF	Haidara	£4.0	0	false	0	0
-Newcastle	DEF	Lascelles	£4.6	31	false	31	0
+Newcastle	DEF	Lascelles	£4.6	31	true	32	1
 Newcastle	DEF	Lejeune	£4.4	1	false	1	0
 Newcastle	DEF	Manquillo	£4.5	16	false	16	0
-Newcastle	DEF	Mbemba	£4.0	13	false	13	0
-Newcastle	DEF	Yedlin	£4.4	2	false	2	0
+Newcastle	DEF	Mbemba	£4.0	13	true	15	2
+Newcastle	DEF	Yedlin	£4.4	2	true	4	2
 Newcastle	MID	Aarons	£4.5	0	false	0	0
-Newcastle	MID	Atsu	£5.0	20	false	20	0
+Newcastle	MID	Atsu	£5.0	20	true	22	2
 Newcastle	MID	Colback	£4.4	0	false	0	0
 Newcastle	MID	Diamé	£4.8	4	false	4	0
-Newcastle	MID	Hayden	£4.5	9	false	9	0
-Newcastle	MID	Merino	£5.0	9	false	9	0
+Newcastle	MID	Hayden	£4.5	9	true	11	2
+Newcastle	MID	Merino	£5.0	9	true	11	2
 Newcastle	MID	Murphy	£5.2	3	false	3	0
-Newcastle	MID	Ritchie	£6.0	24	false	24	0
+Newcastle	MID	Ritchie	£6.0	24	true	26	2
 Newcastle	MID	Saivet	£4.5	0	false	0	0
-Newcastle	MID	Shelvey	£5.3	-1	false	-1	0
-Newcastle	FWD	Gayle	£6.2	4	false	4	0
-Newcastle	FWD	Joselu	£5.5	11	false	11	0
+Newcastle	MID	Shelvey	£5.3	-1	true	0	1
+Newcastle	FWD	Gayle	£6.2	4	true	5	1
+Newcastle	FWD	Joselu	£5.5	11	true	13	2
 Newcastle	FWD	Mitrovic	£4.8	5	false	5	0
-Newcastle	FWD	Pérez	£5.5	13	false	13	0
-Southampton	GKP	Forster	£5.0	28	false	28	0
+Newcastle	FWD	Pérez	£5.5	13	true	15	2
+Southampton	GKP	Forster	£5.0	28	true	31	3
 Southampton	GKP	McCarthy	£4.5	0	false	0	0
 Southampton	GKP	Taylor	£4.0	0	false	0	0
 Southampton	DEF	Bednarek	£4.3	0	false	0	0
-Southampton	DEF	Bertrand	£5.5	22	false	22	0
-Southampton	DEF	Cédric	£5.0	20	false	20	0
-Southampton	DEF	Hoedt	£5.0	8	false	8	0
+Southampton	DEF	Bertrand	£5.5	22	true	24	2
+Southampton	DEF	Cédric	£5.0	20	true	22	2
+Southampton	DEF	Hoedt	£5.0	8	true	10	2
 Southampton	DEF	McQueen	£4.4	2	false	2	0
 Southampton	DEF	Pied	£4.3	0	false	0	0
 Southampton	DEF	Stephens	£4.9	15	false	15	0
 Southampton	DEF	Targett	£4.3	0	false	0	0
-Southampton	DEF	Yoshida	£5.0	25	false	25	0
+Southampton	DEF	Yoshida	£5.0	25	true	27	2
 Southampton	DEF	van Dijk	£5.4	1	false	1	0
 Southampton	MID	Boufal	£5.8	3	false	3	0
-Southampton	MID	Davis	£5.0	24	false	24	0
+Southampton	MID	Davis	£5.0	24	true	26	2
 Southampton	MID	Højbjerg	£4.4	0	false	0	0
-Southampton	MID	Lemina	£5.0	8	false	8	0
-Southampton	MID	Oriol Romeu	£4.5	11	false	11	0
-Southampton	MID	Redmond	£6.4	15	false	15	0
+Southampton	MID	Lemina	£5.0	8	true	10	2
+Southampton	MID	Oriol Romeu	£4.5	11	true	13	2
+Southampton	MID	Redmond	£6.4	15	true	17	2
 Southampton	MID	Sims	£4.4	0	false	0	0
-Southampton	MID	Tadic	£6.5	16	false	16	0
-Southampton	MID	Ward-Prowse	£5.3	7	false	7	0
-Southampton	FWD	Austin	£6.3	9	false	9	0
-Southampton	FWD	Gabbiadini	£6.9	14	false	14	0
-Southampton	FWD	Long	£5.8	4	false	4	0
-Spurs	GKP	Lloris	£5.5	22	false	22	0
+Southampton	MID	Tadic	£6.5	16	true	18	2
+Southampton	MID	Ward-Prowse	£5.3	7	true	8	1
+Southampton	FWD	Austin	£6.3	9	true	10	1
+Southampton	FWD	Gabbiadini	£6.9	14	true	15	1
+Southampton	FWD	Long	£5.8	4	true	5	1
+Spurs	GKP	Lloris	£5.5	22	true	23	1
 Spurs	GKP	Vorm	£4.9	0	false	0	0
-Spurs	DEF	Alderweireld	£6.0	20	false	20	0
-Spurs	DEF	Aurier	£6.0	1	false	1	0
-Spurs	DEF	Davies	£5.7	32	false	32	0
+Spurs	DEF	Alderweireld	£6.0	20	true	21	1
+Spurs	DEF	Aurier	£6.0	1	true	-1	-2
+Spurs	DEF	Davies	£5.7	32	true	33	1
 Spurs	DEF	Foyth	£4.5	0	false	0	0
 Spurs	DEF	Rose	£6.4	0	false	0	0
-Spurs	DEF	Sánchez	£6.0	13	false	13	0
-Spurs	DEF	Trippier	£5.4	19	false	19	0
-Spurs	DEF	Vertonghen	£6.0	21	false	21	0
+Spurs	DEF	Sánchez	£6.0	13	true	14	1
+Spurs	DEF	Trippier	£5.4	19	true	20	1
+Spurs	DEF	Vertonghen	£6.0	21	true	22	1
 Spurs	DEF	Walker-Peters	£4.3	6	false	6	0
-Spurs	MID	Alli	£9.5	25	false	25	0
+Spurs	MID	Alli	£9.5	25	true	33	8
 Spurs	MID	Dembélé	£5.0	8	false	8	0
-Spurs	MID	Dier	£5.0	12	false	12	0
-Spurs	MID	Eriksen	£9.7	33	false	33	0
+Spurs	MID	Dier	£5.0	12	true	13	1
+Spurs	MID	Eriksen	£9.7	33	true	42	9
 Spurs	MID	Lamela	£6.4	0	false	0	0
 Spurs	MID	Nkoudou	£5.4	0	false	0	0
 Spurs	MID	Oakley-Boothe	£4.5	0	false	0	0
-Spurs	MID	Sissoko	£5.4	9	false	9	0
+Spurs	MID	Sissoko	£5.4	9	true	11	2
 Spurs	MID	Son	£8.0	9	false	9	0
 Spurs	MID	Wanyama	£4.9	3	false	3	0
-Spurs	MID	Winks	£4.8	3	false	3	0
-Spurs	FWD	Kane	£12.5	19	false	19	0
+Spurs	MID	Winks	£4.8	3	true	4	1
+Spurs	FWD	Kane	£12.5	19	true	32	13
 Spurs	FWD	Llorente	£7.4	1	false	1	0
 Stoke	GKP	Butland	£5.0	20	false	20	0
 Stoke	GKP	Grant	£4.4	0	false	0	0
 Stoke	DEF	Cameron	£4.5	11	false	11	0
 Stoke	DEF	Johnson	£4.3	0	false	0	0
-Stoke	DEF	Martins Indi	£5.0	4	false	4	0
+Stoke	DEF	Martins Indi	£5.0	4	true	5	1
 Stoke	DEF	Pieters	£5.0	11	false	11	0
 Stoke	DEF	Shawcross	£4.9	10	false	10	0
+Stoke	DEF	Souttar	�?	0	false	0	0
 Stoke	DEF	Tymon	£4.5	0	false	0	0
 Stoke	DEF	Wimmer	£4.4	1	false	1	0
 Stoke	DEF	Zouma	£5.5	13	false	13	0
 Stoke	MID	Adam	£4.8	0	false	0	0
-Stoke	MID	Afellay	£4.9	0	false	0	0
-Stoke	MID	Allen	£5.4	13	false	13	0
-Stoke	MID	Choupo-Moting	£5.6	23	false	23	0
-Stoke	MID	Fletcher	£5.0	11	false	11	0
-Stoke	MID	Jesé	£6.0	16	false	16	0
-Stoke	MID	Shaqiri	£5.9	19	false	19	0
-Stoke	MID	Sobhi	£4.8	6	false	6	0
+Stoke	MID	Afellay	£4.9	0	true	1	1
+Stoke	MID	Allen	£5.4	13	true	15	2
+Stoke	MID	Choupo-Moting	£5.6	23	true	25	2
+Stoke	MID	Fletcher	£5.0	11	true	13	2
+Stoke	MID	Jesé	£6.0	16	true	18	2
+Stoke	MID	Shaqiri	£5.9	19	true	20	1
+Stoke	MID	Sobhi	£4.8	6	true	8	2
 Stoke	FWD	Berahino	£5.9	8	false	8	0
 Stoke	FWD	Crouch	£4.9	9	false	9	0
-Stoke	FWD	Diouf	£5.4	11	false	11	0
-Swansea	GKP	Fabianski	£4.5	29	false	29	0
+Stoke	FWD	Diouf	£5.4	11	true	13	2
+Swansea	GKP	Fabianski	£4.5	29	true	30	1
 Swansea	GKP	Nordfeldt	£4.0	0	false	0	0
 Swansea	DEF	Bartley	£4.4	3	false	3	0
-Swansea	DEF	Fernández	£4.5	25	false	25	0
-Swansea	DEF	Mawson	£5.0	20	false	20	0
-Swansea	DEF	Naughton	£4.5	26	false	26	0
-Swansea	DEF	Olsson	£5.0	20	false	20	0
+Swansea	DEF	Fernández	£4.5	25	true	26	1
+Swansea	DEF	Mawson	£5.0	20	true	21	1
+Swansea	DEF	Naughton	£4.5	26	true	27	1
+Swansea	DEF	Olsson	£5.0	20	true	21	1
 Swansea	DEF	Rangel	£4.0	1	false	1	0
-Swansea	DEF	van der Hoorn	£4.5	12	false	12	0
+Swansea	DEF	van der Hoorn	£4.5	12	true	13	1
 Swansea	MID	Britton	£4.5	3	false	3	0
-Swansea	MID	Carroll	£4.5	12	false	12	0
-Swansea	MID	Clucas	£5.0	8	false	8	0
+Swansea	MID	Carroll	£4.5	12	true	14	2
+Swansea	MID	Clucas	£5.0	8	true	9	1
 Swansea	MID	Dyer	£4.5	0	false	0	0
-Swansea	MID	Fer	£5.5	11	false	11	0
+Swansea	MID	Fer	£5.5	11	true	13	2
 Swansea	MID	Fulton	£4.4	0	false	0	0
 Swansea	MID	Ki Sung-yueng	£5.0	0	false	0	0
-Swansea	MID	Mesa	£4.4	2	false	2	0
+Swansea	MID	Mesa	£4.4	2	true	3	1
 Swansea	MID	Narsingh	£4.8	2	false	2	0
 Swansea	MID	Routledge	£5.4	5	false	5	0
-Swansea	MID	Sanches	£5.0	4	false	4	0
-Swansea	FWD	Abraham	£5.5	16	false	16	0
-Swansea	FWD	Ayew	£5.0	14	false	14	0
-Swansea	FWD	Bony	£6.0	2	false	2	0
-Watford	GKP	Gomes	£4.5	21	false	21	0
+Swansea	MID	Sanches	£5.0	4	true	5	1
+Swansea	FWD	Abraham	£5.5	16	true	24	8
+Swansea	FWD	Ayew	£5.0	14	true	16	2
+Swansea	FWD	Bony	£6.0	2	true	6	4
+Watford	GKP	Gomes	£4.5	21	true	23	2
 Watford	GKP	Karnezis	£4.5	0	false	0	0
 Watford	DEF	Britos	£4.5	10	false	10	0
 Watford	DEF	Cathcart	£4.5	1	false	1	0
-Watford	DEF	Holebas	£5.0	14	false	14	0
+Watford	DEF	Holebas	£5.0	14	true	16	2
 Watford	DEF	Janmaat	£4.9	7	false	7	0
-Watford	DEF	Kabasele	£4.5	12	false	12	0
+Watford	DEF	Kabasele	£4.5	12	true	14	2
 Watford	DEF	Kaboul	£4.4	7	false	7	0
-Watford	DEF	Kiko Femenía	£4.5	28	false	28	0
-Watford	DEF	Mariappa	£4.0	0	false	0	0
+Watford	DEF	Kiko Femenía	£4.5	28	true	30	2
+Watford	DEF	Mariappa	£4.0	0	true	2	2
 Watford	DEF	Mason	£4.0	0	false	0	0
 Watford	DEF	Prödl	£4.5	12	false	12	0
-Watford	DEF	Wagué	£4.5	0	false	0	0
+Watford	DEF	Wagué	£4.5	0	true	1	1
 Watford	DEF	Zeegelaar	£4.5	0	false	0	0
 Watford	MID	Capoue	£5.3	7	false	7	0
-Watford	MID	Carrillo	£5.5	6	false	6	0
+Watford	MID	Carrillo	£5.5	6	true	11	5
 Watford	MID	Chalobah	£4.5	12	false	12	0
-Watford	MID	Cleverley	£5.0	16	false	16	0
-Watford	MID	Doucouré	£5.2	27	false	27	0
+Watford	MID	Cleverley	£5.0	16	true	18	2
+Watford	MID	Doucouré	£5.2	27	true	28	1
 Watford	MID	Hughes	£4.8	0	false	0	0
-Watford	MID	Pereyra	£5.8	2	false	2	0
-Watford	MID	Richarlison	£6.0	23	false	23	0
+Watford	MID	Pereyra	£5.8	2	true	3	1
+Watford	MID	Richarlison	£6.0	23	true	30	7
 Watford	MID	Success	£5.3	0	false	0	0
 Watford	MID	Watson	£4.4	1	false	1	0
-Watford	FWD	Deeney	£6.4	3	false	3	0
-Watford	FWD	Gray	£6.4	11	false	11	0
+Watford	FWD	Deeney	£6.4	3	true	7	4
+Watford	FWD	Gray	£6.4	11	true	19	8
 Watford	FWD	Okaka	£5.5	7	false	7	0
 Watford	FWD	Sinclair	£5.0	0	false	0	0
 Watford	FWD	Zárate	£5.4	0	false	0	0
-West Brom	GKP	Foster	£4.5	22	false	22	0
+West Brom	GKP	Foster	£4.5	22	true	24	2
 West Brom	GKP	Myhill	£4.0	0	false	0	0
 West Brom	DEF	Dawson	£5.0	22	false	22	0
 West Brom	DEF	Evans	£4.9	7	false	7	0
-West Brom	DEF	Gibbs	£5.0	7	false	7	0
-West Brom	DEF	Hegazi	£4.9	31	false	31	0
+West Brom	DEF	Gibbs	£5.0	7	true	8	1
+West Brom	DEF	Hegazi	£4.9	31	true	32	1
 West Brom	DEF	McAuley	£4.9	0	false	0	0
 West Brom	DEF	Nyom	£5.0	25	false	25	0
-West Brom	MID	Barry	£4.5	10	false	10	0
+West Brom	MID	Barry	£4.5	10	true	12	2
 West Brom	MID	Brunt	£5.5	17	false	17	0
 West Brom	MID	Burke	£5.5	5	false	5	0
 West Brom	MID	Chadli	£5.7	0	false	0	0
 West Brom	MID	Field	£4.5	6	false	6	0
-West Brom	MID	Krychowiak	£5.0	5	false	5	0
-West Brom	MID	Livermore	£5.0	10	false	10	0
+West Brom	MID	Krychowiak	£5.0	5	true	6	1
+West Brom	MID	Livermore	£5.0	10	true	12	2
 West Brom	MID	McClean	£5.0	7	false	7	0
-West Brom	MID	Morrison	£5.5	12	false	12	0
-West Brom	MID	Phillips	£6.0	17	false	17	0
+West Brom	MID	Morrison	£5.5	12	true	13	1
+West Brom	MID	Phillips	£6.0	17	true	18	1
 West Brom	MID	Yacob	£4.5	3	false	3	0
-West Brom	FWD	Robson-Kanu	£4.9	4	false	4	0
-West Brom	FWD	Rodriguez	£5.9	12	false	12	0
-West Brom	FWD	Rondón	£6.2	4	false	4	0
+West Brom	FWD	Robson-Kanu	£4.9	4	true	6	2
+West Brom	FWD	Rodriguez	£5.9	12	true	14	2
+West Brom	FWD	Rondón	£6.2	4	true	5	1
 West Ham	GKP	Adrián	£4.4	0	false	0	0
-West Ham	GKP	Hart	£4.5	15	false	15	0
+West Ham	GKP	Hart	£4.5	15	true	16	1
 West Ham	DEF	Byram	£4.4	0	false	0	0
 West Ham	DEF	Collins	£4.4	8	false	8	0
-West Ham	DEF	Cresswell	£5.0	17	false	17	0
-West Ham	DEF	Fonte	£4.9	17	false	17	0
-West Ham	DEF	Masuaku	£4.4	1	false	1	0
-West Ham	DEF	Ogbonna	£4.4	1	false	1	0
-West Ham	DEF	Reid	£4.9	15	false	15	0
+West Ham	DEF	Cresswell	£5.0	17	true	18	1
+West Ham	DEF	Fonte	£4.9	17	true	21	4
+West Ham	DEF	Masuaku	£4.4	1	true	5	4
+West Ham	DEF	Ogbonna	£4.4	1	true	2	1
+West Ham	DEF	Reid	£4.9	15	true	15	0
 West Ham	DEF	Rice	£4.5	3	false	3	0
-West Ham	DEF	Zabaleta	£4.9	11	false	11	0
-West Ham	MID	Antonio	£7.5	12	false	12	0
-West Ham	MID	Arnautovic	£6.9	1	false	1	0
-West Ham	MID	Ayew	£7.0	18	false	18	0
+West Ham	DEF	Zabaleta	£4.9	11	true	12	1
+West Ham	MID	Antonio	£7.5	12	true	13	1
+West Ham	MID	Arnautovic	£6.9	1	true	3	2
+West Ham	MID	Ayew	£7.0	18	true	18	0
 West Ham	MID	Fernandes	£4.5	3	false	3	0
 West Ham	MID	Haksabanovic	£5.0	0	false	0	0
-West Ham	MID	Kouyaté	£5.0	7	false	7	0
+West Ham	MID	Kouyaté	£5.0	7	true	15	8
 West Ham	MID	Lanzini	£6.9	1	false	1	0
-West Ham	MID	Noble	£5.5	6	false	6	0
+West Ham	MID	Noble	£5.5	6	true	8	2
 West Ham	MID	Obiang	£4.5	17	false	17	0
-West Ham	FWD	Carroll	£5.9	4	false	4	0
-West Ham	FWD	Chicharito	£7.0	20	false	20	0
+West Ham	FWD	Carroll	£5.9	4	true	5	1
+West Ham	FWD	Chicharito	£7.0	20	true	25	5
 West Ham	FWD	Sakho	£5.5	7	false	7	0

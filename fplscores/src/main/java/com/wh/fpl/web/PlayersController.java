@@ -6,7 +6,13 @@ import com.wh.fpl.control.CheckGameweek;
 import com.wh.fpl.control.GameweekConstants;
 import com.wh.fpl.control.OpenGameweek;
 import com.wh.fpl.core.*;
+import com.wh.fpl.template.MatchTemplate;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -15,6 +21,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
@@ -22,13 +29,23 @@ import java.util.Map;
  * Created by jkaye on 21/09/17.
  */
 @Controller
-public class PlayersController {
+public class PlayersController implements ApplicationContextAware {
+
+    private Logger LOG = LogManager.getLogger(PlayersController.class);
 
     @Autowired
     private FPLApplicationConfig config;
 
     @Autowired
     private GameweekContext gameweekContext;
+
+    public PlayersController() {
+    }
+
+    @Override
+    public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
+        gameweekContext.setActiveGameweek(new Gameweek(GameweekConstants.MONTH, GameweekConstants.WEEK));
+    }
 
     @RequestMapping(value="/players-list", method= RequestMethod.GET, produces="text/html")
     public @ResponseBody String getPlayersList(
@@ -147,11 +164,14 @@ public class PlayersController {
             CheckGameweek check = new CheckGameweek(gw.getGameMonth(), gw.getGameWeek());
             gameweek = check.update(gw);
             fs.storeGameweek(gameweek);
+        } else {
+            gameweek = gw;
         }
 
         List <PlayerKey> squad = fs.loadSquad(name);
 
         StringBuilder sb = new StringBuilder();
+        int total = 0;
 
         for(PlayerKey p : squad) {
             sb.append(p.getTeam() + " - " + p.getPosition() + " - " + p.getName());
@@ -160,7 +180,9 @@ public class PlayersController {
             Player pl2 = gameweek.getLatestScores().get(p);
 
             if(pl1 != null) {
-                sb.append(" - ").append((Integer.parseInt(pl2.getScore()) - Integer.parseInt(pl1.getScore())));
+                int score = Integer.parseInt(pl2.getScore()) - Integer.parseInt(pl1.getScore());
+                total += score;
+                sb.append(" - ").append(score);
                 if(pl2.isPlaying()) {
                     sb.append(" - playing");
                 }
@@ -168,6 +190,8 @@ public class PlayersController {
 
             sb.append("<br/>\n");
         }
+
+        sb.append("<br/>\nTotal : ").append(total);
 
         return sb.toString();
 
@@ -189,5 +213,58 @@ public class PlayersController {
         return "Month " + month + " Week " + week + " is now active";
 
     }
+
+    @RequestMapping(value="/matches", method=RequestMethod.GET)
+    public @ResponseBody String getMatches(@RequestParam(defaultValue = "0") int month, @RequestParam(defaultValue = "0") int week) throws Exception {
+
+        month = month == 0 ? gameweekContext.getGameMonth() : month;
+        week = week == 0 ? gameweekContext.getGameWeek() : week;
+
+        LOG.info("Get matches m " + month + " w " + week);
+
+        FSContext fs = new FSContext(config.getDataRoot());
+        MatchTemplate template = new MatchTemplate();
+
+        template.setGameMonth(month);
+        template.setGameWeek(week);
+
+        Fixtures fixtures = new Fixtures(fs.loadFixtures());
+        template.setFixtures(fixtures);
+
+        Gameweek gameweek = fs.loadGameweek(month, week);
+        if(month == gameweekContext.getGameMonth() && week == gameweekContext.getGameWeek()) {
+            try {
+                CheckGameweek check = new CheckGameweek(gameweek.getGameMonth(), gameweek.getGameWeek());
+                gameweek = check.update(gameweek);
+                fs.storeGameweek(gameweek);
+            }
+            catch(Exception e) {
+                template.setUpdateStatus("Failed to update - " + e.getMessage());
+            }
+        }
+
+        Map <String, Teamsheet> teamsheets = fs.loadTeamsheets(gameweek);
+
+        List <Fixture> weekFixtures = fixtures.listFixtures(month, week);
+        List <Match> weekMatches = new ArrayList<Match>();
+
+        for(Fixture f : weekFixtures) {
+
+            Match match = new Match();
+
+            match.setFixture(f);
+            match.setGameweek(gameweek);
+
+            match.setHomeTeamsheet(teamsheets.get(f.getHome()));
+            match.setAwayTeamsheet(teamsheets.get(f.getAway()));
+
+            weekMatches.add(match);
+        }
+
+        template.setMatches(weekMatches);
+
+        return template.render();
+    }
+
 
 }

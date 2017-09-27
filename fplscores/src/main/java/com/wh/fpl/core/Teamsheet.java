@@ -63,6 +63,36 @@ public class Teamsheet {
         this.vice = vice;
     }
 
+    public int getTotalScore(Gameweek gw) {
+
+        int total = 0;
+
+        for(PlayerKey p : starters) {
+            int playerScore = getPlayerScore(p, gw);
+            total += playerScore;
+        }
+
+        return total;
+    }
+
+    public int getPlayerScore(PlayerKey p, Gameweek gw) {
+        Integer total = 0;
+
+        Player pStart = gw.getStartingScores().get(p);
+        Player pEnd = gw.getLatestScores().get(p);
+
+        Integer start = pStart == null ? 0 : Integer.parseInt(pStart.getScore());
+        Integer end = pEnd == null ? 0 : Integer.parseInt(pEnd.getScore());
+
+        total = end - start;
+
+        if(p.equals(getCaptain())) {
+            total *= 2;
+        }
+
+        return total;
+    }
+
     @Override
     public String toString() {
         return "Teamsheet{" +

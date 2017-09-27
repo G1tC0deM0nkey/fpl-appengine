@@ -1,5 +1,7 @@
 package com.wh.fpl.core;
 
+import com.wh.fpl.utils.SimpleNamer;
+
 import java.io.*;
 import java.util.*;
 
@@ -215,23 +217,31 @@ public class FSContext {
 
     }
 
-    public Map<String, Teamsheet> loadTeamsheets(Gameweek gw) throws IOException {
+    public Map<String, Teamsheet> loadTeamsheets(Gameweek gw) throws Exception {
 
-        List<Fixture> fixtures = new ArrayList<Fixture>();
+        //TODO - Implement Properly
+        List <Fixture> fixtures = loadFixtures(gw);
+        Map <String, Teamsheet> teamsheets = new HashMap<String, Teamsheet>();
 
-        File f = gw == null
-                ? new File(root + "/teamsheet.txt")
-                : new File(root + "/gm" + gw.getGameMonth() + "/gw" + gw.getGameWeek() + "/teamsheet.txt");
+        for(Fixture f : fixtures) {
 
-        if(!f.exists() && gw != null) {
-            return loadTeamsheets(null);
-        } else if(!f.exists()) {
-            return null;
+            String home = f.getHome();
+            List <PlayerKey> homeTeam = loadSquad(SimpleNamer.simpleName(home));
+            teamsheets.put(home, createTeamFromSquad(home, homeTeam));
+
+            String away = f.getAway();
+            List <PlayerKey> awayTeam = loadSquad(SimpleNamer.simpleName(away));
+            teamsheets.put(away, createTeamFromSquad(away, awayTeam));
+
         }
 
-        TeamsheetParser parser = new TeamsheetParser(f.getPath());
-        Map <String, Teamsheet> teamsheets = parser.parse();
         return teamsheets;
 
+    }
+
+    private Teamsheet createTeamFromSquad(String name, List <PlayerKey> players) {
+        Teamsheet teamsheet = new Teamsheet();
+        teamsheet.setStarters(players);
+        return teamsheet;
     }
 }
