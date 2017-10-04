@@ -26,7 +26,7 @@ Arsenal	FWD	Welbeck	£7.5	27	false	27	0
 Bournemouth	GKP	Begovic	£4.5	13	true	14	1
 Bournemouth	GKP	Boruc	£4.4	0	false	0	0
 Bournemouth	GKP	Federici	£4.0	0	false	0	0
-Bournemouth	GKP	Ramsdale	�?	0	false	0	0
+Bournemouth	GKP	Ramsdale	�?	0	false	0	0
 Bournemouth	DEF	Adam Smith	£4.9	5	true	6	1
 Bournemouth	DEF	Aké	£5.0	7	true	8	1
 Bournemouth	DEF	Brad Smith	£4.0	0	false	0	0
@@ -175,11 +175,11 @@ Everton	MID	Schneiderlin	£5.0	6	true	7	1
 Everton	MID	Sigurdsson	£8.3	7	true	9	2
 Everton	MID	Vlasic	£5.5	1	false	1	0
 Everton	FWD	Calvert-Lewin	£5.0	13	true	15	2
-Everton	FWD	Niasse	�?	0	true	11	11
+Everton	FWD	Niasse	�?	0	true	11	11
 Everton	FWD	Rooney	£7.5	21	true	22	1
 Everton	FWD	Sandro	£7.3	6	false	6	0
 Huddersfield	GKP	Coleman	£4.0	0	false	0	0
-Huddersfield	GKP	Green	�?	0	false	0	0
+Huddersfield	GKP	Green	�?	0	false	0	0
 Huddersfield	GKP	Lössl	£4.6	26	true	33	7
 Huddersfield	DEF	Cranie	£4.0	0	false	0	0
 Huddersfield	DEF	Hadergjonaj	£4.5	0	true	1	1
@@ -387,7 +387,7 @@ Stoke	DEF	Johnson	£4.3	0	false	0	0
 Stoke	DEF	Martins Indi	£5.0	4	true	5	1
 Stoke	DEF	Pieters	£5.0	11	false	11	0
 Stoke	DEF	Shawcross	£4.9	10	false	10	0
-Stoke	DEF	Souttar	�?	0	false	0	0
+Stoke	DEF	Souttar	�?	0	false	0	0
 Stoke	DEF	Tymon	£4.5	0	false	0	0
 Stoke	DEF	Wimmer	£4.4	1	false	1	0
 Stoke	DEF	Zouma	£5.5	13	false	13	0
