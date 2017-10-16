@@ -177,6 +177,122 @@ public class FSContext {
         return players;
     }
 
+    public Teamsheet loadTeamsheet(String name, int gameMonth) throws Exception {
+
+        File f = new File(root +
+                ("/gm" + gameMonth + "/" + name + ".tsv"));
+
+        if(!f.exists()) {
+            return null;
+        }
+
+        FileReader fr = new FileReader(f);
+        BufferedReader br = new BufferedReader(fr);
+
+        Teamsheet teamsheet = new Teamsheet();
+        teamsheet.setGamemonth(gameMonth);
+
+        String line = br.readLine();
+
+        while(line != null) {
+            String [] tokens = line.split("\t");
+
+            String player = tokens[2];
+            String playerTeam = tokens[0];
+            String playerPosition = tokens[1];
+
+            boolean captain = false;
+            boolean vice = false;
+
+            if(tokens.length > 3) {
+                String info = tokens[3];
+
+                if ("C".equals(info)) {
+                    captain = true;
+                } else if ("VC".equals(info)) {
+                    vice = true;
+                }
+            }
+
+            PlayerKey playerKey = new PlayerKey(player, playerTeam, playerPosition);
+
+            if(teamsheet.getStarters().size() >= 11) {
+                teamsheet.getSubs().add(playerKey);
+            }
+            else {
+                teamsheet.getStarters().add(playerKey);
+            }
+
+            if(captain) {
+                teamsheet.setCaptain(playerKey);
+            } else if(vice) {
+                teamsheet.setVice(playerKey);
+            }
+
+            line = br.readLine();
+        }
+
+        return teamsheet;
+    }
+
+    public void storeTeamsheet(Teamsheet teamsheet, String name, int gameMonth, int gameweek) throws Exception {
+
+        File f = new File(root +
+                ("/gm" + gameMonth + "/" + gameweek + "/" + name + ".tsv"));
+
+        FileWriter fw = new FileWriter(f);
+        PrintWriter pw = new PrintWriter(fw);
+
+        for(PlayerKey pk : teamsheet.getStarters()) {
+            StringBuilder sb = new StringBuilder();
+            sb.append(pk.getTeam()).append("\t");
+            sb.append(pk.getPosition()).append("\t");
+            sb.append(pk.getName()).append("\t");
+
+            if(pk.equals(teamsheet.getCaptain())) {
+                sb.append("C");
+            } else if (pk.equals(teamsheet.getVice())) {
+                sb.append("VC");
+            }
+
+            pw.println(sb.toString());
+
+        }
+
+        pw.flush();
+        pw.close();
+
+    }
+
+    public void storeTeamsheet(Teamsheet teamsheet, String name, int gameMonth) throws Exception {
+
+        File f = new File(root +
+                ("/gm" + gameMonth + "/" + name + ".tsv"));
+
+        FileWriter fw = new FileWriter(f);
+        PrintWriter pw = new PrintWriter(fw);
+
+        for(PlayerKey pk : teamsheet.getStarters()) {
+            StringBuilder sb = new StringBuilder();
+            sb.append(pk.getTeam()).append("\t");
+            sb.append(pk.getPosition()).append("\t");
+            sb.append(pk.getName()).append("\t");
+
+            if(pk.equals(teamsheet.getCaptain())) {
+                sb.append("C");
+            } else if (pk.equals(teamsheet.getVice())) {
+                sb.append("VC");
+            }
+
+            pw.println(sb.toString());
+
+        }
+
+        pw.flush();
+        pw.close();
+
+    }
+
     public void storeSquad(String name, Set <PlayerKey> squad,
                            Map <String, Map <String, Set<String>>> teamPositionNameMap) throws Exception {
 
@@ -219,19 +335,18 @@ public class FSContext {
 
     public Map<String, Teamsheet> loadTeamsheets(Gameweek gw) throws Exception {
 
-        //TODO - Implement Properly
         List <Fixture> fixtures = loadFixtures(gw);
         Map <String, Teamsheet> teamsheets = new HashMap<String, Teamsheet>();
 
         for(Fixture f : fixtures) {
 
             String home = f.getHome();
-            List <PlayerKey> homeTeam = loadSquad(SimpleNamer.simpleName(home));
-            teamsheets.put(home, createTeamFromSquad(home, homeTeam));
+            Teamsheet homeTeam = loadTeamsheet(home, gw.getGameMonth());
+            teamsheets.put(home, homeTeam);
 
             String away = f.getAway();
-            List <PlayerKey> awayTeam = loadSquad(SimpleNamer.simpleName(away));
-            teamsheets.put(away, createTeamFromSquad(away, awayTeam));
+            Teamsheet awayTeam = loadTeamsheet(away, gw.getGameMonth());
+            teamsheets.put(away, awayTeam);
 
         }
 
@@ -239,9 +354,4 @@ public class FSContext {
 
     }
 
-    private Teamsheet createTeamFromSquad(String name, List <PlayerKey> players) {
-        Teamsheet teamsheet = new Teamsheet();
-        teamsheet.setStarters(players);
-        return teamsheet;
-    }
 }

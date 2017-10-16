@@ -9,26 +9,35 @@ import java.util.Map;
 /**
  * Created by jkaye on 18/09/17.
  */
-public class OpenGameweek {
+public class OpenGameweekFromLast {
 
     private int gameMonth;
 
     private int gameweek;
 
-    public OpenGameweek(int gameMonth, int gameweek) {
+    private Gameweek last;
+
+    public OpenGameweekFromLast(int gameMonth, int gameweek) {
         this.gameMonth = gameMonth;
         this.gameweek = gameweek;
+    }
+
+    public Gameweek getLast() {
+        return last;
+    }
+
+    public void setLast(Gameweek last) {
+        this.last = last;
     }
 
     public Gameweek open() throws Exception {
 
         Gameweek gw = new Gameweek(gameMonth, gameweek);
 
-        PlayerParser playerParser = new PlayerParser("https://fantasy.premierleague.com/player-list/");
-        List<Player> players = playerParser.getPlayers();
-
-        for (Player p : players) {
-            gw.getStartingScores().put(p.getPlayerKey(), p);
+        if(last != null) {
+            for (PlayerKey pk : last.getLatestScores().keySet()) {
+                gw.getStartingScores().put(pk, last.getLatestScores().get(pk));
+            }
         }
 
         gw.export(new PrintWriter(System.out));
@@ -39,20 +48,19 @@ public class OpenGameweek {
 
     public static void main(String [] args) throws Exception {
 
-        OpenGameweek openGameweek = new OpenGameweek(GameweekConstants.MONTH, GameweekConstants.WEEK);
-        Gameweek current = openGameweek.open();
+        OpenGameweekFromLast openGameweek = new OpenGameweekFromLast(GameweekConstants.MONTH, GameweekConstants.WEEK);
 
         FSContext context = new FSContext("data");
+
+        Fixtures fixtures = new Fixtures(context.loadFixtures());
+        Gameweek last = context.loadGameweek(fixtures.nextGamemonth(openGameweek.gameweek),
+                fixtures.nextGameweek(openGameweek.gameweek));
+        openGameweek.setLast(last);
+
+        Gameweek current = openGameweek.open();
         context.storeGameweek(current);
 
-        List <Fixture> fixtures = context.loadFixtures(current);
-        context.storeFixtures(current, fixtures);
-
-        Fixtures fixturesObj = new Fixtures(context.loadFixtures());
-        Gameweek last = context.loadGameweek(fixturesObj.nextGamemonth(openGameweek.gameweek),
-                fixturesObj.nextGameweek(openGameweek.gameweek));
-
-        Map<String, Teamsheet> lastTeamsheets = context.loadTeamsheets(last);
+        Map <String, Teamsheet> lastTeamsheets = context.loadTeamsheets(last);
         Map <String, Teamsheet> currentTeamsheets = context.loadTeamsheets(current);
 
         if(currentTeamsheets.size() == 0) {

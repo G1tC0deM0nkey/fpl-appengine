@@ -13,6 +13,8 @@ public class MatchTemplate {
 
     private int gameWeek;
 
+    private boolean active;
+
     private Fixtures fixtures;
 
     private List<Match> matches;
@@ -31,6 +33,10 @@ public class MatchTemplate {
         this.gameWeek = gameWeek;
     }
 
+    public void active(boolean active) {
+        this.active = active;
+    }
+
     public void setFixtures(Fixtures fixtures) {
         this.fixtures = fixtures;
     }
@@ -44,9 +50,17 @@ public class MatchTemplate {
         StringBuilder sb = new StringBuilder();
 
         sb.append("<html><head><title>Gameweek ");
-        sb.append(gameWeek).append("/").append(gameMonth);
+        sb.append(gameWeek).append(" Month ").append(gameMonth);
         sb.append("</title></head><body>");
         sb.append("<h2>Gamemonth ").append(gameMonth).append(" Gameweek ").append(gameWeek).append("</h2>");
+
+        if(active) {
+            sb.append("<p><b>(Active)</b></p>");
+        }
+        else {
+            sb.append("<p><i>(Inactive)</i></p>");
+        }
+
         if(updateStatus != null) {
             sb.append("<p>").append(updateStatus).append("</p>");
         }

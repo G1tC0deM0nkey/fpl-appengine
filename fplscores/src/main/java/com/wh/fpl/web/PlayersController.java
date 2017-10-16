@@ -227,6 +227,10 @@ public class PlayersController implements ApplicationContextAware {
 
         template.setGameMonth(month);
         template.setGameWeek(week);
+        template.active(
+                month == gameweekContext.getGameMonth() &&
+                        week == gameweekContext.getGameWeek()
+        );
 
         Fixtures fixtures = new Fixtures(fs.loadFixtures());
         template.setFixtures(fixtures);

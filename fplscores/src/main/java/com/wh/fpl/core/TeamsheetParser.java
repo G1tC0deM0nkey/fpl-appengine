@@ -61,17 +61,29 @@ public class TeamsheetParser {
 
             String score = lines.get(current + 6);
             boolean captain = false;
+            boolean vice = false;
 
             if ("C".equals(score)) {
                 next = current + 8;
                 captain = true;
+            } else if ("VC".equals(score)) {
+                next = current + 8;
+                vice = true;
             }
 
             PlayerKey playerKey = new PlayerKey(player, playerTeam, playerPosition);
-            teamsheet.getStarters().add(playerKey);
+
+            if(teamsheet.getStarters().size() >= 11) {
+                teamsheet.getSubs().add(playerKey);
+            }
+            else {
+                teamsheet.getStarters().add(playerKey);
+            }
 
             if(captain) {
                 teamsheet.setCaptain(playerKey);
+            } else if(vice) {
+                teamsheet.setVice(playerKey);
             }
 
             current = next;
