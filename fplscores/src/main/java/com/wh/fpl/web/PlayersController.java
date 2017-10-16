@@ -7,6 +7,7 @@ import com.wh.fpl.control.GameweekConstants;
 import com.wh.fpl.control.OpenGameweek;
 import com.wh.fpl.core.*;
 import com.wh.fpl.template.MatchTemplate;
+import com.wh.fpl.template.ScoreTemplate;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.springframework.beans.BeansException;
@@ -168,32 +169,14 @@ public class PlayersController implements ApplicationContextAware {
             gameweek = gw;
         }
 
-        List <PlayerKey> squad = fs.loadSquad(name);
+        Teamsheet teamsheet = fs.loadTeamsheet(name, gameweek);
 
-        StringBuilder sb = new StringBuilder();
-        int total = 0;
+        ScoreTemplate template = new ScoreTemplate();
+        template.setName(name);
+        template.setGameweek(gameweek);
+        template.setTeamsheet(teamsheet);
 
-        for(PlayerKey p : squad) {
-            sb.append(p.getTeam() + " - " + p.getPosition() + " - " + p.getName());
-
-            Player pl1 = gameweek.getStartingScores().get(p);
-            Player pl2 = gameweek.getLatestScores().get(p);
-
-            if(pl1 != null) {
-                int score = Integer.parseInt(pl2.getScore()) - Integer.parseInt(pl1.getScore());
-                total += score;
-                sb.append(" - ").append(score);
-                if(pl2.isPlaying()) {
-                    sb.append(" - playing");
-                }
-            }
-
-            sb.append("<br/>\n");
-        }
-
-        sb.append("<br/>\nTotal : ").append(total);
-
-        return sb.toString();
+        return template.render();
 
     }
 

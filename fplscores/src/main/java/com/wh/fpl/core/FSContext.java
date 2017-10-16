@@ -153,7 +153,7 @@ public class FSContext {
     public List <PlayerKey> loadSquad(String name) throws Exception {
 
         File f = new File(root +
-                ("/squads/" + name + ".tsv"));
+                ("/squads/" + SimpleNamer.simpleName(name) + ".tsv"));
 
         if(!f.exists()) {
             return null;
@@ -177,10 +177,69 @@ public class FSContext {
         return players;
     }
 
+    public Teamsheet loadTeamsheet(String name, Gameweek gameweek) throws Exception {
+
+        File f = new File(root +
+                ("/gm" + gameweek.getGameMonth() + "/gw" + gameweek.getGameWeek() + "/" + SimpleNamer.simpleName(name) + ".tsv"));
+
+        if(!f.exists()) {
+            return null;
+        }
+
+        FileReader fr = new FileReader(f);
+        BufferedReader br = new BufferedReader(fr);
+
+        Teamsheet teamsheet = new Teamsheet();
+        teamsheet.setGamemonth(gameweek.getGameMonth());
+
+        String line = br.readLine();
+
+        while(line != null) {
+            String [] tokens = line.split("\t");
+
+            String player = tokens[2];
+            String playerTeam = tokens[0];
+            String playerPosition = tokens[1];
+
+            boolean captain = false;
+            boolean vice = false;
+
+            if(tokens.length > 3) {
+                String info = tokens[3];
+
+                if ("C".equals(info)) {
+                    captain = true;
+                } else if ("VC".equals(info)) {
+                    vice = true;
+                }
+            }
+
+            PlayerKey playerKey = new PlayerKey(player, playerTeam, playerPosition);
+
+            if(teamsheet.getStarters().size() >= 11) {
+                teamsheet.getSubs().add(playerKey);
+            }
+            else {
+                teamsheet.getStarters().add(playerKey);
+            }
+
+            if(captain) {
+                teamsheet.setCaptain(playerKey);
+            } else if(vice) {
+                teamsheet.setVice(playerKey);
+            }
+
+            line = br.readLine();
+        }
+
+        return teamsheet;
+    }
+
+
     public Teamsheet loadTeamsheet(String name, int gameMonth) throws Exception {
 
         File f = new File(root +
-                ("/gm" + gameMonth + "/" + name + ".tsv"));
+                ("/gm" + gameMonth + "/" + SimpleNamer.simpleName(name) + ".tsv"));
 
         if(!f.exists()) {
             return null;
@@ -238,7 +297,7 @@ public class FSContext {
     public void storeTeamsheet(Teamsheet teamsheet, String name, int gameMonth, int gameweek) throws Exception {
 
         File f = new File(root +
-                ("/gm" + gameMonth + "/" + gameweek + "/" + name + ".tsv"));
+                ("/gm" + gameMonth + "/gw" + gameweek + "/" + SimpleNamer.simpleName(name) + ".tsv"));
 
         FileWriter fw = new FileWriter(f);
         PrintWriter pw = new PrintWriter(fw);
@@ -267,7 +326,7 @@ public class FSContext {
     public void storeTeamsheet(Teamsheet teamsheet, String name, int gameMonth) throws Exception {
 
         File f = new File(root +
-                ("/gm" + gameMonth + "/" + name + ".tsv"));
+                ("/gm" + gameMonth + "/" + SimpleNamer.simpleName(name) + ".tsv"));
 
         FileWriter fw = new FileWriter(f);
         PrintWriter pw = new PrintWriter(fw);
@@ -297,7 +356,7 @@ public class FSContext {
                            Map <String, Map <String, Set<String>>> teamPositionNameMap) throws Exception {
 
         File f = new File(root +
-                ("/squads/" + name + ".tsv"));
+                ("/squads/" + SimpleNamer.simpleName(name) + ".tsv"));
 
         if(!f.getParentFile().exists()) {
             f.getParentFile().mkdirs();
