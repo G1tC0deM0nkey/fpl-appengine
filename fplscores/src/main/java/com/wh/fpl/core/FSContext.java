@@ -307,6 +307,10 @@ public class FSContext {
         File f = new File(root +
                 ("/gm" + gameMonth + "/gw" + gameweek + "/" + SimpleNamer.simpleName(name) + ".tsv"));
 
+        if(!f.getParentFile().exists()) {
+            f.getParentFile().mkdirs();
+        }
+
         FileWriter fw = new FileWriter(f);
         PrintWriter pw = new PrintWriter(fw);
 
@@ -335,6 +339,10 @@ public class FSContext {
 
         File f = new File(root +
                 ("/gm" + gameMonth + "/" + SimpleNamer.simpleName(name) + ".tsv"));
+
+        if(!f.getParentFile().exists()) {
+            f.getParentFile().mkdirs();
+        }
 
         FileWriter fw = new FileWriter(f);
         PrintWriter pw = new PrintWriter(fw);

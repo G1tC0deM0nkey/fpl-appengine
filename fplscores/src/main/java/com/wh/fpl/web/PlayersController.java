@@ -5,6 +5,7 @@ import com.wh.fpl.FPLApplicationConfig;
 import com.wh.fpl.control.CheckGameweek;
 import com.wh.fpl.control.GameweekConstants;
 import com.wh.fpl.control.OpenGameweek;
+import com.wh.fpl.control.OpenGameweekFromLast;
 import com.wh.fpl.core.*;
 import com.wh.fpl.template.MatchTemplate;
 import com.wh.fpl.template.ScoreTemplate;
@@ -181,19 +182,33 @@ public class PlayersController implements ApplicationContextAware {
     }
 
     @RequestMapping(value="/active-gameweek", method=RequestMethod.GET)
-    public @ResponseBody String activeGameweek() throws Exception {
-        return (gameweekContext.getActiveGameweek() == null)
-                ? "Active Gameweek is not set"
-                : "Active Gameweek is Month " + gameweekContext.getGameMonth() + " Week " + gameweekContext.getGameWeek();
-    }
+    public @ResponseBody String activeGameweek(
+            @RequestParam(defaultValue="0") int month, @RequestParam(defaultValue="0") int week
+    ) throws Exception {
 
-    @RequestMapping(value="/active-gameweek", method=RequestMethod.POST)
-    public @ResponseBody String activateGameweek(@RequestParam int month, @RequestParam int week) throws Exception {
-        FSContext fs = new FSContext(config.getDataRoot());
-        Gameweek gameweek = fs.loadGameweek(month, week);
-        gameweekContext.setActiveGameweek(gameweek);
+        FSContext ctx = new FSContext(config.getDataRoot());
 
-        return "Month " + month + " Week " + week + " is now active";
+        if(month != 0 && week != 0) {
+            OpenGameweekFromLast ofl = new OpenGameweekFromLast(month, week);
+            ofl.setFilesystemContext(ctx);
+            Gameweek opened = ofl.open();
+            gameweekContext.setActiveGameweek(opened);
+        }
+
+        Gameweek active = gameweekContext.getActiveGameweek();
+        Fixtures fixtures = new Fixtures(ctx.loadFixtures());
+
+        StringBuilder sb = new StringBuilder();
+
+        sb.append("<h1>Month ").append(gameweekContext.getGameMonth()).append("</h1>");
+        sb.append("<h1>Week ").append(gameweekContext.getGameWeek()).append("</h1>");
+        sb.append("<a href=\"/active-gameweek?month=")
+                .append(fixtures.nextGamemonth(active.getGameWeek()))
+                .append("&week=")
+                .append(fixtures.nextGameweek(active.getGameWeek()))
+                .append("\" method=\"POST\">Move To Next Gameweek</a>");
+
+        return sb.toString();
 
     }
 

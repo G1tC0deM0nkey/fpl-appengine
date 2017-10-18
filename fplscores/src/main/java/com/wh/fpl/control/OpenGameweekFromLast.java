@@ -17,32 +17,60 @@ public class OpenGameweekFromLast {
 
     private Gameweek last;
 
+    private FSContext fsContext;
+
     public OpenGameweekFromLast(int gameMonth, int gameweek) {
         this.gameMonth = gameMonth;
         this.gameweek = gameweek;
     }
 
-    public Gameweek getLast() {
-        return last;
-    }
-
-    public void setLast(Gameweek last) {
-        this.last = last;
+    public void setFilesystemContext(FSContext context) {
+        this.fsContext = context;
     }
 
     public Gameweek open() throws Exception {
 
-        Gameweek gw = new Gameweek(gameMonth, gameweek);
+        Gameweek current = new Gameweek(gameMonth, gameweek);
+
+        Fixtures fixtures = new Fixtures(fsContext.loadFixtures());
+        Gameweek last = fsContext.loadGameweek(fixtures.prevGamemonth(current.getGameWeek()),
+                fixtures.prevGameweek(current.getGameWeek()));
 
         if(last != null) {
             for (PlayerKey pk : last.getLatestScores().keySet()) {
-                gw.getStartingScores().put(pk, last.getLatestScores().get(pk));
+                current.getStartingScores().put(pk, last.getLatestScores().get(pk));
             }
         }
 
-        gw.export(new PrintWriter(System.out));
+        System.out.println("Storing " + current.getGameWeek() + " " + current.getGameMonth());
+        fsContext.storeGameweek(current);
 
-        return gw;
+        List <Fixture> gameweekFixtures = fsContext.loadFixtures(current);
+        fsContext.storeFixtures(current, gameweekFixtures);
+
+        Map <String, Teamsheet> lastTeamsheets = fsContext.loadTeamsheets(last);
+        Map <String, Teamsheet> currentTeamsheets = fsContext.loadTeamsheets(current);
+
+        if(currentTeamsheets.size() == 0) {
+            currentTeamsheets = lastTeamsheets;
+            for(String manager : currentTeamsheets.keySet()) {
+                //Store last month team sheets
+                Teamsheet t = currentTeamsheets.get(manager);
+                currentTeamsheets.put(manager, t);
+                fsContext.storeTeamsheet(t, manager, current.getGameMonth(), current.getGameWeek());
+
+                //Also store these to the game month directory
+                if(current.getGameMonth() != last.getGameMonth()) {
+                    fsContext.storeTeamsheet(t, manager, current.getGameMonth());
+                }
+            }
+        }
+
+        for(String m : currentTeamsheets.keySet()) {
+            fsContext.storeTeamsheet(currentTeamsheets.get(m), m, current.getGameMonth(), current.getGameWeek());
+        }
+
+        return current;
 
     }
 
@@ -51,36 +79,10 @@ public class OpenGameweekFromLast {
         OpenGameweekFromLast openGameweek = new OpenGameweekFromLast(GameweekConstants.MONTH, GameweekConstants.WEEK);
 
         FSContext context = new FSContext("data");
-
-        Fixtures fixtures = new Fixtures(context.loadFixtures());
-        Gameweek last = context.loadGameweek(fixtures.prevGamemonth(openGameweek.gameweek),
-                fixtures.prevGameweek(openGameweek.gameweek));
-        openGameweek.setLast(last);
+        openGameweek.setFilesystemContext(context);
 
         Gameweek current = openGameweek.open();
         context.storeGameweek(current);
-
-        Map <String, Teamsheet> lastTeamsheets = context.loadTeamsheets(last);
-        Map <String, Teamsheet> currentTeamsheets = context.loadTeamsheets(current);
-
-        if(currentTeamsheets.size() == 0) {
-            currentTeamsheets = lastTeamsheets;
-            for(String manager : currentTeamsheets.keySet()) {
-                //Store last month team sheets
-                Teamsheet t = currentTeamsheets.get(manager);
-                currentTeamsheets.put(manager, t);
-                context.storeTeamsheet(t, manager, current.getGameMonth(), current.getGameWeek());
-
-                //Also store these to the game month directory
-                if(current.getGameMonth() != last.getGameMonth()) {
-                    context.storeTeamsheet(t, manager, current.getGameMonth());
-                }
-            }
-        }
-
-        for(String m : currentTeamsheets.keySet()) {
-            context.storeTeamsheet(currentTeamsheets.get(m), m, current.getGameMonth(), current.getGameWeek());
-        }
 
         System.exit(0);
 
