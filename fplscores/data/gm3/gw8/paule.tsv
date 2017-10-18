@@ -1,13 +1,13 @@
 Burnley	GKP	Heaton
 Leicester	DEF	Fuchs
 Man Utd	DEF	Blind
-Liverpool	DEF	Milner
 Southampton	DEF	van Dijk
-Everton	MID	Sigurdsson
-West Ham	MID	Arnautovic
+Everton	MID	Sigurdsson	VC
 Chelsea	MID	Kanté
-Brighton	MID	Groß
+Brighton	MID	Groß	C
 Arsenal	MID	Walcott
 Leicester	MID	Ndidi
-Huddersfield	FWD	Quaner
 Bournemouth	FWD	Defoe
+West Ham	MID	Arnautovic
+Liverpool	DEF	Milner
+Huddersfield	FWD	Quaner

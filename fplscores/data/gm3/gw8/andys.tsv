@@ -1,12 +1,12 @@
 West Brom	GKP	Foster
 Burnley	DEF	Mee
-Huddersfield	DEF	Schindler
 Spurs	DEF	Sánchez
 Swansea	DEF	Naughton
 Swansea	DEF	Olsson
 Chelsea	MID	Hazard
-Arsenal	MID	Özil
+Arsenal	MID	Özil	C
 Burnley	MID	Defour
 Huddersfield	MID	Ince
 Watford	FWD	Gray
-Everton	FWD	Rooney
+Everton	FWD	Rooney	VC
+Huddersfield	DEF	Schindler

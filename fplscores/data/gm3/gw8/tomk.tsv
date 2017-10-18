@@ -3,10 +3,10 @@ Everton	DEF	Williams
 Chelsea	DEF	Zappacosta
 Man City	DEF	Stones
 Spurs	DEF	Trippier
-Crystal Palace	DEF	Dann
 Liverpool	MID	Chamberlain
 Newcastle	MID	Atsu
-Leicester	MID	Mahrez
-Burnley	FWD	Wood
+Leicester	MID	Mahrez	C
+Burnley	FWD	Wood	VC
 Liverpool	FWD	Solanke
 Arsenal	FWD	Giroud
+Crystal Palace	DEF	Dann

@@ -53,8 +53,8 @@ public class OpenGameweekFromLast {
         FSContext context = new FSContext("data");
 
         Fixtures fixtures = new Fixtures(context.loadFixtures());
-        Gameweek last = context.loadGameweek(fixtures.nextGamemonth(openGameweek.gameweek),
-                fixtures.nextGameweek(openGameweek.gameweek));
+        Gameweek last = context.loadGameweek(fixtures.prevGamemonth(openGameweek.gameweek),
+                fixtures.prevGameweek(openGameweek.gameweek));
         openGameweek.setLast(last);
 
         Gameweek current = openGameweek.open();
@@ -68,6 +68,7 @@ public class OpenGameweekFromLast {
             for(String manager : currentTeamsheets.keySet()) {
                 //Store last month team sheets
                 Teamsheet t = currentTeamsheets.get(manager);
+                currentTeamsheets.put(manager, t);
                 context.storeTeamsheet(t, manager, current.getGameMonth(), current.getGameWeek());
 
                 //Also store these to the game month directory
@@ -75,6 +76,10 @@ public class OpenGameweekFromLast {
                     context.storeTeamsheet(t, manager, current.getGameMonth());
                 }
             }
+        }
+
+        for(String m : currentTeamsheets.keySet()) {
+            context.storeTeamsheet(currentTeamsheets.get(m), m, current.getGameMonth(), current.getGameWeek());
         }
 
         System.exit(0);

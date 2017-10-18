@@ -209,29 +209,29 @@ Huddersfield	FWD	Mounie	£5.9	17	false	17	0
 Huddersfield	FWD	Quaner	£4.5	7	false	7	0
 Leicester	GKP	Hamer	£4.4	0	false	0	0
 Leicester	GKP	Jakupovic	£4.4	0	false	0	0
-Leicester	GKP	Schmeichel	£5.0	33	false	33	0
+Leicester	GKP	Schmeichel	£5.0	33	true	35	2
 Leicester	DEF	Benalouane	£4.4	0	false	0	0
-Leicester	DEF	Chilwell	£4.4	3	false	3	0
+Leicester	DEF	Chilwell	£4.4	3	true	4	1
 Leicester	DEF	Dragovic	£5.0	0	false	0	0
-Leicester	DEF	Fuchs	£4.9	17	false	17	0
+Leicester	DEF	Fuchs	£4.9	17	true	19	2
 Leicester	DEF	Huth	£4.9	0	false	0	0
-Leicester	DEF	Maguire	£5.1	33	false	33	0
-Leicester	DEF	Morgan	£4.5	15	false	15	0
-Leicester	DEF	Simpson	£4.5	17	false	17	0
-Leicester	MID	Albrighton	£5.5	16	false	16	0
+Leicester	DEF	Maguire	£5.1	33	true	35	2
+Leicester	DEF	Morgan	£4.5	15	true	17	2
+Leicester	DEF	Simpson	£4.5	17	true	19	2
+Leicester	MID	Albrighton	£5.5	16	true	17	1
 Leicester	MID	Amartey	£4.4	1	false	1	0
 Leicester	MID	Gray	£5.3	12	false	12	0
-Leicester	MID	Iborra	£5.8	1	false	1	0
+Leicester	MID	Iborra	£5.8	1	true	3	2
 Leicester	MID	James	£4.5	8	false	8	0
-Leicester	MID	King	£4.5	11	false	11	0
-Leicester	MID	Mahrez	£8.5	25	false	25	0
+Leicester	MID	King	£4.5	11	true	12	1
+Leicester	MID	Mahrez	£8.5	25	true	33	8
 Leicester	MID	Musa	£6.3	0	false	0	0
-Leicester	MID	Ndidi	£4.9	14	false	14	0
-Leicester	FWD	Iheanacho	£6.7	6	false	6	0
+Leicester	MID	Ndidi	£4.9	14	true	16	2
+Leicester	FWD	Iheanacho	£6.7	6	true	7	1
 Leicester	FWD	Okazaki	£5.6	22	false	22	0
-Leicester	FWD	Slimani	£6.8	5	false	5	0
+Leicester	FWD	Slimani	£6.8	5	true	9	4
 Leicester	FWD	Ulloa	£4.8	0	false	0	0
-Leicester	FWD	Vardy	£8.5	38	false	38	0
+Leicester	FWD	Vardy	£8.5	38	true	40	2
 Liverpool	GKP	Karius	£4.9	6	false	6	0
 Liverpool	GKP	Mignolet	£4.9	19	true	25	6
 Liverpool	GKP	Ward	£4.5	0	false	0	0
@@ -460,27 +460,28 @@ Watford	FWD	Okaka	£5.4	7	false	7	0
 Watford	FWD	Sinclair	£4.9	0	false	0	0
 Watford	FWD	Zárate	£5.4	0	false	0	0
 West Brom	GKP	Foster	£4.5	25	false	25	0
-West Brom	GKP	Myhill	£4.0	0	false	0	0
-West Brom	DEF	Dawson	£5.0	23	false	23	0
-West Brom	DEF	Evans	£4.9	13	false	13	0
-West Brom	DEF	Gibbs	£5.0	9	false	9	0
-West Brom	DEF	Hegazi	£4.9	33	false	33	0
-West Brom	DEF	McAuley	£4.9	0	false	0	0
+West Brom	GKP	Myhill	£4.0	0	true	1	1
+West Brom	GKP	Palmer	£?	0	false	0	0
+West Brom	DEF	Dawson	£5.0	23	true	25	2
+West Brom	DEF	Evans	£4.9	13	true	15	2
+West Brom	DEF	Gibbs	£5.0	9	true	11	2
+West Brom	DEF	Hegazi	£4.9	33	true	34	1
+West Brom	DEF	McAuley	£4.9	0	true	1	1
 West Brom	DEF	Nyom	£5.0	25	false	25	0
-West Brom	MID	Barry	£4.5	14	false	14	0
+West Brom	MID	Barry	£4.5	14	true	16	2
 West Brom	MID	Brunt	£5.5	19	false	19	0
 West Brom	MID	Burke	£5.4	5	false	5	0
-West Brom	MID	Chadli	£5.7	0	false	0	0
+West Brom	MID	Chadli	£5.7	0	true	10	10
 West Brom	MID	Field	£4.5	6	false	6	0
-West Brom	MID	Krychowiak	£5.0	12	false	12	0
-West Brom	MID	Livermore	£5.0	12	false	12	0
-West Brom	MID	McClean	£4.9	7	false	7	0
+West Brom	MID	Krychowiak	£5.0	12	true	19	7
+West Brom	MID	Livermore	£5.0	12	true	14	2
+West Brom	MID	McClean	£4.9	7	true	8	1
 West Brom	MID	Morrison	£5.5	13	false	13	0
 West Brom	MID	Phillips	£5.9	22	false	22	0
 West Brom	MID	Yacob	£4.5	3	false	3	0
 West Brom	FWD	Robson-Kanu	£4.9	7	false	7	0
-West Brom	FWD	Rodriguez	£5.8	16	false	16	0
-West Brom	FWD	Rondón	£6.1	11	false	11	0
+West Brom	FWD	Rodriguez	£5.8	16	true	18	2
+West Brom	FWD	Rondón	£6.1	11	true	13	2
 West Ham	GKP	Adrián	£4.4	0	false	0	0
 West Ham	GKP	Hart	£4.5	22	true	31	9
 West Ham	DEF	Byram	£4.4	0	false	0	0

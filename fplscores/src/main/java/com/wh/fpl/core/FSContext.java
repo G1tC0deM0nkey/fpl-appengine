@@ -197,6 +197,10 @@ public class FSContext {
         while(line != null) {
             String [] tokens = line.split("\t");
 
+            if(tokens.length == 0) {
+                break;
+            }
+
             String player = tokens[2];
             String playerTeam = tokens[0];
             String playerPosition = tokens[1];
@@ -255,6 +259,10 @@ public class FSContext {
 
         while(line != null) {
             String [] tokens = line.split("\t");
+
+            if(tokens.length == 0) {
+                break;
+            }
 
             String player = tokens[2];
             String playerTeam = tokens[0];
