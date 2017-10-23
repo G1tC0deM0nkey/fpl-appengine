@@ -73,15 +73,18 @@ public class MatchTemplate {
             sb.append(" <a href=\"squad?name=").append(SimpleNamer.simpleName(m.getFixture().getHome())).append("\">");
             sb.append(m.getFixture().getHome()).append("</a> ");
 
-            sb.append(" <a href=\"score?name=").append(SimpleNamer.simpleName(m.getFixture().getHome())).append("&month=").append(gameMonth);
-            sb.append("&week=").append(gameWeek).append("\">");
-            sb.append(m.getHomeTeamsheet().getTotalScore(m.getGameweek())).append("</a> ");
+            if(m.getHomeTeamsheet() != null && m.getGameweek().getLatestScores() != null) {
+                sb.append(" <a href=\"score?name=").append(SimpleNamer.simpleName(m.getFixture().getHome())).append("&month=").append(gameMonth);
+                sb.append("&week=").append(gameWeek).append("\">");
+                sb.append(m.getHomeTeamsheet().getTotalScore(m.getGameweek())).append("</a> ");
+            }
 
             sb.append(" vs ");
-
-            sb.append(" <a href=\"score?name=").append(SimpleNamer.simpleName(m.getFixture().getAway())).append("&month=").append(gameMonth);
-            sb.append("&week=").append(gameWeek).append("\">");
-            sb.append(m.getAwayTeamsheet().getTotalScore(m.getGameweek())).append("</a> ");
+            if(m.getAwayTeamsheet() != null && m.getGameweek().getLatestScores() != null) {
+                sb.append(" <a href=\"score?name=").append(SimpleNamer.simpleName(m.getFixture().getAway())).append("&month=").append(gameMonth);
+                sb.append("&week=").append(gameWeek).append("\">");
+                sb.append(m.getAwayTeamsheet().getTotalScore(m.getGameweek())).append("</a> ");
+            }
 
             sb.append(" <a href=\"squad?name=").append(SimpleNamer.simpleName(m.getFixture().getAway())).append("\">");
             sb.append(m.getFixture().getAway()).append("</a> ");
