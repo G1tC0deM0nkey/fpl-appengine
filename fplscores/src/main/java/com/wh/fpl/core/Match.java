@@ -13,6 +13,10 @@ public class Match {
 
     private Teamsheet awayTeamsheet;
 
+    private TeamScore homeTeamScore;
+
+    private TeamScore awayTeamScore;
+
     public Fixture getFixture() {
         return fixture;
     }
@@ -43,5 +47,25 @@ public class Match {
 
     public void setGameweek(Gameweek gameweek) {
         this.gameweek = gameweek;
+    }
+
+    public TeamScore getHomeTeamScore() {
+        if(homeTeamScore == null) {
+            homeTeamScore = new TeamScore(homeTeamsheet);
+            homeTeamScore.score(gameweek, TeamScore.Style.SUBSTITUTIONS);
+        }
+
+        return homeTeamScore;
+
+    }
+
+    public TeamScore getAwayTeamScore() {
+        if(awayTeamScore == null) {
+            awayTeamScore = new TeamScore(awayTeamsheet);
+            awayTeamScore.score(gameweek, TeamScore.Style.SUBSTITUTIONS);
+        }
+
+        return awayTeamScore;
+
     }
 }

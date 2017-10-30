@@ -175,7 +175,10 @@ public class PlayersController implements ApplicationContextAware {
         ScoreTemplate template = new ScoreTemplate();
         template.setName(name);
         template.setGameweek(gameweek);
-        template.setTeamsheet(teamsheet);
+
+        TeamScore score = new TeamScore(teamsheet);
+        score.score(gameweek, TeamScore.Style.SUBSTITUTIONS);
+        template.setTeamScore(score);
 
         return template.render();
 

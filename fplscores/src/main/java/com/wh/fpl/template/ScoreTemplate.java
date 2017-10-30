@@ -1,9 +1,6 @@
 package com.wh.fpl.template;
 
-import com.wh.fpl.core.Gameweek;
-import com.wh.fpl.core.Player;
-import com.wh.fpl.core.PlayerKey;
-import com.wh.fpl.core.Teamsheet;
+import com.wh.fpl.core.*;
 
 /**
  * Created by jkaye on 16/10/17.
@@ -12,7 +9,7 @@ public class ScoreTemplate {
 
     private String name;
 
-    private Teamsheet teamsheet;
+    private TeamScore teamScore;
 
     private Gameweek gameweek;
 
@@ -24,12 +21,12 @@ public class ScoreTemplate {
         this.name = name;
     }
 
-    public Teamsheet getTeamsheet() {
-        return teamsheet;
+    public TeamScore getTeamScore() {
+        return teamScore;
     }
 
-    public void setTeamsheet(Teamsheet teamsheet) {
-        this.teamsheet = teamsheet;
+    public void setTeamScore(TeamScore teamsheet) {
+        this.teamScore = teamsheet;
     }
 
     public Gameweek getGameweek() {
@@ -46,16 +43,13 @@ public class ScoreTemplate {
         sb.append("<h1>").append(name).append("</h1>");
         sb.append("<p>");
 
-        sb.append("<h3>Starting XI</h3>");
+        sb.append("<h3>Starting XI with Substitutions</h3>");
 
-        int total = 0;
-        int totalWithSubs = 0;
-
-        for(PlayerKey pk : teamsheet.getStarters()) {
+        for(PlayerKey pk : teamScore.getPlayers()) {
 
             Player p = gameweek.getLatestScores().get(pk);
             boolean playing = p != null && p.isPlaying();
-            int score = teamsheet.getPlayerScore(pk, gameweek);
+            int score = teamScore.getScore(pk);
 
             sb.append("<p>");
 
@@ -66,7 +60,7 @@ public class ScoreTemplate {
             sb.append(pk.getPosition()).append("\t").append(pk.getTeam()).append("\t");
             sb.append(pk.getName()).append("\t").append("-\t<b>");
 
-            if(pk.equals(teamsheet.getCaptain())) {
+            if(pk.equals(teamScore.getCaptain())) {
                 sb.append("(C) ");
             }
 
@@ -81,35 +75,17 @@ public class ScoreTemplate {
 
             sb.append("</p>\n");
 
-            total +=score;
-            totalWithSubs += score;
         }
 
         sb.append("<br/><h3>Substitutes</h3>");
 
-        for(PlayerKey pk : teamsheet.getSubs()) {
+        for(String s : teamScore.getSubstitutions()) {
             sb.append("<p><i>");
-            sb.append(pk.getPosition()).append("\t").append(pk.getTeam()).append("\t");
-            sb.append(pk.getName()).append("\t").append("-\t<b>");
-
-            Player p = gameweek.getLatestScores().get(pk);
-            boolean playing = p != null && p.isPlaying();
-            int score = teamsheet.getPlayerScore(pk, gameweek);
-
-            sb.append(score).append("</b>\t-\t");
-
-            if(playing) {
-                sb.append("(played)");
-            }
-
+            sb.append(s);
             sb.append("</i></p>\n");
-
-            totalWithSubs += score;
         }
 
-
-        sb.append("<br/><p><b>Total Scores : ").append(total).append("</b></p>");
-        sb.append("<p><b>Total (subs) : ").append(totalWithSubs).append("</b></p>");
+        sb.append("<br/><p><b>Total Scores : ").append(teamScore.getTotalScore()).append("</b></p>");
 
         sb.append("</p>");
 
