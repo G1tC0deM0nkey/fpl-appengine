@@ -23,6 +23,7 @@ public class TeamScore {
     }
 
     public void score(Gameweek gameweek, Style style) {
+
         for(PlayerKey p : teamsheet.getStarters()) {
                 scorePlayer(gameweek, p);
         }
@@ -53,14 +54,15 @@ public class TeamScore {
             scorePlayer(gameweek, p);
         }
         else {
-            if(subs.size() == 0) {
+            if(subs == null || subs.size() == 0) {
                 scorePlayer(gameweek, p);
             }
             else {
                 PlayerKey substitute = null;
 
                 for(PlayerKey sub : subs) {
-                    boolean played = gameweek.getLatestScores().get(sub).isPlaying();
+                    boolean played = gameweek.getLatestScores().containsKey(sub) ?
+                            gameweek.getLatestScores().get(sub).isPlaying() : false;
                     if(played) {
                         List <PlayerKey> teamWithSub = new ArrayList <PlayerKey> (playerScoresMap.keySet());
                         teamWithSub.remove(p);
@@ -100,7 +102,18 @@ public class TeamScore {
 
         int start = Integer.parseInt(gameweek.getStartingScores().get(p).getScore());
         int end = Integer.parseInt(gameweek.getLatestScores().get(p).getScore());
-        int score = p.equals(teamsheet.getCaptain()) ? (2 * (end - start)) : end - start;
+        int score = end - start;
+
+        if (p.equals(teamsheet.getCaptain())) {
+            score *=2;
+        }
+        else if(p.equals(teamsheet.getVice())) {
+            Player captain = gameweek.getLatestScores().get(teamsheet.getCaptain());
+            if(captain == null || !captain.isPlaying()) {
+                score *=2;
+            }
+        }
+
         playerScoresMap.put(p, score);
     }
 

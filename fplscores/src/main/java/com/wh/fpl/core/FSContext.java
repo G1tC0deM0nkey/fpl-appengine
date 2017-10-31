@@ -1,6 +1,8 @@
 package com.wh.fpl.core;
 
 import com.wh.fpl.utils.SimpleNamer;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 
 import java.io.*;
 import java.util.*;
@@ -9,6 +11,8 @@ import java.util.*;
  * Created by jkaye on 20/09/17.
  */
 public class FSContext {
+
+    private Logger LOG = LogManager.getLogger(FSContext.class);
 
     private String root = ".";
 
@@ -19,6 +23,8 @@ public class FSContext {
     public void storeGameweek(Gameweek gw) throws IOException {
 
         File gameweekData = new File(root + "/gm" + gw.getGameMonth() + "/gw" + gw.getGameWeek() + "/players.tsv");
+
+        LOG.info("Storing "+ gameweekData.getPath());
 
         if(!gameweekData.getParentFile().exists()) {
             gameweekData.getParentFile().mkdirs();
@@ -40,6 +46,8 @@ public class FSContext {
         File gameweekData = new File(root + "/gm" + gameMonth + "/gw" + gameWeek + "/players.tsv");
         if(gameweekData.exists()) {
 
+            LOG.info("Loading " + gameweekData.getPath());
+
             //Parse it
             InputStream is = new FileInputStream(gameweekData);
             InputStreamReader isr = new InputStreamReader(is);
@@ -60,6 +68,8 @@ public class FSContext {
                 line = br.readLine();
             }
 
+        } else {
+            LOG.info("No data to load at " + gameweekData.getPath());
         }
 
         return gw;
@@ -73,6 +83,8 @@ public class FSContext {
         File f = gw == null
                 ? new File(root + "/fixtures.tsv")
                 : new File(root + "/gm" + gw.getGameMonth() + "/gw" + gw.getGameWeek() + "/fixtures.tsv");
+
+        LOG.info("Loading " + f.getPath());
 
         if(!f.exists()) {
 
@@ -127,6 +139,8 @@ public class FSContext {
                 (gw == null ? "" : ("/gm" + gw.getGameMonth() + "/gw" + gw.getGameWeek()))
                 + "/fixtures.tsv");
 
+        LOG.info("Storing " + f.getPath());
+
         if(!f.getParentFile().exists()) {
             f.getParentFile().mkdirs();
         }
@@ -156,8 +170,11 @@ public class FSContext {
                 ("/squads/" + SimpleNamer.simpleName(name) + ".tsv"));
 
         if(!f.exists()) {
+            LOG.info("No squad information at " + f.getPath());
             return null;
         }
+
+        LOG.info("Loading " + f.getPath());
 
         FileReader fr = new FileReader(f);
         BufferedReader br = new BufferedReader(fr);
@@ -194,7 +211,7 @@ public class FSContext {
 
         String line = br.readLine();
 
-        while(line != null) {
+        while(line != null && !"".equals(line)) {
             String [] tokens = line.split("\t");
 
             if(tokens.length == 0) {
@@ -245,6 +262,8 @@ public class FSContext {
         File f = new File(root +
                 ("/gm" + gameMonth + "/" + SimpleNamer.simpleName(name) + ".tsv"));
 
+        LOG.info("Loading " + f.getPath());
+
         if(!f.exists()) {
             return null;
         }
@@ -257,7 +276,7 @@ public class FSContext {
 
         String line = br.readLine();
 
-        while(line != null) {
+        while(line != null && !"".equals(line)) {
             String [] tokens = line.split("\t");
 
             if(tokens.length == 0) {
