@@ -167,7 +167,7 @@ Everton	DEF	Keane	£5.4	16	false	16	0
 Everton	DEF	Kenny	£4.4	2	false	2	0
 Everton	DEF	Martina	£4.3	5	false	5	0
 Everton	DEF	Williams	£5.4	14	false	14	0
-Everton	MID	Baningime	�?	1	false	1	0
+Everton	MID	Baningime	£?	1	false	1	0
 Everton	MID	Barkley	£7.4	0	false	0	0
 Everton	MID	Besic	£4.4	2	false	2	0
 Everton	MID	Bolasie	£6.4	0	false	0	0
@@ -411,7 +411,7 @@ Stoke	MID	Sobhi	£4.8	12	false	12	0
 Stoke	FWD	Berahino	£5.8	10	false	10	0
 Stoke	FWD	Crouch	£4.9	16	false	16	0
 Stoke	FWD	Diouf	£5.4	39	false	39	0
-Stoke	FWD	Ngoy	�?	0	false	0	0
+Stoke	FWD	Ngoy	£?	0	false	0	0
 Swansea	GKP	Fabianski	£4.5	43	false	43	0
 Swansea	GKP	Nordfeldt	£4.0	0	false	0	0
 Swansea	DEF	Bartley	£4.4	3	false	3	0
@@ -420,7 +420,7 @@ Swansea	DEF	Mawson	£5.0	38	false	38	0
 Swansea	DEF	Naughton	£4.6	37	false	37	0
 Swansea	DEF	Olsson	£5.0	34	false	34	0
 Swansea	DEF	Rangel	£3.9	1	false	1	0
-Swansea	DEF	Rodon	�?	0	false	0	0
+Swansea	DEF	Rodon	£?	0	false	0	0
 Swansea	DEF	van der Hoorn	£4.5	14	false	14	0
 Swansea	MID	Britton	£4.5	9	false	9	0
 Swansea	MID	Carroll	£4.5	28	false	28	0
@@ -436,7 +436,7 @@ Swansea	MID	Sanches	£4.9	8	false	8	0
 Swansea	FWD	Abraham	£5.6	46	false	46	0
 Swansea	FWD	Ayew	£5.0	30	false	30	0
 Swansea	FWD	Bony	£6.0	7	false	7	0
-Swansea	FWD	McBurnie	�?	4	false	4	0
+Swansea	FWD	McBurnie	£?	4	false	4	0
 Watford	GKP	Gomes	£4.5	30	false	30	0
 Watford	GKP	Karnezis	£4.5	0	false	0	0
 Watford	DEF	Britos	£4.5	14	false	14	0
