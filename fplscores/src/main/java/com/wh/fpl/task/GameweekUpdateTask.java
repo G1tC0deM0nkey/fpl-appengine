@@ -15,7 +15,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@Component
 public class GameweekUpdateTask {
 
     private static final Logger LOG = Logger.getLogger(GameweekUpdateTask.class);
@@ -30,7 +29,7 @@ public class GameweekUpdateTask {
     private Map<String, String> userCache = new HashMap<String, String>();
 
     public GameweekUpdateTask() {
-        userEmails.put("jkaye", "john.kw.kaye@gmail.com");
+        //TODO: Add User Emails
     }
 
     @Scheduled(fixedRate=900000)
@@ -51,87 +50,98 @@ public class GameweekUpdateTask {
                 fs.storeGameweek(gw);
                 gameweekContext.setActiveGameweek(gw);
 
-                Fixtures fixtures = new Fixtures(fs.loadFixtures());
-                List<Match> matches = new ArrayList<Match>();
-
-                for(Fixture f : fixtures.listFixtures(gw.getGameMonth(), gw.getGameWeek())) {
-                    Match m = new Match();
-                    m.setGameweek(gw);
-                    m.setFixture(f);
-                    m.setHomeTeamsheet(fs.loadTeamsheet(f.getHome(), gw));
-                    m.setAwayTeamsheet(fs.loadTeamsheet(f.getAway(), gw));
-                    matches.add(m);
-                }
-
-                MatchTemplate matchTemplate = new MatchTemplate();
-                matchTemplate.setFixtures(fixtures);
-                matchTemplate.setGameWeek(gw.getGameWeek());
-                matchTemplate.setGameMonth(gw.getGameMonth());
-                matchTemplate.setUpdateStatus("Updated");
-                matchTemplate.setMatches(matches);
-
-                String matchSummary = matchTemplate.render();
-
-                LOG.info("Notifying users ...");
-
-                for(String user : userEmails.keySet()) {
-
-                    LOG.info("Notifying user ... " + user);
-                    Match userMatch = null;
-
-                    //Find user match
-                    for(Match m : matches) {
-                        if(m.getFixture().getHome().equals(user) || m.getFixture().getAway().equals(user)) {
-                            userMatch = m;
-                            break;
-                        }
-                    }
-
-                    if(userMatch != null) {
-
-                        ScoreTemplate homeScore = new ScoreTemplate();
-                        homeScore.setGameweek(gw);
-                        homeScore.setTeamScore(userMatch.getHomeTeamScore());
-                        homeScore.setName(userMatch.getFixture().getHome());
-
-                        ScoreTemplate awayScore = new ScoreTemplate();
-                        awayScore.setGameweek(gw);
-                        awayScore.setTeamScore(userMatch.getAwayTeamScore());
-                        awayScore.setName(userMatch.getFixture().getAway());
-
-                        String homeSummary = homeScore.render();
-                        String awaySummary = awayScore.render();
-
-                        StringBuilder sb = new StringBuilder(matchSummary);
-                        sb.append(homeSummary);
-                        sb.append(awaySummary);
-
-                        String content = sb.toString();
-
-                        String cached = userCache.get(user);
-                        if (cached == null || !cached.equals(content)) {
-                            userCache.put(user, content);
-
-                            String email = userEmails.get(user);
-
-                            try {
-                                GameweekUpdateMailer mailer = new GameweekUpdateMailer();
-                                mailer.send("[FPL] Gameweek " + gw.getGameWeek() + " Update",
-                                        content, email);
-                            } catch(Exception e) {
-                                LOG.error("Error sending update - " + e.getMessage(), e);
-                            }
-
-                        }
-                    }
-
-                }
+                createAndSendSummary(fs, gw);
 
             }
         } catch (Exception e) {
             LOG.error("Failed to update active gameweek", e);
         }
 
+    }
+
+    private void createAndSendSummary(FSContext fs, Gameweek gw) throws Exception {
+        Fixtures fixtures = new Fixtures(fs.loadFixtures());
+
+        List<Match> matches = createMatches(fs, gw, fixtures);
+        String matchSummary = createMatchSummary(gw, fixtures, matches);
+
+        LOG.info("Notifying users ...");
+
+        for(String user : userEmails.keySet()) {
+
+            LOG.info("Notifying user ... " + user);
+            Match userMatch = null;
+
+            //Find user match
+            for(Match m : matches) {
+                if(m.getFixture().getHome().equals(user) || m.getFixture().getAway().equals(user)) {
+                    userMatch = m;
+                    break;
+                }
+            }
+
+            if(userMatch != null) {
+
+                String homeScore = createTeamSummary(gw, userMatch.getHomeTeamScore(), userMatch.getFixture().getHome());
+                String awayScore = createTeamSummary(gw, userMatch.getAwayTeamScore(), userMatch.getFixture().getAway());
+
+                StringBuilder sb = new StringBuilder(matchSummary);
+                sb.append(homeScore);
+                sb.append(awayScore);
+
+                String content = sb.toString();
+
+                String cached = userCache.get(user);
+                if (cached == null || !cached.equals(content)) {
+                    userCache.put(user, content);
+
+                    String email = userEmails.get(user);
+
+                    try {
+                        GameweekUpdateMailer mailer = new GameweekUpdateMailer();
+                        mailer.send("[FPL] Gameweek " + gw.getGameWeek() + " Update",
+                                content, email);
+                    } catch(Exception e) {
+                        LOG.error("Error sending update - " + e.getMessage(), e);
+                    }
+
+                }
+            }
+
+        }
+    }
+
+    private String createTeamSummary(Gameweek gw, TeamScore homeTeamScore, String home) {
+        ScoreTemplate homeScore = new ScoreTemplate();
+        homeScore.setGameweek(gw);
+        homeScore.setTeamScore(homeTeamScore);
+        homeScore.setName(home);
+        return homeScore.render();
+    }
+
+    private String createMatchSummary(Gameweek gw, Fixtures fixtures, List<Match> matches) {
+        MatchTemplate matchTemplate = new MatchTemplate();
+        matchTemplate.setFixtures(fixtures);
+        matchTemplate.setGameWeek(gw.getGameWeek());
+        matchTemplate.setGameMonth(gw.getGameMonth());
+        matchTemplate.setUpdateStatus("Updated");
+        matchTemplate.setMatches(matches);
+
+        return matchTemplate.render();
+    }
+
+    private List<Match> createMatches(FSContext fs, Gameweek gw, Fixtures fixtures) throws Exception {
+        List<Match> matches = new ArrayList<Match>();
+
+        for(Fixture f : fixtures.listFixtures(gw.getGameMonth(), gw.getGameWeek())) {
+            Match m = new Match();
+            m.setGameweek(gw);
+            m.setFixture(f);
+            m.setHomeTeamsheet(fs.loadTeamsheet(f.getHome(), gw));
+            m.setAwayTeamsheet(fs.loadTeamsheet(f.getAway(), gw));
+            matches.add(m);
+        }
+        return matches;
     }
 
 }

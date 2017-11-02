@@ -8,10 +8,8 @@ import java.util.Properties;
 
 public class GameweekUpdateMailer {
 
-    private String mailHost = "10.1.7.7";
-    private String mailPort = "25";
-    private String username = "john.kaye@gmail.com";
-    private String password = "WeaversYarns81";
+    private String username = "user@gmail.com";
+    private String password = "password";
 
     public void send(String title, String content, String to) {
 
@@ -28,6 +26,8 @@ public class GameweekUpdateMailer {
                     }
                 });
 
+        session.setDebug(true);
+
         try {
 
             Message message = new MimeMessage(session);
@@ -37,11 +37,12 @@ public class GameweekUpdateMailer {
             message.setSubject(title);
             message.setText(content);
 
-            Transport.send(message);
+            session.getTransport().send(message);
 
             System.out.println("Done");
 
         } catch (MessagingException e) {
+            e.printStackTrace();
             throw new RuntimeException(e);
         }
     }
