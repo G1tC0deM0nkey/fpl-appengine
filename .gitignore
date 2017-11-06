@@ -22,3 +22,4 @@
 **/server/updates/**
 **/server/logs/**
 "**/server/logs/**"
+/config/**
