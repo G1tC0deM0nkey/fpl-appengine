@@ -53,16 +53,21 @@ public class OpenGameweekFromLast {
 
         if(currentTeamsheets.size() == 0) {
             currentTeamsheets = lastTeamsheets;
-            for(String manager : currentTeamsheets.keySet()) {
-                //Store last month team sheets
-                Teamsheet t = currentTeamsheets.get(manager);
-                currentTeamsheets.put(manager, t);
-                fsContext.storeTeamsheet(t, manager, current.getGameMonth(), current.getGameWeek());
+        }
 
-                //Also store these to the game month directory
-                if(current.getGameMonth() != last.getGameMonth()) {
-                    fsContext.storeTeamsheet(t, manager, current.getGameMonth());
-                }
+        for(String manager : currentTeamsheets.keySet()) {
+            //Store last month team sheets
+            Teamsheet t = currentTeamsheets.get(manager);
+            if(t == null) {
+                t = lastTeamsheets.get(manager);
+            }
+
+            currentTeamsheets.put(manager, t);
+            fsContext.storeTeamsheet(t, manager, current.getGameMonth(), current.getGameWeek());
+
+            //Also store these to the game month directory
+            if(current.getGameMonth() != last.getGameMonth()) {
+                fsContext.storeTeamsheet(t, manager, current.getGameMonth());
             }
         }
 
