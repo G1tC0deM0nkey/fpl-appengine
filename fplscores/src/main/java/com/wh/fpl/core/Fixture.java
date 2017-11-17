@@ -1,5 +1,7 @@
 package com.wh.fpl.core;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 /**
  * Created by jkaye on 20/09/17.
  */

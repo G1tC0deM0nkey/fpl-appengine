@@ -5,8 +5,8 @@ package com.wh.fpl.control;
  */
 public class GameweekConstants {
 
-    public static final int MONTH = 3;
+    public static final int MONTH = 4;
 
-    public static final int WEEK = 11;
+    public static final int WEEK = 12;
 
 }
