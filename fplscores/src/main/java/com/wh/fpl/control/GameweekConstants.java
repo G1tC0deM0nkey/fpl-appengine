@@ -7,6 +7,6 @@ public class GameweekConstants {
 
     public static final int MONTH = 4;
 
-    public static final int WEEK = 12;
+    public static final int WEEK = 15;
 
 }
