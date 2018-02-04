@@ -1,0 +1,21 @@
+alex	40
+paulw	40
+taz	40
+adam	40
+steve	40
+dom	36
+tomk	35
+paule	31
+johnb	29
+liam	29
+charlie	28
+tomc	28
+nick	27
+chrisw	24
+andyu	24
+johnk	22
+andys	21
+craig	20
+simon	20
+phil	20
+
