@@ -1,0 +1,831 @@
+3
+
+Damian Emiliano Martinez
+
+Arsenal
+
+GKP
+
+6
+
+Gabriel Armando de Abreu
+
+Arsenal
+
+DEF
+
+9
+
+Carl Jenkinson
+
+Arsenal
+
+DEF
+
+17
+
+Santiago Cazorla
+
+Arsenal
+
+MID
+
+20
+
+Francis Coquelin
+
+Arsenal
+
+MID
+
+22
+
+Mohamed Elneny
+
+Arsenal
+
+MID
+
+24
+
+Jack Wilshere
+
+Arsenal
+
+MID
+
+27
+
+Lucas Pérez
+
+Arsenal
+
+FWD
+
+30
+
+Artur Boruc
+
+Bournemouth
+
+GKP
+
+31
+
+Adam Federici
+
+Bournemouth
+
+GKP
+
+33
+
+Steve Cook
+
+Bournemouth
+
+DEF
+
+37
+
+Bradley Smith
+
+Bournemouth
+
+DEF
+
+40
+
+Marc Pugh
+
+Bournemouth
+
+MID
+
+43
+
+Dan Gosling
+
+Bournemouth
+
+MID
+
+44
+
+Max Gradel
+
+Bournemouth
+
+MID
+
+46
+
+Lewis Cook
+
+Bournemouth
+
+MID
+
+50
+
+Lys Mousset
+
+Bournemouth
+
+FWD
+
+53
+
+Niki Mäenpää
+
+Brighton
+
+GKP
+
+57
+
+Uwe Hünemeier
+
+Brighton
+
+DEF
+
+59
+
+Gaëtan Bong
+
+Brighton
+
+DEF
+
+60
+
+Liam Rosenior
+
+Brighton
+
+DEF
+
+61
+
+Connor Goldson
+
+Brighton
+
+DEF
+
+63
+
+Dale Stephens
+
+Brighton
+
+MID
+
+64
+
+Beram Kayal
+
+Brighton
+
+MID
+
+65
+
+Steve Sidwell
+
+Brighton
+
+MID
+
+66
+
+Solomon March
+
+Brighton
+
+MID
+
+67
+
+Jiri Skalak
+
+Brighton
+
+MID
+
+68
+
+Oliver Norwood
+
+Brighton
+
+MID
+
+69
+
+Jamie Murphy
+
+Brighton
+
+MID
+
+73
+
+Sam Baldock
+
+Brighton
+
+FWD
+
+75
+
+Paul Robinson
+
+Burnley
+
+GKP
+
+78
+
+Stephen Ward
+
+Burnley
+
+DEF
+
+79
+
+James Tarkowski
+
+Burnley
+
+DEF
+
+80
+
+Kevin Long
+
+Burnley
+
+DEF
+
+82
+
+Scott Arfield
+
+Burnley
+
+MID
+
+83
+
+Dean Marney
+
+Burnley
+
+MID
+
+84
+
+Johann Berg Gudmundsson
+
+Burnley
+
+MID
+
+88
+
+Ashley Westwood
+
+Burnley
+
+MID
+
+89
+
+Jonathan Walters
+
+Burnley
+
+MID
+
+90
+
+Jack Cork
+
+Burnley
+
+MID
+
+95
+
+Eduardo dos Reis Carvalho
+
+Chelsea
+
+GKP
+
+96
+
+Willy Caballero
+
+Chelsea
+
+GKP
+
+110
+
+Robert Kenedy Nunes do Nascimento
+
+Chelsea
+
+MID
+
+112
+
+Nathaniel Chalobah
+
+Watford
+
+MID
+
+114
+
+Diego Da Silva Costa
+
+Chelsea
+
+FWD
+
+116
+
+Julian Speroni
+
+Crystal Palace
+
+GKP
+
+120
+
+Martin Kelly
+
+Crystal Palace
+
+DEF
+
+121
+
+Damien Delaney
+
+Crystal Palace
+
+DEF
+
+122
+
+Pape Souaré
+
+Crystal Palace
+
+DEF
+
+128
+
+Chung-yong Lee
+
+Crystal Palace
+
+MID
+
+130
+
+Bakary Sako
+
+Crystal Palace
+
+MID
+
+132
+
+Luka Milivojevic
+
+Crystal Palace
+
+MID
+
+133
+
+Connor Wickham
+
+Crystal Palace
+
+FWD
+
+136
+
+Joel Robles
+
+Everton
+
+GKP
+
+137
+
+Maarten Stekelenburg
+
+Everton
+
+GKP
+
+141
+
+Matthew Pennington
+
+Everton
+
+DEF
+
+142
+
+Ramiro Funes Mori
+
+Everton
+
+DEF
+
+144
+
+Mason Holgate
+
+Everton
+
+DEF
+
+145
+
+Jonjoe Kenny
+
+Everton
+
+DEF
+
+149
+
+Ross Barkley
+
+Chelsea
+
+MID
+
+150
+
+James McCarthy
+
+Everton
+
+MID
+
+151
+
+Gareth Barry
+
+West Brom
+
+MID
+
+152
+
+Muhamed Besic
+
+Everton
+
+MID
+
+154
+
+Morgan Schneiderlin
+
+Everton
+
+MID
+
+156
+
+Tom Davies
+
+Everton
+
+MID
+
+157
+
+Ademola Lookman
+
+Everton
+
+MID
+
+162
+
+Joel Coleman
+
+Huddersfield
+
+GKP
+
+167
+
+Michael Hefele
+
+Huddersfield
+
+DEF
+
+168
+
+Martin Cranie
+
+Huddersfield
+
+DEF
+
+169
+
+Jon Gorenc Stankovic
+
+Huddersfield
+
+DEF
+
+170
+
+Mark Hudson
+
+Huddersfield
+
+DEF
+
+174
+
+Jonathan Hogg
+
+Huddersfield
+
+MID
+
+175
+
+Philip Billing
+
+Huddersfield
+
+MID
+
+176
+
+Joe Lolley
+
+Huddersfield
+
+MID
+
+177
+
+Jack Payne
+
+Huddersfield
+
+MID
+
+178
+
+Dean Whitehead
+
+Huddersfield
+
+MID
+
+179
+
+Harry Bunn
+
+Huddersfield
+
+MID
+
+180
+
+Sean Scannell
+
+Huddersfield
+
+MID
+
+183
+
+Kasey Palmer
+
+Chelsea
+
+MID
+
+184
+
+Danny Williams
+
+Huddersfield
+
+MID
+
+185
+
+Nahki Wells
+
+Burnley
+
+FWD
+
+190
+
+Ben Hamer
+
+Leicester
+
+GKP
+
+195
+
+Yohan Benalouane
+
+Leicester
+
+DEF
+
+196
+
+Benjamin Chilwell
+
+Leicester
+
+DEF
+
+197
+
+Molla Wagué
+
+Watford
+
+DEF
+
+201
+
+Andy King
+
+Leicester
+
+MID
+
+202
+
+Daniel Drinkwater
+
+Chelsea
+
+MID
+
+204
+
+Daniel Amartey
+
+Leicester
+
+MID
+
+205
+
+Nampalys Mendy
+
+Leicester
+
+MID
+
+207
+
+Ahmed Musa
+
+Leicester
+
+MID
+
+210
+
+Leonardo Ulloa
+
+Leicester
+
+FWD
+
+212
+
+Islam Slimani
+
+Leicester
+
+FWD
+
+220
+
+Ragnar Klavan
+
+Liverpool
+
+DEF
+
+224
+
+Leiva Lucas
+
+Liverpool
+
+MID
+
+229
+
+Oluwaseyi Ojo
+
+Liverpool
+
+MID
+
+231
+
+Marko Grujic
+
+Liverpool
+
+MID
+
+233
+
+Ben Woodburn
+
+Liverpool
+
+MID
+
+238
+
+Divock Origi
+
+Liverpool
+
+FWD
+
+241
+
+Claudio Bravo
+
+Man City
+
+GKP
+
+243
+
+Aleksandar Kolarov
+
+Man City
+
+DEF
+
+251
+
+Fernando Francisco Reges
+
+Man City
+
+MID
+
+254
+
+Manuel Agudo Durán
+
+Man City
+
+MID
+
+261
+
+Sergio Romero
+
+Man Utd
+
+GKP
+
+262
+
+Joel Dinis Castro Pereira
+
+Man Utd
+
+GKP

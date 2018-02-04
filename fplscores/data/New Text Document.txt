@@ -1,0 +1,274 @@
+17           Santiago Cazorla               Midfielder           Arsenal 6.9
+22           Mohamed Elneny            Midfielder           Arsenal 4.2
+24           Jack Wilshere     Midfielder           Arsenal 5.5
+30           Artur Boruc         Goalkeeper        Bournemouth   4.1
+31           Adam Federici   Goalkeeper        Bournemouth   4
+33           Steve Cook         Defender            Bournemouth   4.7
+37           Bradley Smith    Defender            Bournemouth   3.9
+40           Marc Pugh          Midfielder           Bournemouth   4.7
+43           Dan Gosling        Midfielder           Bournemouth   4.8
+46           Lewis Cook         Midfielder           Bournemouth   4.3
+50           Lys Mousset       Striker   Bournemouth   4.9
+53           Niki Mäenpää    Goalkeeper        Brighton               4
+57           Uwe Hünemeier              Defender            Brighton               3.9
+59           Gaëtan Bong      Defender            Brighton               4.4
+60           Liam Rosenior    Defender            Brighton               3.9
+61           Connor Goldson               Defender            Brighton               3.9
+63           Dale Stephens   Midfielder           Brighton               4.5
+64           Beram Kayal       Midfielder           Brighton               4.4
+65           Steve Sidwell     Midfielder           Brighton               4.3
+66           Solomon March                Midfielder           Brighton               4.9
+67           Jiri Skalak             Midfielder           Brighton               4.7
+73           Sam Baldock       Striker   Brighton               4.9
+78           Stephen Ward   Defender            Burnley 4.7
+79           James Tarkowski              Defender            Burnley 4.7
+80           Kevin Long          Defender            Burnley 4.1
+82           Scott Arfield       Midfielder           Burnley 4.9
+83           Dean Marney    Midfielder           Burnley 4.4
+84           Johann Berg Gudmundsson        Midfielder           Burnley 5
+88           Ashley Westwood           Midfielder           Burnley 4.3
+89           Jonathan Walters             Midfielder           Burnley 5.1
+90           Jack Cork             Midfielder           Burnley 4.6
+95           Eduardo dos Reis Carvalho           Goalkeeper        Chelsea                4.7
+96           Willy Caballero  Goalkeeper        Chelsea                4.8
+110         Robert Kenedy Nunes do Nascimento   Midfielder           Newcastle           4.7
+112         Nathaniel Chalobah        Midfielder           Watford               4.2
+116         Julian Speroni    Goalkeeper        Crystal Palace    4.1
+120         Martin Kelly        Defender            Crystal Palace    4.2
+121         Damien Delaney               Defender            Crystal Palace    4.2
+122         Pape Souaré      Defender            Crystal Palace    4.5
+128         Chung-yong Lee               Midfielder           Crystal Palace    4.3
+130         Bakary Sako        Midfielder           Crystal Palace    4.9
+132         Luka Milivojevic                Midfielder           Crystal Palace    4.7
+133         Connor Wickham             Striker   Crystal Palace    5.4
+136         Joel Robles         Goalkeeper        Everton                4.3
+137         Maarten Stekelenburg  Goalkeeper        Everton                4.2
+142         Ramiro Funes Mori          Defender            Everton                4.9
+144         Mason Holgate Defender            Everton                4.3
+145         Jonjoe Kenny    Defender            Everton                4.5
+149         Ross Barkley       Midfielder           Chelsea                7.3
+150         James McCarthy               Midfielder           Everton                4.9
+151         Gareth Barry      Midfielder           West Brom         4.5
+152         Muhamed Besic               Midfielder           Everton                4.2
+153         Aaron Lennon   Midfielder           Burnley 5.4
+154         Morgan Schneiderlin      Midfielder           Everton                4.7
+156         Tom Davies         Midfielder           Everton                5.1
+157         Ademola Lookman          Midfielder           Everton                5.1
+162         Joel Coleman     Goalkeeper        Huddersfield      3.9
+167         Michael Hefele Defender            Huddersfield      4.2
+168         Martin Cranie    Defender            Huddersfield      4
+169         Jon Gorenc Stankovic     Defender            Huddersfield      3.9
+174         Jonathan Hogg  Midfielder           Huddersfield      4.4
+175         Philip Billing        Midfielder           Huddersfield      4.4
+176         Joe Lolley            Midfielder           Huddersfield      4.3
+178         Dean Whitehead              Midfielder           Huddersfield      4.3
+180         Sean Scannell    Midfielder           Huddersfield      4.5
+183         Kasey Palmer     Midfielder           Chelsea                5.3
+184         Danny Williams Midfielder           Huddersfield      4.8
+185         Nahki Wells        Striker   Burnley 4.9
+190         Ben Hamer         Goalkeeper        Leicester              4.4
+195         Yohan Benalouane          Defender            Leicester              4.2
+196         Benjamin Chilwell            Defender            Leicester              4.3
+197         Molla Wagué     Defender            Watford               4.5
+201         Andy King            Midfielder           Swansea              4.2
+202         Daniel Drinkwater            Midfielder           Chelsea                4.8
+204         Daniel Amartey Midfielder           Leicester              4.3
+210         Leonardo Ulloa Striker   Brighton               4.8
+211         Shinji Okazaki    Striker   Leicester              5.5
+212         Islam Slimani      Striker   Newcastle           6.6
+220         Ragnar Klavan    Defender            Liverpool             4.4
+233         Ben Woodburn Midfielder           Liverpool             4.2
+241         Claudio Bravo    Goalkeeper        Man City              4.6
+261         Sergio Romero  Goalkeeper        Man Utd              4.7
+262         Joel Dinis Castro Pereira                Goalkeeper        Man Utd              4
+265         Luke Shaw          Defender            Man Utd              4.9
+266         Marcos Rojo       Defender            Man Utd              5.4
+268         Matteo Darmian               Defender            Man Utd              4.9
+269         Timothy Fosu-Mensah  Defender            Crystal Palace    4.4
+275         Marouane Fellaini            Midfielder           Man Utd              4.7
+276         Michael Carrick Midfielder           Man Utd              4.2
+277         Ashley Young     Midfielder           Man Utd              5
+283         Scott McTominay             Midfielder           Man Utd              4.2
+287         Karl Darlow         Goalkeeper        Newcastle           4.4
+288         DeAndre Yedlin Defender            Newcastle           4.4
+291         Paul Dummett   Defender            Newcastle           4.2
+293         Jesús Gámez Duarte       Defender            Newcastle           3.9
+294         Florian Lejeune Defender            Newcastle           4.3
+298         Mohamed Diamé             Midfielder           Newcastle           4.6
+299         Jack Colback       Midfielder           Newcastle           4.2
+305         Alex McCarthy  Goalkeeper        Southampton    4.4
+312         Jérémy Pied       Defender            Southampton    4.2
+313         Jack Stephens   Defender            Southampton    4.5
+314         Sam McQueen  Defender            Southampton    4.3
+315         Jan Bednarek     Defender            Southampton    4.1
+320         Oriol Romeu Vidal            Midfielder           Southampton    4.3
+321         Pierre-Emile Højbjerg    Midfielder           Southampton    4.3
+322         Sofiane Boufal   Midfielder           Southampton    5.7
+323         Joshua Sims        Midfielder           Southampton    4.3
+329         Lee Grant            Goalkeeper        Stoke    4.2
+331         Geoff Cameron Defender            Stoke    4.3
+334         Phil Bardsley      Defender            Burnley 4.3
+335         Glen Johnson    Defender            Stoke    4.1
+341         Ibrahim Afellay Midfielder           Stoke    4.8
+345         Ramadan Sobhi Midfielder           Stoke    4.5
+346         Darren Fletcher Midfielder           Stoke    4.9
+351         Kristoffer Nordfeldt        Goalkeeper        Swansea              4
+353         Angel Rangel      Defender            Swansea              3.9
+354         Federico Fernández        Defender            Swansea              4.4
+356         Mike van der Hoorn        Defender            Swansea              4.4
+361         Leon Britton       Midfielder           Swansea              4.4
+363         Sung-yueng Ki   Midfielder           Swansea              4.9
+366         Nathan Dyer      Midfielder           Swansea              4.4
+369         Luciano Narsingh              Midfielder           Swansea              4.7
+372         Oliver McBurnie               Striker   Swansea              4.6
+376         Michel Vorm      Goalkeeper        Spurs     4.8
+383         Kevin Wimmer  Defender            Stoke    4.2
+385         Mousa Dembélé              Midfielder           Spurs     4.9
+386         Erik Lamela         Midfielder           Spurs     6.3
+389         Victor Wanyama               Midfielder           Spurs     4.8
+391         Harry Winks        Midfielder           Spurs     4.8
+392         Georges-Kévin Nkoudou              Midfielder           Burnley 5.4
+393         Moussa Sissoko                Midfielder           Spurs     5.4
+398         Younes Kaboul  Defender            Watford               4.2
+399         Craig Cathcart    Defender            Watford               4.4
+400         Sebastian Prödl Defender            Watford               4.3
+402         Miguel Britos     Defender            Watford               4.3
+403         Christian Kabasele           Defender            Watford               4.6
+405         Adrian Mariappa              Defender            Watford               4.1
+407         Francisco Femenía Far   Defender            Watford               4.4
+414         Abdoulaye Doucouré     Midfielder           Watford               5.3
+415         Roberto Pereyra              Midfielder           Watford               5.8
+416         Will Hughes        Midfielder           Watford               4.6
+418         Stefano Okaka  Striker   Watford               5.3
+420         Boaz Myhill         Goalkeeper        West Brom         4
+425         Gareth McAuley               Defender            West Brom         4.6
+426         Jake Livermore Midfielder           West Brom         4.8
+427         Nacer Chadli       Midfielder           West Brom         5.6
+429         Claudio Yacob    Midfielder           West Brom         4.3
+430         James McClean Midfielder           West Brom         4.8
+431         Jonathan Leko   Midfielder           West Brom         4.5
+433         Sam Field             Midfielder           West Brom         4.5
+436         Hal Robson-Kanu             Striker   West Brom         4.9
+438         Adrián San Miguel del Castillo     Goalkeeper        West Ham           4.4
+441         James Collins     Defender            West Ham           4.3
+444         Angelo Ogbonna              Defender            West Ham           4.5
+445         Sam Byram         Defender            West Ham           4.2
+446         Arthur Masuaku               Defender            West Ham           4.4
+451         Cheikhou Kouyaté           Midfielder           West Ham           5
+452         Pedro Obiang    Midfielder           West Ham           4.4
+456         Edimilson Fernandes      Midfielder           West Ham           4.4
+461         Markus Suttner Defender            Brighton               4.3
+462         Scott Malone     Defender            Huddersfield      4.3
+463         Tiemoué Bakayoko         Midfielder           Chelsea                5
+464         Cuco Martina     Defender            Everton                4.4
+465         Massadio Haidara            Defender            Newcastle           3.9
+467         Rolando Aarons                Midfielder           Newcastle           4.3
+469         Nick Pope            Goalkeeper        Burnley 4.8
+470         Andreas Christensen      Defender            Chelsea                5.5
+473         Eldin Jakupovic  Goalkeeper        Leicester              4.2
+474         Matty James      Midfielder           Leicester              4.4
+477         Javier Manquillo               Defender            Newcastle           4.4
+480         Calum Chambers              Defender            Arsenal 4.7
+481         Isaiah Brown      Midfielder           Brighton               5.2
+485         Kyle Bartley        Defender            Swansea              4.3
+486         Ben Watson       Midfielder           Watford               4.3
+489         Reiss Nelson      Midfielder           Arsenal 4.8
+491         Jason Lokilo        Midfielder           Crystal Palace    4.3
+492         Phil Foden           Midfielder           Man City              4.7
+493         Brahim Diaz        Midfielder           Man City              4.7
+494         Chancel Mbemba            Defender            Newcastle           3.9
+495         Mikel Merino     Midfielder           Newcastle           5
+496         Isaac Hayden     Midfielder           Newcastle           4.4
+498         Kyle Walker-Peters         Defender            Spurs     4
+499         Jerome Sinclair  Striker   Watford               4.9
+502         Eliaquim Mangala             Defender            Everton                5
+504         Kyle Scott            Midfielder           Chelsea                4.3
+505         Olayinka Fredrick Oladotun Ladapo          Striker   Crystal Palace    4.5
+506         Stuart Taylor      Goalkeeper        Southampton    4
+507         Rekeem Harper                Midfielder           West Brom         4.5
+510         Declan Rice         Defender            West Ham           4.4
+513         Bruno Martins Indi          Defender            Stoke    4.9
+514         Jon Flanagan      Defender            Liverpool             4.4
+519         Sam Clucas          Midfielder           Swansea              4.7
+521         Florent Hadergjonaj       Defender            Huddersfield      4.5
+522         Abdelhamid Sabiri           Midfielder           Huddersfield      4.8
+526         Sead Haksabanovic         Midfielder           West Ham           5
+527         André Carrillo    Midfielder           Watford               5.5
+529         Freddie Woodman          Goalkeeper        Newcastle           4
+530         Danny Ward       Goalkeeper        Liverpool             4.4
+531         Tashan Oakley-Boothe  Midfielder           Spurs     4.5
+533         Grzegorz Krychowiak     Midfielder           West Brom         4.8
+534         Juan Foyth          Defender            Spurs     4.5
+537         Marvin Zeegelaar             Defender            Watford               4.3
+538         Ezequiel Schelotto           Defender            Brighton               4.4
+539         Nikola Vlasic       Midfielder           Everton                5.4
+541         Aleksandar Dragovic       Defender            Leicester              4.9
+544         Levi Lumeka       Midfielder           Crystal Palace    4.4
+545         Adam Legzdins  Goalkeeper        Burnley 4
+546         Ainsley Maitland-Niles   Midfielder           Arsenal 4.5
+547         Robert Green    Goalkeeper        Huddersfield      4
+548         Oumar Niasse    Striker   Everton                4.8
+551         Oleksandr Zinchenko     Midfielder           Man City              5
+552         Jordon Mutch    Midfielder           Crystal Palace    4.5
+553         Jayson Molumby              Midfielder           Brighton               4.5
+554         Anders Lindegaard          Goalkeeper        Burnley 4
+555         Dion Henry         Goalkeeper        Crystal Palace    4
+556         Thomas Edwards              Defender            Stoke    4
+557         Alex Palmer        Goalkeeper        West Brom         4
+558         Ethan Ampadu  Midfielder           Chelsea                4.5
+559         Matt Macey       Goalkeeper        Arsenal 5
+560         Edward Nketiah                Striker   Arsenal 5
+562         Julien Ngoy         Striker   Stoke    4.5
+563         Beni Baningime Midfielder           Everton                4.5
+565         Paulo Gazzaniga               Goalkeeper        Spurs     4.2
+566         Alfie Whiteman Goalkeeper        Spurs     4
+567         Antonio Martinez Lopez               Striker   West Ham           5
+568         Domingos Quina               Midfielder           West Ham           4.4
+569         Jakob Haugaard                Goalkeeper        Stoke    4
+570         Jack Simpson     Defender            Bournemouth   4
+571         Hamza Choudhury           Midfielder           Leicester              4.4
+572         Max Melbourne               Defender            West Brom         4
+573         Ben Johnson      Midfielder           West Ham           4.5
+574         Nathan Trott      Goalkeeper        West Ham           4
+575         Fredrik Ulvestad               Midfielder           Burnley 4.4
+576         Erwin Mulder     Goalkeeper        Swansea              4
+577         Rayhaan Tulloch               Striker   West Brom         4.5
+578         Nathan Ferguson             Defender            West Brom         4
+579         Aaron Wan-Bissaka         Midfielder           Crystal Palace    4.5
+580         Moses Makasi   Midfielder           West Ham           4.5
+582         Daniel Bachmann             Goalkeeper        Watford               4
+583         Callum Hudson-Odoi      Midfielder           Chelsea                4.5
+584         Emerson Hyndman         Midfielder           Bournemouth   4.5
+586         Oluwatosin Adarabioyo Defender            Man City              4
+587         George Thomas                Midfielder           Leicester              4.5
+588         Matt Butcher     Midfielder           Bournemouth   4.5
+589         Adrien Sebastian Perruchet Silva              Midfielder           Leicester              6
+590         Stephen Ireland               Midfielder           Stoke    4.5
+591         Terence Kongolo              Defender            Huddersfield      4.4
+592         Cenk Tosun        Striker   Everton                7.4
+593         Alex Pritchard    Midfielder           Huddersfield      5.5
+594         Moritz Bauer      Defender            Stoke    4.5
+595         Konstantinos Mavropanos           Defender            Arsenal 4.5
+596         Reece Burke      Defender            West Ham           4
+597         Josh Cullen         Midfielder           West Ham           4.5
+598         Connor Roberts                Defender            Swansea              4
+599         Konstantinos Stafylidis  Defender            Stoke    4.5
+600         Dujon Sterling   Defender            Chelsea                4.5
+601         Fousseni Diabaté             Striker   Leicester              5
+602         Kyle Taylor          Midfielder           Bournemouth   4.5
+603         Michael Obafemi             Striker   Southampton    4.5
+604         Jürgen Locadia  Striker   Brighton               6
+605         Jaroslaw Jach     Defender            Crystal Palace    4.5
+606         Erdal Rakip          Midfielder           Crystal Palace    5
+607         Guido Carrillo     Striker   Southampton    6.5
+608         João Mário Naval Costa Eduardo               Midfielder           West Ham           6.5
+609         Gerard Deulofeu              Midfielder           Watford               6
+610         Ali Gabr                Defender            West Brom         4.5
+612         Aymeric Laporte               Defender            Man City              5.5
+613         Carl Stewart       Midfielder           Watford               4.5
+614         Emerson Palmieri dos Santos      Defender            Chelsea                5.5
+615         Dodi Lukebakio Midfielder           Watford               5
+616         Pierre-Emerick Aubameyang      Striker   Arsenal 10.5
+617         Lucas Rodrigues Moura da Silva Midfielder           Spurs     8
+618         Didier Ndong     Midfielder           Watford               4.5
+619         Papa Alioune Ndiaye      Midfielder           Stoke    5.5
