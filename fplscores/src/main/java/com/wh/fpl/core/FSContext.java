@@ -262,7 +262,7 @@ public class FSContext {
         File f = new File(root +
                 ("/gm" + gameMonth + "/" + SimpleNamer.simpleName(name) + ".tsv"));
 
-        LOG.info("Loading " + f.getPath());
+        LOG.info("Loading teamsheet from " + f.getPath());
 
         if(!f.exists()) {
             return null;
@@ -325,6 +325,8 @@ public class FSContext {
 
         File f = new File(root +
                 ("/gm" + gameMonth + "/gw" + gameweek + "/" + SimpleNamer.simpleName(name) + ".tsv"));
+
+        LOG.info("Storing teamsheet " + f.getAbsolutePath());
 
         if(!f.getParentFile().exists()) {
             f.getParentFile().mkdirs();

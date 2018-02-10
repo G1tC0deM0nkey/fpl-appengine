@@ -42,7 +42,7 @@ public class CheckGameweek {
             }
         }
 
-        gw.export(new PrintWriter(System.out));
+        //gw.export(new PrintWriter(System.out));
 
         return gw;
     }

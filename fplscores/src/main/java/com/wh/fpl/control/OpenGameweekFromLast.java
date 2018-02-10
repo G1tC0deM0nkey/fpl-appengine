@@ -1,6 +1,8 @@
 package com.wh.fpl.control;
 
 import com.wh.fpl.core.*;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
 
 import java.io.PrintWriter;
 import java.util.List;
@@ -11,11 +13,11 @@ import java.util.Map;
  */
 public class OpenGameweekFromLast {
 
+    private static final Logger LOG = LogManager.getLogger(OpenGameweekFromLast.class);
+
     private int gameMonth;
 
     private int gameweek;
-
-    private Gameweek last;
 
     private FSContext fsContext;
 
@@ -30,26 +32,29 @@ public class OpenGameweekFromLast {
 
     public Gameweek open() throws Exception {
 
-        Gameweek current = new Gameweek(gameMonth, gameweek);
+        Gameweek newCurrent = new Gameweek(gameMonth, gameweek);
 
         Fixtures fixtures = new Fixtures(fsContext.loadFixtures());
-        Gameweek last = fsContext.loadGameweek(fixtures.prevGamemonth(current.getGameWeek()),
-                fixtures.prevGameweek(current.getGameWeek()));
+        Gameweek oldCurrent = fsContext.loadGameweek(fixtures.prevGamemonth(newCurrent.getGameWeek()),
+                fixtures.prevGameweek(newCurrent.getGameWeek()));
 
-        if(last != null) {
-            for (PlayerKey pk : last.getLatestScores().keySet()) {
-                current.getStartingScores().put(pk, last.getLatestScores().get(pk));
+        LOG.info("Opening new gameweek (" + gameMonth + " / " + gameMonth + ") from last gameweek ("
+                + oldCurrent.getGameMonth() + " / " + oldCurrent.getGameWeek() + ")");
+
+        if(oldCurrent != null) {
+            for (PlayerKey pk : oldCurrent.getLatestScores().keySet()) {
+                newCurrent.getStartingScores().put(pk, oldCurrent.getLatestScores().get(pk));
             }
         }
 
-        System.out.println("Storing " + current.getGameWeek() + " " + current.getGameMonth());
-        fsContext.storeGameweek(current);
+        System.out.println("Storing " + newCurrent.getGameWeek() + " " + newCurrent.getGameMonth() + " players list");
+        fsContext.storeGameweek(newCurrent);
 
-        List <Fixture> gameweekFixtures = fsContext.loadFixtures(current);
-        fsContext.storeFixtures(current, gameweekFixtures);
+        List <Fixture> gameweekFixtures = fsContext.loadFixtures(newCurrent);
+        fsContext.storeFixtures(newCurrent, gameweekFixtures);
 
-        Map <String, Teamsheet> lastTeamsheets = fsContext.loadTeamsheets(last);
-        Map <String, Teamsheet> currentTeamsheets = fsContext.loadTeamsheets(current);
+        Map <String, Teamsheet> lastTeamsheets = fsContext.loadTeamsheets(oldCurrent);
+        Map <String, Teamsheet> currentTeamsheets = fsContext.loadTeamsheets(newCurrent);
 
         if(currentTeamsheets.size() == 0) {
             currentTeamsheets = lastTeamsheets;
@@ -63,19 +68,19 @@ public class OpenGameweekFromLast {
             }
 
             currentTeamsheets.put(manager, t);
-            fsContext.storeTeamsheet(t, manager, current.getGameMonth(), current.getGameWeek());
+            fsContext.storeTeamsheet(t, manager, newCurrent.getGameMonth(), newCurrent.getGameWeek());
 
             //Also store these to the game month directory
-            if(current.getGameMonth() != last.getGameMonth()) {
-                fsContext.storeTeamsheet(t, manager, current.getGameMonth());
+            if(newCurrent.getGameMonth() != oldCurrent.getGameMonth()) {
+                fsContext.storeTeamsheet(t, manager, newCurrent.getGameMonth());
             }
         }
 
         for(String m : currentTeamsheets.keySet()) {
-            fsContext.storeTeamsheet(currentTeamsheets.get(m), m, current.getGameMonth(), current.getGameWeek());
+            fsContext.storeTeamsheet(currentTeamsheets.get(m), m, newCurrent.getGameMonth(), newCurrent.getGameWeek());
         }
 
-        return current;
+        return newCurrent;
 
     }
 
