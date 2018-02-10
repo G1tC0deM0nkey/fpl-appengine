@@ -1,0 +1,1615 @@
+209
+
+Jamie Vardy
+
+Chris Wade
+
+21
+
+102
+
+Victor Moses
+
+Chris Wade
+
+11
+
+47
+
+Ryan Fraser
+
+Chris Wade
+
+6
+
+24
+
+Jack Wilshere
+
+Chris Wade
+
+11
+
+21
+
+Alex Iwobi
+
+Chris Wade
+
+6
+
+13
+
+Sead Kolasinac
+
+Chris Wade
+
+11
+
+620
+
+Alexander Sørloth
+
+Craig White
+
+17
+
+502
+
+Eliaquim Mangala
+
+Craig White
+
+3
+
+468
+
+Ahmed El-Sayed Hegazi
+
+Craig White
+
+10
+
+404
+
+Daryl Janmaat
+
+Craig White
+
+0
+
+394
+
+Harry Kane
+
+Craig White
+
+45
+
+350
+
+Lukasz Fabianski
+
+Craig White
+
+5
+
+342
+
+Xherdan Shaqiri
+
+Craig White
+
+1
+
+316
+
+Steven Davis
+
+Craig White
+
+7
+
+308
+
+Maya Yoshida
+
+Craig White
+
+0
+
+281
+
+Henrikh Mkhitaryan
+
+Craig White
+
+13
+
+193
+
+Danny Simpson
+
+Craig White
+
+3
+
+106
+
+Willian Borges Da Silva
+
+Craig White
+
+6
+
+105
+
+Cesc Fàbregas
+
+Craig White
+
+3
+
+97
+
+César Azpilicueta
+
+Craig White
+
+12
+
+449
+
+André Ayew
+
+Dom Scott
+
+10
+
+400
+
+Sebastian Prödl
+
+Dom Scott
+
+4
+
+387
+
+Christian Eriksen
+
+Dom Scott
+
+29
+
+295
+
+Matt Ritchie
+
+Dom Scott
+
+4
+
+289
+
+Ciaran Clark
+
+Dom Scott
+
+4
+
+264
+
+Phil Jones
+
+Dom Scott
+
+0
+
+230
+
+Sadio Mané
+
+Dom Scott
+
+32
+
+211
+
+Shinji Okazaki
+
+Dom Scott
+
+14
+
+84
+
+Johann Berg Gudmundsson
+
+Dom Scott
+
+13
+
+76
+
+Matthew Lowton
+
+Dom Scott
+
+0
+
+55
+
+Lewis Dunk
+
+Dom Scott
+
+2
+
+51
+
+Joshua King
+
+Dom Scott
+
+15
+
+46
+
+Lewis Cook
+
+Dom Scott
+
+5
+
+29
+
+Asmir Begovic
+
+Dom Scott
+
+7
+
+607
+
+Guido Carrillo
+
+John Bassett
+
+13
+
+604
+
+Jürgen Locadia
+
+John Bassett
+
+0
+
+497
+
+Eric Maxim Choupo-Moting
+
+John Bassett
+
+0
+
+450
+
+Mark Noble
+
+John Bassett
+
+0
+
+378
+
+Danny Rose
+
+John Bassett
+
+11
+
+354
+
+Federico Fernández
+
+John Bassett
+
+9
+
+326
+
+Charlie Austin
+
+John Bassett
+
+11
+
+322
+
+Sofiane Boufal
+
+John Bassett
+
+7
+
+258
+
+Kelechi Iheanacho
+
+John Bassett
+
+16
+
+245
+
+Nicolás Otamendi
+
+John Bassett
+
+0
+
+163
+
+Jonas Lössl
+
+John Bassett
+
+3
+
+109
+
+Pedro Rodríguez Ledesma
+
+John Bassett
+
+9
+
+100
+
+Marcos Alonso
+
+John Bassett
+
+21
+
+7
+
+Héctor Bellerín
+
+John Bassett
+
+9
+
+541
+
+Aleksandar Dragovic
+
+John Kaye
+
+5
+
+525
+
+Wesley Hoedt
+
+John Kaye
+
+0
+
+501
+
+Richarlison de Andrade
+
+John Kaye
+
+20
+
+437
+
+Jay Rodriguez
+
+John Kaye
+
+13
+
+401
+
+José Holebas
+
+John Kaye
+
+1
+
+375
+
+Hugo Lloris
+
+John Kaye
+
+14
+
+366
+
+Nathan Dyer
+
+John Kaye
+
+0
+
+356
+
+Mike van der Hoorn
+
+John Kaye
+
+7
+
+274
+
+Juan Mata
+
+John Kaye
+
+6
+
+236
+
+Daniel Sturridge
+
+John Kaye
+
+2
+
+188
+
+Steve Mounie
+
+John Kaye
+
+7
+
+78
+
+Stephen Ward
+
+John Kaye
+
+10
+
+62
+
+Anthony Knockaert
+
+John Kaye
+
+13
+
+42
+
+Junior Stanislas
+
+John Kaye
+
+8
+
+608
+
+João Mário Naval Costa Eduardo
+
+Liam Mosley
+
+15
+
+435
+
+Salomón Rondón
+
+Liam Mosley
+
+4
+
+424
+
+Craig Dawson
+
+Liam Mosley
+
+2
+
+397
+
+Heurelho Gomes
+
+Liam Mosley
+
+3
+
+377
+
+Toby Alderweireld
+
+Liam Mosley
+
+15
+
+318
+
+Dusan Tadic
+
+Liam Mosley
+
+5
+
+313
+
+Jack Stephens
+
+Liam Mosley
+
+11
+
+301
+
+Dwight Gayle
+
+Liam Mosley
+
+16
+
+290
+
+Jamaal Lascelles
+
+Liam Mosley
+
+0
+
+280
+
+Anthony Martial
+
+Liam Mosley
+
+17
+
+277
+
+Ashley Young
+
+Liam Mosley
+
+3
+
+134
+
+Christian Benteke
+
+Liam Mosley
+
+23
+
+129
+
+Yohan Cabaye
+
+Liam Mosley
+
+0
+
+101
+
+David Luiz Moreira Marinho
+
+Liam Mosley
+
+15
+
+443
+
+Aaron Cresswell
+
+Nick Longley
+
+2
+
+438
+
+Adrián San Miguel del Castillo
+
+Nick Longley
+
+7
+
+432
+
+Matt Phillips
+
+Nick Longley
+
+8
+
+423
+
+Jonny Evans
+
+Nick Longley
+
+0
+
+388
+
+Bamidele Alli
+
+Nick Longley
+
+40
+
+296
+
+Jonjo Shelvey
+
+Nick Longley
+
+7
+
+266
+
+Marcos Rojo
+
+Nick Longley
+
+3
+
+259
+
+Gabriel Fernando de Jesus
+
+Nick Longley
+
+36
+
+228
+
+Adam Lallana
+
+Nick Longley
+
+3
+
+198
+
+Harry Maguire
+
+Nick Longley
+
+0
+
+191
+
+Wes Morgan
+
+Nick Longley
+
+0
+
+126
+
+Wilfried Zaha
+
+Nick Longley
+
+13
+
+110
+
+Robert Kenedy Nunes do Nascimento
+
+Nick Longley
+
+10
+
+56
+
+Shane Duffy
+
+Nick Longley
+
+0
+
+548
+
+Oumar Niasse
+
+Paul Ebrey
+
+16
+
+359
+
+Gylfi Sigurdsson
+
+Paul Ebrey
+
+21
+
+340
+
+Marko Arnautovic
+
+Paul Ebrey
+
+11
+
+311
+
+Virgil van Dijk
+
+Paul Ebrey
+
+11
+
+222
+
+James Milner
+
+Paul Ebrey
+
+2
+
+206
+
+Wilfred Ndidi
+
+Paul Ebrey
+
+2
+
+192
+
+Christian Fuchs
+
+Paul Ebrey
+
+4
+
+111
+
+N'Golo Kanté
+
+Paul Ebrey
+
+2
+
+79
+
+James Tarkowski
+
+Paul Ebrey
+
+8
+
+74
+
+Tom Heaton
+
+Paul Ebrey
+
+12
+
+70
+
+Pascal Groß
+
+Paul Ebrey
+
+5
+
+52
+
+Jermain Defoe
+
+Paul Ebrey
+
+17
+
+50
+
+Lys Mousset
+
+Paul Ebrey
+
+7
+
+15
+
+Theo Walcott
+
+Paul Ebrey
+
+9
+
+617
+
+Lucas Rodrigues Moura da Silva
+
+Paul Walkington
+
+40
+
+360
+
+Wayne Routledge
+
+Paul Walkington
+
+4
+
+347
+
+Peter Crouch
+
+Paul Walkington
+
+0
+
+338
+
+Charlie Adam
+
+Paul Walkington
+
+0
+
+246
+
+Fabian Delph
+
+Paul Walkington
+
+0
+
+237
+
+Danny Ings
+
+Paul Walkington
+
+1
+
+235
+
+Roberto Firmino
+
+Paul Walkington
+
+21
+
+234
+
+Mohamed Salah
+
+Paul Walkington
+
+32
+
+223
+
+Trent Alexander-Arnold
+
+Paul Walkington
+
+0
+
+219
+
+Joel Matip
+
+Paul Walkington
+
+8
+
+216
+
+Alberto Moreno
+
+Paul Walkington
+
+1
+
+153
+
+Aaron Lennon
+
+Paul Walkington
+
+0
+
+5
+
+Per Mertesacker
+
+Paul Walkington
+
+0
+
+2
+
+Petr Cech
+
+Paul Walkington
+
+15
+
+519
+
+Sam Clucas
+
+Phil Tompkins
+
+9
+
+517
+
+José Heriberto Izquierdo Mena
+
+Phil Tompkins
+
+5
+
+302
+
+Ayoze Pérez
+
+Phil Tompkins
+
+3
+
+298
+
+Mohamed Diamé
+
+Phil Tompkins
+
+1
+
+244
+
+Vincent Kompany
+
+Phil Tompkins
+
+16
+
+221
+
+Mamadou Sakho
+
+Phil Tompkins
+
+5
+
+214
+
+Loris Karius
+
+Phil Tompkins
+
+0
+
+213
+
+Simon Mignolet
+
+Phil Tompkins
+
+10
+
+196
+
+Benjamin Chilwell
+
+Phil Tompkins
+
+0
+
+103
+
+Antonio Rüdiger
+
+Phil Tompkins
+
+16
+
+90
+
+Jack Cork
+
+Phil Tompkins
+
+3
+
+86
+
+Jeff Hendrick
+
+Phil Tompkins
+
+3
+
+58
+
+Bruno Saltor Grau
+
+Phil Tompkins
+
+3
+
+28
+
+Alexandre Lacazette
+
+Phil Tompkins
+
+37
+
+532
+
+Serge Aurier
+
+Simon Loy
+
+16
+
+500
+
+Mario Lemina
+
+Simon Loy
+
+6
+
+475
+
+Andrew Robertson
+
+Simon Loy
+
+4
+
+469
+
+Nick Pope
+
+Simon Loy
+
+10
+
+393
+
+Moussa Sissoko
+
+Simon Loy
+
+4
+
+379
+
+Kyle Walker
+
+Simon Loy
+
+16
+
+286
+
+Robert Elliot
+
+Simon Loy
+
+4
+
+247
+
+Raheem Sterling
+
+Simon Loy
+
+20
+
+187
+
+Laurent Depoitre
+
+Simon Loy
+
+0
+
+146
+
+Michael Keane
+
+Simon Loy
+
+14
+
+107
+
+Nemanja Matic
+
+Simon Loy
+
+7
+
+98
+
+Gary Cahill
+
+Simon Loy
+
+20
+
+91
+
+Sam Vokes
+
+Simon Loy
+
+9
+
+39
+
+Harry Arter
+
+Simon Loy
+
+0
+
+609
+
+Gerard Deulofeu
+
+Steve Hammersley
+
+27
+
+464
+
+Cuco Martina
+
+Steve Hammersley
+
+2
+
+317
+
+James Ward-Prowse
+
+Steve Hammersley
+
+0
+
+257
+
+Sergio Agüero
+
+Steve Hammersley
+
+30
+
+203
+
+Demarai Gray
+
+Steve Hammersley
+
+5
+
+147
+
+Yannick Bolasie
+
+Steve Hammersley
+
+9
+
+132
+
+Luka Milivojevic
+
+Steve Hammersley
+
+11
+
+93
+
+Ashley Barnes
+
+Steve Hammersley
+
+0
+
+71
+
+Glenn Murray
+
+Steve Hammersley
+
+7
+
+54
+
+Mathew Ryan
+
+Steve Hammersley
+
+0
+
+38
+
+Nathan Aké
+
+Steve Hammersley
+
+6
+
+34
+
+Charlie Daniels
+
+Steve Hammersley
+
+6
+
+14
+
+Alexis Sánchez
+
+Steve Hammersley
+
+28
+
+4
+
+Laurent Koscielny
+
+Steve Hammersley
+
+9
+
+470
+
+Andreas Christensen
+
+Taz Assi
+
+13
+
+447
+
+Pablo Zabaleta
+
+Taz Assi
+
+1
+
+389
+
+Victor Wanyama
+
+Taz Assi
+
+0
+
+325
+
+Shane Long
+
+Taz Assi
+
+0
+
+285
+
+Romelu Lukaku
+
+Taz Assi
+
+47
+
+284
+
+Marcus Rashford
+
+Taz Assi
+
+15
+
+278
+
+Ander Herrera
+
+Taz Assi
+
+0
+
+263
+
+Chris Smalling
+
+Taz Assi
+
+0
+
+260
+
+David de Gea
+
+Taz Assi
+
+11
+
+256
+
+Bernardo Mota Veiga de Carvalho e Silva
+
+Taz Assi
+
+15
+
+253
+
+Ilkay Gündogan
+
+Taz Assi
+
+0
+
+212
+
+Islam Slimani
+
+Taz Assi
+
+27
+
+11
+
+Rob Holding
+
+Taz Assi
+
+0
+
+10
+
+Nacho Monreal
+
+Taz Assi
+
+0
+
+440
+
+Jose Fonte
+
+Tom Crane
+
+7
+
+414
+
+Abdoulaye Doucouré
+
+Tom Crane
+
+13
+
+371
+
+Fernando Llorente
+
+Tom Crane
+
+9
+
+337
+
+Joe Allen
+
+Tom Crane
+
+6
+
+332
+
+Erik Pieters
+
+Tom Crane
+
+4
+
+267
+
+Antonio Valencia
+
+Tom Crane
+
+12
+
+250
+
+Fernando Luiz Rosa
+
+Tom Crane
+
+1
+
+227
+
+Emre Can
+
+Tom Crane
+
+0
+
+225
+
+Jordan Henderson
+
+Tom Crane
+
+10
+
+172
+
+Aaron Mooy
+
+Tom Crane
+
+4
+
+171
+
+Mathias Jorgensen
+
+Tom Crane
+
+2
+
+159
+
+Dominic Calvert-Lewin
+
+Tom Crane
+
+11
+
+131
+
+Andros Townsend
+
+Tom Crane
+
+11
+
+94
+
+Thibaut Courtois
+
+Tom Crane
+
+19
+
+601
+
+Fousseni Diabaté
+
+Tom Keeber
+
+29
+
+543
+
+Davide Zappacosta
+
+Tom Keeber
+
+6
+
+518
+
+Chris Wood
+
+Tom Keeber
+
+19
+
+382
+
+Kieran Trippier
+
+Tom Keeber
+
+8
+
+306
+
+Fraser Forster
+
+Tom Keeber
+
+13
+
+300
+
+Christian Atsu
+
+Tom Keeber
+
+1
+
+242
+
+John Stones
+
+Tom Keeber
+
+4
+
+239
+
+Dominic Solanke
+
+Tom Keeber
+
+0
+
+199
+
+Riyad Mahrez
+
+Tom Keeber
+
+2
+
+189
+
+Kasper Schmeichel
+
+Tom Keeber
+
+4
+
+149
+
+Ross Barkley
+
+Tom Keeber
+
+6
+
+143
+
+Ashley Williams
+
+Tom Keeber
+
+6
+
+25
+
+Olivier Giroud
+
+Tom Keeber
+
+15
+
+19
+
+Alex Oxlade-Chamberlain
+
+Tom Keeber
+
+8
