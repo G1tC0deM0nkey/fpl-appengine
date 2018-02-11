@@ -129,6 +129,69 @@ public class FSContext {
 
     }
 
+    public List <PlayerKey> loadPlayerOrder() throws IOException {
+
+        List <PlayerKey> playerKeys = new ArrayList<PlayerKey>();
+        File f = new File(root + "/player.order.txt");
+
+        InputStream is = new FileInputStream(f);
+        InputStreamReader isr = new InputStreamReader(is);
+        BufferedReader br = new BufferedReader(isr);
+
+        String line = br.readLine();
+
+        while(line != null) {
+
+            String [] tokens = line.split("\t");
+
+            if(tokens.length != 3) {
+                throw new IllegalStateException("Player Order incorrect - expected three tokens <name> <team> <position> but found (" + tokens.length + ") " + line);
+            }
+
+            String name = tokens[0];
+            String team = tokens[1];
+            String pos = tokens[2];
+
+            PlayerKey pk = new PlayerKey(name, team, pos);
+            playerKeys.add(pk);
+
+            line = br.readLine();
+        }
+
+        return playerKeys;
+
+    }
+
+    public List <String> loadManagerOrder() throws IOException {
+
+        List <String> managerNames = new ArrayList<String>();
+        File f = new File(root + "/manager.order.txt");
+
+        InputStream is = new FileInputStream(f);
+        InputStreamReader isr = new InputStreamReader(is);
+        BufferedReader br = new BufferedReader(isr);
+
+        String line = br.readLine();
+
+        while(line != null) {
+
+            String [] tokens = line.split("\t");
+
+            if(tokens.length != 1) {
+                throw new IllegalStateException("Manager Order incorrect - expected one token <name> but found (" + tokens.length + ") " + line);
+            }
+
+            String name = tokens[0];
+
+            managerNames.add(name);
+
+            line = br.readLine();
+        }
+
+        return managerNames;
+
+    }
+
     public List <Fixture> loadFixtures() throws IOException {
         return loadFixtures(null);
     }

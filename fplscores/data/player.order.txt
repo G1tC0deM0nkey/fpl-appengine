@@ -1,0 +1,624 @@
+David Ospina	Arsenal	GKP
+Petr Cech	Arsenal	GKP
+Damian Emiliano Martinez	Arsenal	GKP
+Laurent Koscielny	Arsenal	DEF
+Per Mertesacker	Arsenal	DEF
+Gabriel Armando de Abreu	Arsenal	DEF
+Héctor Bellerín	Arsenal	DEF
+Carl Jenkinson	Arsenal	DEF
+Nacho Monreal	Arsenal	DEF
+Rob Holding	Arsenal	DEF
+Shkodran Mustafi	Arsenal	DEF
+Sead Kolasinac	Arsenal	DEF
+Mesut Özil	Arsenal	MID
+Santiago Cazorla	Arsenal	MID
+Aaron Ramsey	Arsenal	MID
+Francis Coquelin	Arsenal	MID
+Alex Iwobi	Arsenal	MID
+Mohamed Elneny	Arsenal	MID
+Granit Xhaka	Arsenal	MID
+Jack Wilshere	Arsenal	MID
+Danny Welbeck	Arsenal	FWD
+Lucas Pérez	Arsenal	FWD
+Alexandre Lacazette	Arsenal	FWD
+Henrikh Mkhitaryan	Arsenal	MID
+Calum Chambers	Arsenal	DEF
+Reiss Nelson	Arsenal	MID
+Ainsley Maitland-Niles	Arsenal	MID
+Matt Macey	Arsenal	GKP
+Edward Nketiah	Arsenal	FWD
+Mathieu Debuchy	Arsenal	DEF
+Konstantinos Mavropanos	Arsenal	DEF
+Pierre-Emerick Aubameyang	Arsenal	FWD
+Asmir Begovic	Bournemouth	GKP
+Artur Boruc	Bournemouth	GKP
+Adam Federici	Bournemouth	GKP
+Simon Francis	Bournemouth	DEF
+Steve Cook	Bournemouth	DEF
+Charlie Daniels	Bournemouth	DEF
+Adam Smith	Bournemouth	DEF
+Tyrone Mings	Bournemouth	DEF
+Bradley Smith	Bournemouth	DEF
+Nathan Aké	Bournemouth	DEF
+Harry Arter	Bournemouth	MID
+Marc Pugh	Bournemouth	MID
+Andrew Surman	Bournemouth	MID
+Junior Stanislas	Bournemouth	MID
+Dan Gosling	Bournemouth	MID
+Max Gradel	Bournemouth	MID
+Jordon Ibe	Bournemouth	MID
+Lewis Cook	Bournemouth	MID
+Ryan Fraser	Bournemouth	MID
+Callum Wilson	Bournemouth	FWD
+Benik Afobe	Bournemouth	FWD
+Lys Mousset	Bournemouth	FWD
+Joshua King	Bournemouth	FWD
+Jermain Defoe	Bournemouth	FWD
+Aaron Ramsdale	Bournemouth	GKP
+Jack Simpson	Bournemouth	DEF
+Emerson Hyndman	Bournemouth	MID
+Connor Mahoney	Bournemouth	MID
+Matt Butcher	Bournemouth	MID
+Kyle Taylor	Bournemouth	MID
+Niki Mäenpää	Brighton	GKP
+Mathew Ryan	Brighton	GKP
+Lewis Dunk	Brighton	DEF
+Shane Duffy	Brighton	DEF
+Uwe Hünemeier	Brighton	DEF
+Bruno Saltor Grau	Brighton	DEF
+Gaëtan Bong	Brighton	DEF
+Liam Rosenior	Brighton	DEF
+Connor Goldson	Brighton	DEF
+Anthony Knockaert	Brighton	MID
+Dale Stephens	Brighton	MID
+Beram Kayal	Brighton	MID
+Steve Sidwell	Brighton	MID
+Solomon March	Brighton	MID
+Jiri Skalak	Brighton	MID
+Oliver Norwood	Brighton	MID
+Jamie Murphy	Brighton	MID
+Pascal Groß	Brighton	MID
+Glenn Murray	Brighton	FWD
+Tomer Hemed	Brighton	FWD
+Sam Baldock	Brighton	FWD
+Leonardo Ulloa	Brighton	FWD
+Markus Suttner	Brighton	DEF
+Isaiah Brown	Brighton	MID
+Davy Pröpper	Brighton	MID
+José Heriberto Izquierdo Mena	Brighton	MID
+Ezequiel Schelotto	Brighton	DEF
+Tim Krul	Brighton	GKP
+Jayson Molumby	Brighton	MID
+Jürgen Locadia	Brighton	FWD
+Tom Heaton	Burnley	GKP
+Paul Robinson	Burnley	GKP
+Matthew Lowton	Burnley	DEF
+Ben Mee	Burnley	DEF
+Stephen Ward	Burnley	DEF
+James Tarkowski	Burnley	DEF
+Kevin Long	Burnley	DEF
+Charlie Taylor	Burnley	DEF
+Scott Arfield	Burnley	MID
+Dean Marney	Burnley	MID
+Johann Berg Gudmundsson	Burnley	MID
+Steven Defour	Burnley	MID
+Jeff Hendrick	Burnley	MID
+Robbie Brady	Burnley	MID
+Ashley Westwood	Burnley	MID
+Jonathan Walters	Burnley	MID
+Jack Cork	Burnley	MID
+Sam Vokes	Burnley	FWD
+Ashley Barnes	Burnley	FWD
+Aaron Lennon	Burnley	MID
+Nahki Wells	Burnley	FWD
+Phil Bardsley	Burnley	DEF
+Georges-Kévin Nkoudou	Burnley	MID
+Nick Pope	Burnley	GKP
+Chris Wood	Burnley	FWD
+Adam Legzdins	Burnley	GKP
+Anders Lindegaard	Burnley	GKP
+Fredrik Ulvestad	Burnley	MID
+Aiden O'Neill	Burnley	MID
+Olivier Giroud	Chelsea	FWD
+Thibaut Courtois	Chelsea	GKP
+Eduardo dos Reis Carvalho	Chelsea	GKP
+Willy Caballero	Chelsea	GKP
+César Azpilicueta	Chelsea	DEF
+Gary Cahill	Chelsea	DEF
+Marcos Alonso	Chelsea	DEF
+David Luiz Moreira Marinho	Chelsea	DEF
+Victor Moses	Chelsea	DEF
+Antonio Rüdiger	Chelsea	DEF
+Eden Hazard	Chelsea	MID
+Cesc Fàbregas	Chelsea	MID
+Willian Borges Da Silva	Chelsea	MID
+Pedro Rodríguez Ledesma	Chelsea	MID
+N'Golo Kanté	Chelsea	MID
+Michy Batshuayi	Chelsea	FWD
+Diego Da Silva Costa	Chelsea	FWD
+Ross Barkley	Chelsea	MID
+Kasey Palmer	Chelsea	MID
+Daniel Drinkwater	Chelsea	MID
+Tiemoué Bakayoko	Chelsea	MID
+Andreas Christensen	Chelsea	DEF
+Charly Musonda	Chelsea	MID
+Álvaro Morata	Chelsea	FWD
+Fikayo Tomori	Chelsea	DEF
+Kyle Scott	Chelsea	MID
+Jeremie Boga	Chelsea	MID
+Davide Zappacosta	Chelsea	FWD
+Ethan Ampadu	Chelsea	MID
+Callum Hudson-Odoi	Chelsea	MID
+Dujon Sterling	Chelsea	DEF
+Emerson Palmieri dos Santos	Chelsea	DEF
+Ruben Loftus-Cheek	Crystal Palace	MID
+Wayne Hennessey	Crystal Palace	GKP
+Julian Speroni	Crystal Palace	GKP
+James Tomkins	Crystal Palace	DEF
+Scott Dann	Crystal Palace	DEF
+Joel Ward	Crystal Palace	DEF
+Martin Kelly	Crystal Palace	DEF
+Damien Delaney	Crystal Palace	DEF
+Pape Souaré	Crystal Palace	DEF
+Jeffrey Schlupp	Crystal Palace	DEF
+Patrick van Aanholt	Crystal Palace	DEF
+Jason Puncheon	Crystal Palace	MID
+Wilfried Zaha	Crystal Palace	MID
+James McArthur	Crystal Palace	MID
+Chung-yong Lee	Crystal Palace	MID
+Yohan Cabaye	Crystal Palace	MID
+Bakary Sako	Crystal Palace	MID
+Andros Townsend	Crystal Palace	MID
+Luka Milivojevic	Crystal Palace	MID
+Connor Wickham	Crystal Palace	FWD
+Christian Benteke	Crystal Palace	FWD
+Mamadou Sakho	Crystal Palace	DEF
+Timothy Fosu-Mensah	Crystal Palace	DEF
+Jairo Riedewald	Crystal Palace	DEF
+Jason Lokilo	Crystal Palace	MID
+Olayinka Fredrick Oladotun Ladapo	Crystal Palace	FWD
+Sullay Kaikai	Crystal Palace	MID
+Keshi Anderson	Crystal Palace	FWD
+Levi Lumeka	Crystal Palace	MID
+Jordon Mutch	Crystal Palace	MID
+Dion Henry	Crystal Palace	GKP
+Aaron Wan-Bissaka	Crystal Palace	MID
+Jaroslaw Jach	Crystal Palace	DEF
+Erdal Rakip	Crystal Palace	MID
+Alexander Sørloth	Crystal Palace	FWD
+Theo Walcott	Everton	MID
+Jordan Pickford	Everton	GKP
+Joel Robles	Everton	GKP
+Maarten Stekelenburg	Everton	GKP
+Leighton Baines	Everton	DEF
+Seamus Coleman	Everton	DEF
+Phil Jagielka	Everton	DEF
+Matthew Pennington	Everton	DEF
+Ramiro Funes Mori	Everton	DEF
+Ashley Williams	Everton	DEF
+Mason Holgate	Everton	DEF
+Jonjoe Kenny	Everton	DEF
+Michael Keane	Everton	DEF
+Yannick Bolasie	Everton	MID
+Kevin Mirallas	Everton	MID
+James McCarthy	Everton	MID
+Muhamed Besic	Everton	MID
+Morgan Schneiderlin	Everton	MID
+Idrissa Gueye	Everton	MID
+Tom Davies	Everton	MID
+Ademola Lookman	Everton	MID
+Davy Klaassen	Everton	MID
+Dominic Calvert-Lewin	Everton	FWD
+Sandro Ramírez	Everton	FWD
+Wayne Rooney	Everton	FWD
+Gylfi Sigurdsson	Everton	MID
+Cuco Martina	Everton	DEF
+Eliaquim Mangala	Everton	DEF
+Nikola Vlasic	Everton	MID
+Oumar Niasse	Everton	FWD
+Beni Baningime	Everton	MID
+Cenk Tosun	Everton	FWD
+Joel Coleman	Huddersfield	GKP
+Jonas Lössl	Huddersfield	GKP
+Christopher Schindler	Huddersfield	DEF
+Chris Löwe	Huddersfield	DEF
+Tommy Smith	Huddersfield	DEF
+Michael Hefele	Huddersfield	DEF
+Martin Cranie	Huddersfield	DEF
+Jon Gorenc Stankovic	Huddersfield	DEF
+Mark Hudson	Huddersfield	DEF
+Mathias Jorgensen	Huddersfield	DEF
+Aaron Mooy	Huddersfield	MID
+Rajiv van La Parra	Huddersfield	MID
+Jonathan Hogg	Huddersfield	MID
+Philip Billing	Huddersfield	MID
+Joe Lolley	Huddersfield	MID
+Jack Payne	Huddersfield	MID
+Dean Whitehead	Huddersfield	MID
+Harry Bunn	Huddersfield	MID
+Sean Scannell	Huddersfield	MID
+Elias Kachunga	Huddersfield	MID
+Tom Ince	Huddersfield	MID
+Danny Williams	Huddersfield	MID
+Collin Quaner	Huddersfield	FWD
+Laurent Depoitre	Huddersfield	FWD
+Steve Mounie	Huddersfield	FWD
+Scott Malone	Huddersfield	DEF
+Florent Hadergjonaj	Huddersfield	DEF
+Abdelhamid Sabiri	Huddersfield	MID
+Robert Green	Huddersfield	GKP
+Terence Kongolo	Huddersfield	DEF
+Alex Pritchard	Huddersfield	MID
+Kasper Schmeichel	Leicester	GKP
+Ben Hamer	Leicester	GKP
+Wes Morgan	Leicester	DEF
+Christian Fuchs	Leicester	DEF
+Danny Simpson	Leicester	DEF
+Robert Huth	Leicester	DEF
+Yohan Benalouane	Leicester	DEF
+Benjamin Chilwell	Leicester	DEF
+Harry Maguire	Leicester	DEF
+Riyad Mahrez	Leicester	MID
+Marc Albrighton	Leicester	MID
+Demarai Gray	Leicester	MID
+Daniel Amartey	Leicester	MID
+Nampalys Mendy	Leicester	MID
+Wilfred Ndidi	Leicester	MID
+Ahmed Musa	Leicester	MID
+Vicente Iborra	Leicester	MID
+Jamie Vardy	Leicester	FWD
+Shinji Okazaki	Leicester	FWD
+Kelechi Iheanacho	Leicester	FWD
+Eldin Jakupovic	Leicester	GKP
+Matty James	Leicester	MID
+Aleksandar Dragovic	Leicester	DEF
+Hamza Choudhury	Leicester	MID
+George Thomas	Leicester	MID
+Adrien Sebastian Perruchet Silva	Leicester	MID
+Fousseni Diabaté	Leicester	FWD
+Alex Oxlade-Chamberlain	Liverpool	MID
+Simon Mignolet	Liverpool	GKP
+Loris Karius	Liverpool	GKP
+Dejan Lovren	Liverpool	DEF
+Alberto Moreno	Liverpool	DEF
+Nathaniel Clyne	Liverpool	DEF
+Joseph Gomez	Liverpool	DEF
+Joel Matip	Liverpool	DEF
+Ragnar Klavan	Liverpool	DEF
+James Milner	Liverpool	DEF
+Trent Alexander-Arnold	Liverpool	DEF
+Leiva Lucas	Liverpool	MID
+Jordan Henderson	Liverpool	MID
+Philippe Coutinho	Liverpool	MID
+Emre Can	Liverpool	MID
+Adam Lallana	Liverpool	MID
+Oluwaseyi Ojo	Liverpool	MID
+Sadio Mané	Liverpool	MID
+Marko Grujic	Liverpool	MID
+Georginio Wijnaldum	Liverpool	MID
+Ben Woodburn	Liverpool	MID
+Mohamed Salah	Liverpool	MID
+Roberto Firmino	Liverpool	FWD
+Danny Ings	Liverpool	FWD
+Divock Origi	Liverpool	FWD
+Dominic Solanke	Liverpool	FWD
+Virgil van Dijk	Liverpool	DEF
+Andrew Robertson	Liverpool	DEF
+Jon Flanagan	Liverpool	DEF
+Danny Ward	Liverpool	GKP
+Ederson Santana de Moraes	Man City	GKP
+Claudio Bravo	Man City	GKP
+John Stones	Man City	DEF
+Aleksandar Kolarov	Man City	DEF
+Vincent Kompany	Man City	DEF
+Nicolás Otamendi	Man City	DEF
+Fabian Delph	Man City	MID
+Raheem Sterling	Man City	MID
+David Silva	Man City	MID
+Gnegneri Yaya Touré	Man City	MID
+Fernando Luiz Rosa	Man City	MID
+Fernando Francisco Reges	Man City	MID
+Kevin De Bruyne	Man City	MID
+Ilkay Gündogan	Man City	MID
+Manuel Agudo Durán	Man City	MID
+Leroy Sané	Man City	MID
+Bernardo Mota Veiga de Carvalho e Silva	Man City	MID
+Sergio Agüero	Man City	FWD
+Gabriel Fernando de Jesus	Man City	FWD
+Kyle Walker	Man City	DEF
+Danilo Luiz da Silva	Man City	DEF
+Benjamin Mendy	Man City	DEF
+Phil Foden	Man City	MID
+Brahim Diaz	Man City	MID
+Oleksandr Zinchenko	Man City	MID
+Oluwatosin Adarabioyo	Man City	DEF
+Aymeric Laporte	Man City	DEF
+Alexis Sánchez	Man Utd	MID
+Nemanja Matic	Man Utd	MID
+David de Gea	Man Utd	GKP
+Sergio Romero	Man Utd	GKP
+Joel Dinis Castro Pereira	Man Utd	GKP
+Chris Smalling	Man Utd	DEF
+Phil Jones	Man Utd	DEF
+Luke Shaw	Man Utd	DEF
+Marcos Rojo	Man Utd	DEF
+Antonio Valencia	Man Utd	DEF
+Matteo Darmian	Man Utd	DEF
+Daley Blind	Man Utd	DEF
+Eric Bailly	Man Utd	DEF
+Axel Tuanzebe	Man Utd	DEF
+Victor Lindelöf	Man Utd	DEF
+Juan Mata	Man Utd	MID
+Marouane Fellaini	Man Utd	MID
+Michael Carrick	Man Utd	MID
+Ashley Young	Man Utd	MID
+Ander Herrera	Man Utd	MID
+Jesse Lingard	Man Utd	MID
+Anthony Martial	Man Utd	MID
+Paul Pogba	Man Utd	MID
+Scott McTominay	Man Utd	MID
+Marcus Rashford	Man Utd	FWD
+Romelu Lukaku	Man Utd	FWD
+Andreas Pereira	Man Utd	MID
+Zlatan Ibrahimovic	Man Utd	FWD
+Robert Kenedy Nunes do Nascimento	Newcastle	MID
+Islam Slimani	Newcastle	FWD
+Robert Elliot	Newcastle	GKP
+Karl Darlow	Newcastle	GKP
+DeAndre Yedlin	Newcastle	DEF
+Ciaran Clark	Newcastle	DEF
+Jamaal Lascelles	Newcastle	DEF
+Paul Dummett	Newcastle	DEF
+Grant Hanley	Newcastle	DEF
+Jesús Gámez Duarte	Newcastle	DEF
+Florian Lejeune	Newcastle	DEF
+Matt Ritchie	Newcastle	MID
+Jonjo Shelvey	Newcastle	MID
+Yoan Gouffran	Newcastle	MID
+Mohamed Diamé	Newcastle	MID
+Jack Colback	Newcastle	MID
+Christian Atsu	Newcastle	MID
+Dwight Gayle	Newcastle	FWD
+Ayoze Pérez	Newcastle	FWD
+Aleksandar Mitrovic	Newcastle	FWD
+Daryl Murphy	Newcastle	FWD
+Massadio Haidara	Newcastle	DEF
+Siem de Jong	Newcastle	MID
+Rolando Aarons	Newcastle	MID
+Javier Manquillo	Newcastle	DEF
+Jacob Murphy	Newcastle	MID
+Jose Luis Mato Sanmartín	Newcastle	FWD
+Chancel Mbemba	Newcastle	DEF
+Mikel Merino	Newcastle	MID
+Isaac Hayden	Newcastle	MID
+Henri Saivet	Newcastle	MID
+Freddie Woodman	Newcastle	GKP
+Martin Dubravka	Newcastle	GKP
+Alex McCarthy	Southampton	GKP
+Fraser Forster	Southampton	GKP
+Ryan Bertrand	Southampton	DEF
+Maya Yoshida	Southampton	DEF
+Matt Targett	Southampton	DEF
+Cédric Soares	Southampton	DEF
+Jérémy Pied	Southampton	DEF
+Jack Stephens	Southampton	DEF
+Sam McQueen	Southampton	DEF
+Jan Bednarek	Southampton	DEF
+Steven Davis	Southampton	MID
+James Ward-Prowse	Southampton	MID
+Dusan Tadic	Southampton	MID
+Jordy Clasie	Southampton	MID
+Oriol Romeu Vidal	Southampton	MID
+Pierre-Emile Højbjerg	Southampton	MID
+Sofiane Boufal	Southampton	MID
+Joshua Sims	Southampton	MID
+Nathan Redmond	Southampton	MID
+Shane Long	Southampton	FWD
+Charlie Austin	Southampton	FWD
+Manolo Gabbiadini	Southampton	FWD
+Mario Lemina	Southampton	MID
+Stuart Taylor	Southampton	GKP
+Wesley Hoedt	Southampton	DEF
+Michael Obafemi	Southampton	FWD
+Guido Carrillo	Southampton	FWD
+Fernando Llorente	Spurs	FWD
+Hugo Lloris	Spurs	GKP
+Michel Vorm	Spurs	GKP
+Toby Alderweireld	Spurs	DEF
+Danny Rose	Spurs	DEF
+Jan Vertonghen	Spurs	DEF
+Ben Davies	Spurs	DEF
+Kieran Trippier	Spurs	DEF
+Eric Dier	Spurs	MID
+Mousa Dembélé	Spurs	MID
+Erik Lamela	Spurs	MID
+Christian Eriksen	Spurs	MID
+Bamidele Alli	Spurs	MID
+Victor Wanyama	Spurs	MID
+Heung-Min Son	Spurs	MID
+Harry Winks	Spurs	MID
+Moussa Sissoko	Spurs	MID
+Harry Kane	Spurs	FWD
+Vincent Janssen	Spurs	FWD
+Kyle Walker-Peters	Spurs	DEF
+Cameron Carter-Vickers	Spurs	DEF
+Davinson Sánchez	Spurs	DEF
+Tashan Oakley-Boothe	Spurs	MID
+Serge Aurier	Spurs	DEF
+Juan Foyth	Spurs	DEF
+Paulo Gazzaniga	Spurs	GKP
+Alfie Whiteman	Spurs	GKP
+Lucas Rodrigues Moura da Silva	Spurs	MID
+Kurt Zouma	Stoke	DEF
+Jack Butland	Stoke	GKP
+Lee Grant	Stoke	GKP
+Ryan Shawcross	Stoke	DEF
+Geoff Cameron	Stoke	DEF
+Erik Pieters	Stoke	DEF
+Marc Muniesa	Stoke	DEF
+Glen Johnson	Stoke	DEF
+Josh Tymon	Stoke	DEF
+Joe Allen	Stoke	MID
+Charlie Adam	Stoke	MID
+Glenn Whelan	Stoke	MID
+Ibrahim Afellay	Stoke	MID
+Xherdan Shaqiri	Stoke	MID
+Giannelli Imbula	Stoke	MID
+Bojan Krkic Perez	Stoke	MID
+Ramadan Sobhi	Stoke	MID
+Darren Fletcher	Stoke	MID
+Peter Crouch	Stoke	FWD
+Mame Biram Diouf	Stoke	FWD
+Saido Berahino	Stoke	FWD
+Kevin Wimmer	Stoke	DEF
+Eric Maxim Choupo-Moting	Stoke	MID
+Jesé Rodríguez Ruiz	Stoke	MID
+Bruno Martins Indi	Stoke	DEF
+Harry Souttar	Stoke	DEF
+Thomas Edwards	Stoke	DEF
+Julien Ngoy	Stoke	FWD
+Jakob Haugaard	Stoke	GKP
+Stephen Ireland	Stoke	MID
+Moritz Bauer	Stoke	DEF
+Konstantinos Stafylidis	Stoke	DEF
+Papa Alioune Ndiaye	Stoke	MID
+Andy King	Swansea	MID
+Lukasz Fabianski	Swansea	GKP
+Kristoffer Nordfeldt	Swansea	GKP
+Kyle Naughton	Swansea	DEF
+Angel Rangel	Swansea	DEF
+Federico Fernández	Swansea	DEF
+Stephen Kingsley	Swansea	DEF
+Mike van der Hoorn	Swansea	DEF
+Alfie Mawson	Swansea	DEF
+Martin Olsson	Swansea	DEF
+Wayne Routledge	Swansea	MID
+Leon Britton	Swansea	MID
+Jay Fulton	Swansea	MID
+Sung-yueng Ki	Swansea	MID
+Jefferson Montero	Swansea	MID
+Leroy Fer	Swansea	MID
+Nathan Dyer	Swansea	MID
+Tom Carroll	Swansea	MID
+Modou Barrow	Swansea	MID
+Luciano Narsingh	Swansea	MID
+Roque Mesa	Swansea	MID
+Oliver McBurnie	Swansea	FWD
+Jordan Ayew	Swansea	FWD
+Tammy Abraham	Swansea	FWD
+André Ayew	Swansea	MID
+Kyle Bartley	Swansea	DEF
+Sam Clucas	Swansea	MID
+Renato Sanches	Swansea	MID
+Wilfried Bony	Swansea	DEF
+Joe Rodon	Swansea	DEF
+Erwin Mulder	Swansea	GKP
+Connor Roberts	Swansea	DEF
+Andre Gray	Watford	FWD
+Nathaniel Chalobah	Watford	MID
+Molla Wagué	Watford	DEF
+Costel Pantilimon	Watford	GKP
+Heurelho Gomes	Watford	GKP
+Younes Kaboul	Watford	DEF
+Craig Cathcart	Watford	DEF
+Sebastian Prödl	Watford	DEF
+José Holebas	Watford	DEF
+Miguel Britos	Watford	DEF
+Christian Kabasele	Watford	DEF
+Daryl Janmaat	Watford	DEF
+Adrian Mariappa	Watford	DEF
+Brandon Mason	Watford	DEF
+Francisco Femenía Far	Watford	DEF
+Tom Cleverley	Watford	MID
+Etienne Capoue	Watford	MID
+Valon Behrami	Watford	MID
+Steven Berghuis	Watford	MID
+Nordin Amrabat	Watford	MID
+Isaac Success	Watford	MID
+Abdoulaye Doucouré	Watford	MID
+Roberto Pereyra	Watford	MID
+Will Hughes	Watford	MID
+Troy Deeney	Watford	FWD
+Stefano Okaka	Watford	FWD
+Mauro Zárate	Watford	FWD
+Ben Watson	Watford	MID
+Jerome Sinclair	Watford	FWD
+Richarlison de Andrade	Watford	MID
+André Carrillo	Watford	MID
+Orestis Karnezis	Watford	GKP
+Marvin Zeegelaar	Watford	DEF
+Michael Folivi	Watford	FWD
+Daniel Bachmann	Watford	GKP
+Gerard Deulofeu	Watford	MID
+Carl Stewart	Watford	MID
+Dodi Lukebakio	Watford	MID
+Didier Ndong	Watford	MID
+Kieran Gibbs	West Brom	DEF
+Gareth Barry	West Brom	MID
+Daniel Sturridge	West Brom	FWD
+Boaz Myhill	West Brom	GKP
+Ben Foster	West Brom	GKP
+Allan-Roméo Nyom	West Brom	DEF
+Jonny Evans	West Brom	DEF
+Craig Dawson	West Brom	DEF
+Gareth McAuley	West Brom	DEF
+Jake Livermore	West Brom	MID
+Nacer Chadli	West Brom	MID
+James Morrison	West Brom	MID
+Claudio Yacob	West Brom	MID
+James McClean	West Brom	MID
+Jonathan Leko	West Brom	MID
+Matt Phillips	West Brom	MID
+Sam Field	West Brom	MID
+Chris Brunt	West Brom	MID
+Salomón Rondón	West Brom	FWD
+Hal Robson-Kanu	West Brom	FWD
+Jay Rodriguez	West Brom	FWD
+Ahmed El-Sayed Hegazi	West Brom	DEF
+Rekeem Harper	West Brom	MID
+Kane Wilson	West Brom	DEF
+Oliver Burke	West Brom	MID
+Grzegorz Krychowiak	West Brom	MID
+Alex Palmer	West Brom	GKP
+Max Melbourne	West Brom	DEF
+Rayhaan Tulloch	West Brom	FWD
+Nathan Ferguson	West Brom	DEF
+Ali Gabr	West Brom	DEF
+Kyle Jameson	West Brom	DEF
+Marko Arnautovic	West Ham	MID
+Adrián San Miguel del Castillo	West Ham	GKP
+Darren Randolph	West Ham	GKP
+Jose Fonte	West Ham	DEF
+James Collins	West Ham	DEF
+Winston Reid	West Ham	DEF
+Aaron Cresswell	West Ham	DEF
+Angelo Ogbonna	West Ham	DEF
+Sam Byram	West Ham	DEF
+Arthur Masuaku	West Ham	DEF
+Pablo Zabaleta	West Ham	DEF
+Robert Snodgrass	West Ham	MID
+Mark Noble	West Ham	MID
+Cheikhou Kouyaté	West Ham	MID
+Pedro Obiang	West Ham	MID
+Manuel Lanzini	West Ham	MID
+Michail Antonio	West Ham	MID
+Sofiane Feghouli	West Ham	MID
+Edimilson Fernandes	West Ham	MID
+Andy Carroll	West Ham	FWD
+Diafra Sakho	West Ham	FWD
+Ashley Fletcher	West Ham	FWD
+Enner Valencia	West Ham	FWD
+Joe Hart	West Ham	GKP
+Javier Hernández Balcázar	West Ham	FWD
+Declan Rice	West Ham	DEF
+Sead Haksabanovic	West Ham	MID
+Antonio Martinez Lopez	West Ham	FWD
+Domingos Quina	West Ham	MID
+Ben Johnson	West Ham	MID
+Nathan Trott	West Ham	GKP
+Moses Makasi	West Ham	MID
+Reece Burke	West Ham	DEF
+Josh Cullen	West Ham	MID
+João Mário Naval Costa Eduardo	West Ham	MID
+Reece Oxford	West Ham	DEF
+Jordan Hugill	West Ham	FWD

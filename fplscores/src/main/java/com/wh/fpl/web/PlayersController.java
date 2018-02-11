@@ -8,6 +8,7 @@ import com.wh.fpl.control.OpenGameweek;
 import com.wh.fpl.control.OpenGameweekFromLast;
 import com.wh.fpl.core.*;
 import com.wh.fpl.template.MatchTemplate;
+import com.wh.fpl.template.PlayerOrderTemplate;
 import com.wh.fpl.template.ScoreTemplate;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
@@ -49,20 +50,21 @@ public class PlayersController implements ApplicationContextAware {
         gameweekContext.setActiveGameweek(new Gameweek(GameweekConstants.MONTH, GameweekConstants.WEEK));
     }
 
-    @RequestMapping(value="/players-list", method= RequestMethod.GET, produces="text/html")
-    public @ResponseBody String getPlayersList(
-            @RequestParam(defaultValue="0") int month, @RequestParam(defaultValue="0") int week) throws Exception {
+    @RequestMapping(value = "/players-list", method = RequestMethod.GET, produces = "text/html")
+    public
+    @ResponseBody
+    String getPlayersList(
+            @RequestParam(defaultValue = "0") int month, @RequestParam(defaultValue = "0") int week) throws Exception {
 
         FSContext fs = new FSContext(config.getDataRoot());
 
         Gameweek gameweek = gameweekContext.getActiveGameweek();
         boolean active = true;
 
-        if(month != 0 && week != 0) {
+        if (month != 0 && week != 0) {
             gameweek = new Gameweek(month, week);
             active = (gameweekContext.getActiveGameweek() != null && gameweek.getGameMonth() == gameweekContext.getGameMonth() && gameweek.getGameWeek() == gameweekContext.getGameWeek());
-        }
-        else if(gameweek == null) {
+        } else if (gameweek == null) {
             return "No active gameweek!";
         }
 
@@ -70,7 +72,7 @@ public class PlayersController implements ApplicationContextAware {
         Gameweek gw = fs.loadGameweek(gameweek.getGameMonth(), gameweek.getGameWeek());
 
         //If it's the active gameweek, update and store the result
-        if(active) {
+        if (active) {
             CheckGameweek check = new CheckGameweek(gw.getGameMonth(), gw.getGameWeek());
             gameweek = check.update(gw);
             fs.storeGameweek(gameweek);
@@ -86,21 +88,23 @@ public class PlayersController implements ApplicationContextAware {
 
     }
 
-    @RequestMapping(value="/fixtures", method= RequestMethod.GET, produces = "text/html")
-    public @ResponseBody String getFixtures(
-            @RequestParam(defaultValue="0") int month, @RequestParam(defaultValue="0") int week) throws Exception {
+    @RequestMapping(value = "/fixtures", method = RequestMethod.GET, produces = "text/html")
+    public
+    @ResponseBody
+    String getFixtures(
+            @RequestParam(defaultValue = "0") int month, @RequestParam(defaultValue = "0") int week) throws Exception {
 
         FSContext fs = new FSContext(config.getDataRoot());
 
         Gameweek gameweek = gameweekContext.getActiveGameweek();
-        if(month != 0 && week != 0) {
+        if (month != 0 && week != 0) {
             gameweek = new Gameweek(month, week);
         }
 
         List<Fixture> fixtures = fs.loadFixtures(gameweek);
 
         StringBuilder sb = new StringBuilder();
-        for(Fixture f : fixtures) {
+        for (Fixture f : fixtures) {
             sb.append("Month ").append(f.getGameMonth()).append(" Week ").append(f.getGameWeek()).append(" - ");
             sb.append(f.getHome()).append(" vs ").append(f.getAway()).append("<br/>\n");
         }
@@ -109,8 +113,10 @@ public class PlayersController implements ApplicationContextAware {
 
     }
 
-    @RequestMapping(value="/start-gameweek", method=RequestMethod.POST)
-    public @ResponseBody String startGameweek(@RequestParam int month, @RequestParam int week) throws Exception {
+    @RequestMapping(value = "/start-gameweek", method = RequestMethod.POST)
+    public
+    @ResponseBody
+    String startGameweek(@RequestParam int month, @RequestParam int week) throws Exception {
 
         FSContext fs = new FSContext(config.getDataRoot());
 
@@ -125,16 +131,18 @@ public class PlayersController implements ApplicationContextAware {
 
     }
 
-    @RequestMapping(value="/squad", method=RequestMethod.GET)
-    public @ResponseBody String squads(@RequestParam String name) throws Exception {
+    @RequestMapping(value = "/squad", method = RequestMethod.GET)
+    public
+    @ResponseBody
+    String squads(@RequestParam String name) throws Exception {
 
         FSContext fs = new FSContext(config.getDataRoot());
 
-        List <PlayerKey> squad = fs.loadSquad(name);
+        List<PlayerKey> squad = fs.loadSquad(name);
 
         StringBuilder sb = new StringBuilder();
 
-        for(PlayerKey p : squad) {
+        for (PlayerKey p : squad) {
             sb.append(p.getTeam() + " - " + p.getPosition() + " - " + p.getName() + "<br/>\n");
         }
 
@@ -142,19 +150,20 @@ public class PlayersController implements ApplicationContextAware {
 
     }
 
-    @RequestMapping(value="/score", method=RequestMethod.GET)
-    public @ResponseBody String score(@RequestParam String name, @RequestParam(defaultValue="0") int month, @RequestParam(defaultValue ="0") int week) throws Exception {
+    @RequestMapping(value = "/score", method = RequestMethod.GET)
+    public
+    @ResponseBody
+    String score(@RequestParam String name, @RequestParam(defaultValue = "0") int month, @RequestParam(defaultValue = "0") int week) throws Exception {
 
         FSContext fs = new FSContext(config.getDataRoot());
 
         Gameweek gameweek = gameweekContext.getActiveGameweek();
         boolean active = true;
 
-        if(month != 0 && week != 0) {
+        if (month != 0 && week != 0) {
             gameweek = new Gameweek(month, week);
             active = (gameweekContext.getActiveGameweek() != null && gameweek.getGameMonth() == gameweekContext.getGameMonth() && gameweek.getGameWeek() == gameweekContext.getGameWeek());
-        }
-        else if(gameweek == null) {
+        } else if (gameweek == null) {
             return "No active gameweek!";
         }
 
@@ -162,7 +171,7 @@ public class PlayersController implements ApplicationContextAware {
         Gameweek gw = fs.loadGameweek(gameweek.getGameMonth(), gameweek.getGameWeek());
 
         //If it's the active gameweek, update and store the result
-        if(active) {
+        if (active) {
             CheckGameweek check = new CheckGameweek(gw.getGameMonth(), gw.getGameWeek());
             gameweek = check.update(gw);
             fs.storeGameweek(gameweek);
@@ -184,14 +193,16 @@ public class PlayersController implements ApplicationContextAware {
 
     }
 
-    @RequestMapping(value="/active-gameweek", method=RequestMethod.GET)
-    public @ResponseBody String activeGameweek(
-            @RequestParam(defaultValue="0") int month, @RequestParam(defaultValue="0") int week
+    @RequestMapping(value = "/active-gameweek", method = RequestMethod.GET)
+    public
+    @ResponseBody
+    String activeGameweek(
+            @RequestParam(defaultValue = "0") int month, @RequestParam(defaultValue = "0") int week
     ) throws Exception {
 
         FSContext ctx = new FSContext(config.getDataRoot());
 
-        if(month != 0 && week != 0) {
+        if (month != 0 && week != 0) {
             OpenGameweekFromLast ofl = new OpenGameweekFromLast(month, week);
             ofl.setFilesystemContext(ctx);
             Gameweek opened = ofl.open();
@@ -215,8 +226,10 @@ public class PlayersController implements ApplicationContextAware {
 
     }
 
-    @RequestMapping(value="/matches", method=RequestMethod.GET)
-    public @ResponseBody String getMatches(@RequestParam(defaultValue = "0") int month, @RequestParam(defaultValue = "0") int week) throws Exception {
+    @RequestMapping(value = "/matches", method = RequestMethod.GET)
+    public
+    @ResponseBody
+    String getMatches(@RequestParam(defaultValue = "0") int month, @RequestParam(defaultValue = "0") int week) throws Exception {
 
         month = month == 0 ? gameweekContext.getGameMonth() : month;
         week = week == 0 ? gameweekContext.getGameWeek() : week;
@@ -237,23 +250,22 @@ public class PlayersController implements ApplicationContextAware {
         template.setFixtures(fixtures);
 
         Gameweek gameweek = fs.loadGameweek(month, week);
-        if(month == gameweekContext.getGameMonth() && week == gameweekContext.getGameWeek()) {
+        if (month == gameweekContext.getGameMonth() && week == gameweekContext.getGameWeek()) {
             try {
                 CheckGameweek check = new CheckGameweek(gameweek.getGameMonth(), gameweek.getGameWeek());
                 gameweek = check.update(gameweek);
                 fs.storeGameweek(gameweek);
-            }
-            catch(Exception e) {
+            } catch (Exception e) {
                 template.setUpdateStatus("Failed to update - " + e.getMessage());
             }
         }
 
-        Map <String, Teamsheet> teamsheets = fs.loadTeamsheets(gameweek);
+        Map<String, Teamsheet> teamsheets = fs.loadTeamsheets(gameweek);
 
-        List <Fixture> weekFixtures = fixtures.listFixtures(month, week);
-        List <Match> weekMatches = new ArrayList<Match>();
+        List<Fixture> weekFixtures = fixtures.listFixtures(month, week);
+        List<Match> weekMatches = new ArrayList<Match>();
 
-        for(Fixture f : weekFixtures) {
+        for (Fixture f : weekFixtures) {
 
             Match match = new Match();
 
@@ -271,5 +283,35 @@ public class PlayersController implements ApplicationContextAware {
         return template.render();
     }
 
+    @RequestMapping(value = "/order", method = RequestMethod.GET)
+    public
+    @ResponseBody
+    String getOrder(@RequestParam(defaultValue = "0") int month, @RequestParam(defaultValue = "0") int week, @RequestParam(defaultValue="false") boolean debug) throws Exception {
 
+        month = month == 0 ? gameweekContext.getGameMonth() : month;
+        week = week == 0 ? gameweekContext.getGameWeek() : week;
+        boolean active = month == gameweekContext.getGameMonth() && gameweekContext.getGameWeek() == week;
+
+        LOG.info("Get player order scores for - m " + month + " w " + week);
+
+        FSContext fs = new FSContext(config.getDataRoot());
+
+        //Loaded Gameweek
+        Gameweek gw = fs.loadGameweek(month, week);
+        Gameweek updatedGameweek;
+
+        //If it's the active gameweek, update and store the result
+        if (active) {
+            CheckGameweek check = new CheckGameweek(gw.getGameMonth(), gw.getGameWeek());
+            updatedGameweek = check.update(gw);
+            fs.storeGameweek(updatedGameweek);
+        } else {
+            updatedGameweek = gw;
+        }
+
+        List<PlayerKey> order = fs.loadPlayerOrder();
+        PlayerOrderTemplate template = new PlayerOrderTemplate(order, updatedGameweek, debug);
+        return template.render();
+
+    }
 }
