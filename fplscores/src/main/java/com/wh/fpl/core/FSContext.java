@@ -414,6 +414,14 @@ public class FSContext {
 
         }
 
+        for(PlayerKey pk : teamsheet.getSubs()) {
+            StringBuilder sb = new StringBuilder();
+            sb.append(pk.getTeam()).append("\t");
+            sb.append(pk.getPosition()).append("\t");
+            sb.append(pk.getName()).append("\t");
+            pw.println(sb.toString());
+        }
+
         pw.flush();
         pw.close();
 
@@ -445,6 +453,14 @@ public class FSContext {
 
             pw.println(sb.toString());
 
+        }
+
+        for(PlayerKey pk : teamsheet.getSubs()) {
+            StringBuilder sb = new StringBuilder();
+            sb.append(pk.getTeam()).append("\t");
+            sb.append(pk.getPosition()).append("\t");
+            sb.append(pk.getName()).append("\t");
+            pw.println(sb.toString());
         }
 
         pw.flush();
